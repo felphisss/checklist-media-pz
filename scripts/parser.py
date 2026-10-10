@@ -1,3 +1,5 @@
+import os
+from dotenv import load_dotenv
 import json
 from pathlib import Path
 import re
@@ -7,15 +9,27 @@ from collections import Counter
 # ==============================================================================
 # 1. CONFIGURAÇÕES E DIRETÓRIOS
 # ==============================================================================
+# Carrega as variáveis do arquivo .env
+load_dotenv()
+
+# Obtém a pasta media da variável de ambiente com validação
+media_env = os.getenv("PZ_MEDIA_PATH")
+
+if not media_env:
+    raise ValueError("A variável PZ_MEDIA_PATH não foi configurada no seu arquivo .env!")
+
 # Ajuste o diretório raiz da pasta 'media' da sua instalação do jogo:
-DIRETORIO_PZ_MEDIA = Path(r"D:\SteamLibrary\steamapps\common\ProjectZomboid\media")
+DIRETORIO_PZ_MEDIA = Path(media_env)
+
+if not DIRETORIO_PZ_MEDIA.exists():
+    raise FileNotFoundError(f"O diretório informado não existe: {DIRETORIO_PZ_MEDIA}")
 
 # Pasta onde você extraiu os PNGs com o PackViewer do TileZed:
 DIRETORIO_RAW_TEXTURES = Path(r"raw_textures")
 
 # diretorio_Destinos dentro do seu projeto de checklist:
 PASTA_DATA = Path("data")
-PASTA_STATIC_ICONS = Path("app/static/icons")
+PASTA_STATIC_ICONS = Path(r"app\static\icons")
 ARQUIVO_ITEMS_JSON = PASTA_DATA / "items.json"
 
 XP_POR_PONTO = 12.5
@@ -51,7 +65,7 @@ MAPA_SKILLS_VHS = {
 }
 
 # ==============================================================================
-# 2. TRADUÇÃO (PTBR/EN)
+# 2. TRADUÇÃO
 # ==============================================================================
 def carregar_dict_traducao(diretorio_media: Path, arquivo_json: str) -> dict:
     '''
@@ -396,6 +410,73 @@ def sincronizar_icones(
     print(f" Ícones sincronizados/atualizados: {icones_copiados}")
     print(f" Ícones obsoletos removidos: {removidos}")
     if icones_faltantes:
-        print(f"⚠️ Ícones não localizados ({len(icones_faltantes)}): {icones_faltantes}")
+        print(f"Ícones não localizados ({len(icones_faltantes)}): {icones_faltantes}")
     else:
         print(" Todos os ícones foram localizados perfeitamente!")
+
+# ==============================================================================
+# 6. REMOÇÃO DAS TEXTURAS BRUTAS
+# ==============================================================================
+def resetar_pasta_raw_textures(pasta_raw: Path):
+    """
+    Remove a pasta inteira e recria vazia.
+    """
+    if pasta_raw.exists():
+        shutil.rmtree(pasta_raw)  # Remove a pasta e todo o conteúdo recursivamente
+
+    pasta_raw.mkdir(parents=True, exist_ok=True)  # Recria vazia
+
+    # Recria o .gitkeep imediatamente
+    (pasta_raw / ".gitkeep").touch()
+
+    print(f"[OK] Pasta '{pasta_raw.name}' resetada com sucesso.")
+
+
+# ==============================================================================
+# 7. ORQUESTRADOR PRINCIPAL
+# ==============================================================================
+def main():
+    print("=== INICIANDO PIPELINE DE DADOS DO PROJECT ZOMBOID ===")
+
+    # 1. Carregar traduções
+    print("\n[1/6] Carregando dicionários de tradução...")
+    traducoes = {
+            "itens": carregar_dict_traducao(DIRETORIO_PZ_MEDIA, "ItemName.json"),
+            "perks": carregar_dict_traducao(DIRETORIO_PZ_MEDIA, "IG_UI.json"),
+            "vhs" : carregar_dict_traducao(DIRETORIO_PZ_MEDIA, "Recorded_Media.json")
+        }
+
+    # 2. Extrair itens de literature.txt
+    print("\n[2/6] Extraindo literatura dos scripts...")
+    literatura = extrair_literatura(DIRETORIO_PZ_MEDIA, traducoes)
+    print(f"  -> {len(literatura)} itens de literatura catalogados.")
+
+    # 3. Extrair VHS
+    print("\n[3/6] Extraindo fitas VHS do arquivo Lua...")
+    fitas_vhs = extrair_vhs(DIRETORIO_PZ_MEDIA, traducoes)
+    print(f"  -> {len(fitas_vhs)} fitas VHS catalogadas.")
+
+    # Consolidar catálogo completo
+    catalogo_completo = {**literatura, **fitas_vhs}
+    print(f"\nTotal geral de itens unificados: {len(catalogo_completo)}")
+
+    # 4. Salvar JSON
+    print("\n[4/6] Salvando catálogo completo...")
+    PASTA_DATA.mkdir(parents=True, exist_ok=True)
+    with open(ARQUIVO_ITEMS_JSON, "w", encoding="utf-8") as f:
+        json.dump(catalogo_completo, f, indent=2, sort_keys=True, ensure_ascii=False)
+    print(f"Catálogo salvo com sucesso em: {ARQUIVO_ITEMS_JSON}")
+
+    # 5. Sincronizar ícones
+    print("\n[5/6] Iniciando sincronização e auditoria de texturas...")
+    sincronizar_icones(catalogo_completo, DIRETORIO_RAW_TEXTURES, PASTA_STATIC_ICONS)
+
+    # 6. Limpar texturas brutas
+    print("\n[6/6] Limpando texturas brutas...")
+    resetar_pasta_raw_textures(DIRETORIO_RAW_TEXTURES)
+
+    print("\n=== PIPELINE FINALIZADO COM SUCESSO! ===")
+
+
+if __name__ == "__main__":
+    main()

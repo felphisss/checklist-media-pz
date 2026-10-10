@@ -1,1 +1,3 @@
-raw_textures/
+.env
+raw_textures/*
+!raw_textures/.gitkeep
