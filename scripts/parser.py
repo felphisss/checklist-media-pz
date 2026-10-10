@@ -138,7 +138,6 @@ def extrair_literatura(diretorio_media: Path, traducoes: dict) -> dict:
     if not arquivo_literatura.exists():
         raise FileNotFoundError(f"literature.txt não existe")
 
-    print(f"Lendo dados de: {arquivo_literatura}")
     with open(arquivo_literatura, "r", encoding="utf-8", errors="ignore") as f:
         conteudo = f.read()
 
