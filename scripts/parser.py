@@ -20,106 +20,297 @@ ARQUIVO_ITEMS_JSON = PASTA_DATA / "items.json"
 
 XP_POR_PONTO = 12.5
 
+# Para adicionar novos idiomas, basta incluir aqui:
+IDIOMAS_SUPORTADOS = {
+    "EN": "en",
+    "PTBR": "pt",
+}
+
+# Mapeamento oficial dos códigos do PZ para as Perícias (Perks)
+MAPA_SKILLS_VHS = {
+    "BUA": "Long Blunt",
+    "SBA": "Short Blade",
+    "AIM": "Aiming",
+    "REL": "Reloading",
+    "CRP": "Carpentry",
+    "COO": "Cooking",
+    "FRM": "Agriculture",
+    "LFT": "Lightfooted",
+    "FIS": "Fishing",
+    "TRA": "Trapping",
+    "FOR": "Foraging",
+    "DOC": "First Aid",
+    "ELC": "Electrical",
+    "MEC": "Mechanics",
+    "HUS": "Animal Care",
+    "FKN": "Knapping",
+    "POT": "Pottery",
+    "BLA": "Blacksmithing",
+    "MTL": "Welding",
+    "TAI": "Tailoring"
+}
+
 # ==============================================================================
 # 2. TRADUÇÃO (PTBR/EN)
 # ==============================================================================
-def traduzir(diretorio_media: Path) -> dict:
+def carregar_dict_traducao(diretorio_media: Path, arquivo_json: str) -> dict:
     '''
-    Input: Diretório da pasta media do jogo
+    Carrega qualquer arquivo de tradução nos idiomas suportados.
 
-    Ouput: Dicionário com a tradução do nome do item em PTBR e EN
+    Input: Diretório da pasta media do jogo e nome do arquivo.json
+
+    Ouput: Dicionário com as traduções do arquivo nos idiomas suportados
     '''
-    # Defina os diretórios dos dois arquivos
-    item_name_pt = diretorio_media / "lua" / "shared" / "Translate" / "PTBR" / "ItemName.json"
-    item_name_en = diretorio_media / "lua" / "shared" / "Translate" / "EN" / "ItemName.json"
+    # Diretório padrão para a pasta com as traduções
+    pasta_translate = diretorio_media / "lua" / "shared" / "Translate"
+    
+    traducoes = {}
 
-    # Carregar ambos os arquivos na memória
-    with open(item_name_pt, "r", encoding="utf-8") as f:
-        nomes_pt = json.load(f)
-    with open(item_name_en, "r", encoding="utf-8") as f:
-        nomes_en = json.load(f)
+    for pasta_idioma, chave_json in IDIOMAS_SUPORTADOS.items():
+        caminho_arquivo = pasta_translate / pasta_idioma / arquivo_json
 
-    return {"pt": nomes_pt, "en": nomes_en}
+        if caminho_arquivo.exists():
+            with open(caminho_arquivo, "r", encoding="utf-8") as f:
+                traducoes[chave_json] = json.load(f)
+        else:
+            print(f"[AVISO] Arquivo {arquivo_json} não encontrado para o idioma {pasta_idioma}.")
+            traducoes[chave_json] = {}
+
+    return traducoes
+
+def traduzir_texto(
+    chave_traducao: str, 
+    dicionario_categoria: dict, 
+    fallback_padrao: str = ""
+) -> dict:
+    '''
+    Traduz um objeto para todos os idiomas suportados a partir de uma chave.
+    
+    Aplica fallback encadeado:
+    1. Tenta pegar no inglês ("en").
+    2. Se não existir no inglês, usa o fallback_padrao (ex: ID bruto do item/skill).
+    3. Para os demais idiomas, se faltar a tradução, recorre à base em inglês.
+
+    Input: Objeto a ser traduzido, dicionário para buscar as traduções e fallback padrão
+
+    Output: Dicionário contendo todas as traduções aos idiomas suportados do objeto solicitado
+    '''
+    # Fallback base em inglês ou valor padrão fornecido
+    base_en = dicionario_categoria.get("en", {}).get(chave_traducao, fallback_padrao)
+
+    # Resolução dinâmica para todos os idiomas configurados
+    return {
+        codigo_lang: dicionario_categoria
+        .get(codigo_lang, {})
+        .get(chave_traducao, base_en)
+        for codigo_lang in IDIOMAS_SUPORTADOS.values()
+    }
 
 
 # ==============================================================================
 # 3. EXTRAÇÃO DE LIVROS E REVISTAS
 # ==============================================================================
-def extrair_literatura(diretorio_media: Path, traducao: dict) -> dict:
+def extrair_literatura(diretorio_media: Path, traducoes: dict) -> dict:
     '''
-    Input: Diretório da pasta media do jogo; Dicionário com a tradução do nome do item em PTBR e EN
+    Lê o literature.txt, filtra por itens relevantes e formata para a estrutura de dados final.
 
-    Output:
+    Input: Diretório da pasta media do jogo e dicionário de traduções
+    
+    Ouput: Dicionário com os itens de literatura relevantes. 
     '''
-    diretorio_literature = diretorio_media / "scripts" / "generated" / "items" / "literature.txt"
-    padrao_item = re.compile(r"item\s+([A-Za-z0-9_\-]+)\s*\{([^}]+)\}", re.DOTALL)
-    padrao_propriedade = re.compile(r"(\w+)\s*=\s*([^,\r\n]+)")
+    # Diretório padrão para o arquivo literature.txt
+    arquivo_literatura = diretorio_media / "scripts" / "generated" / "items" / "literature.txt"
 
-    itens_literatura = {}
-    nomes_en = traducao["en"]
-    nomes_pt = traducao["pt"]
+    if not arquivo_literatura.exists():
+        raise FileNotFoundError(f"literature.txt não existe")
 
-    with open(diretorio_literature, "r", encoding="utf-8", errors="ignore") as f:
+    print(f"Lendo dados de: {arquivo_literatura}")
+    with open(arquivo_literatura, "r", encoding="utf-8", errors="ignore") as f:
         conteudo = f.read()
 
+    # Expressões regulares:
+    # 1. padrao_item: localiza blocos "item NomeDoItem { corpo }"
+    padrao_item = re.compile(r"item\s+([A-Za-z0-9_\-]+)\s*\{([^}]+)\}", re.DOTALL)
+    # 2. padrao_propriedade: extrai pares "Chave = Valor" ignorando quebras de linha e vírgulas finais
+    padrao_propriedade = re.compile(r"(\w+)\s*=\s*([^,\r\n]+)")
+
+    # Dicionário com os itens de literatura relevantes (Output)
+    itens_catalogados = {}
+
+    # Categorias ignoradas para usar no filtro
+    categorias_ignoradas = {"Memento", "Junk", "Gardening"}
+
     for match in padrao_item.finditer(conteudo):
-        nome_item = match.group(1)
+        nome_bruto = match.group(1).strip()
         corpo = match.group(2)
 
-        propriedades = {}
+        # Parseia todas as propriedades do bloco do item
+        props = {}
         for prop in padrao_propriedade.finditer(corpo):
-            propriedades[prop.group(1).strip()] = prop.group(2).strip()
+            chave = prop.group(1).strip()
+            valor = prop.group(2).strip()
+            props[chave] = valor
 
-        if propriedades.get("Type", "").lower() == "literature":
-            item_id = f"Base.{nome_item}"
-            icone = propriedades.get("Icon", nome_item)
+        categoria_jogo = props.get("DisplayCategory", "Literature")
 
-            itens_literatura[item_id] = {
-                "id": item_id,
-                "category": "Literature",
-                "icon": icone,
-                "names": {
-                    "en": nomes_en.get(item_id, nomes_pt.get(item_id, nome_item)),
-                    "pt": nomes_pt.get(item_id, nomes_en.get(item_id, nome_item))
-                },
-                "skill": propriedades.get("SkillTrained", None),
-                "pages": propriedades.get("NumberOfPages", None)
+        # Filtro 1: Ignorados imediatos
+        if categoria_jogo in categorias_ignoradas or "BagSeed" in nome_bruto:
+            continue
+
+        # Filtro 2: Seleção estrita do que é relevante
+        eh_skillbook = "SkillTrained" in props
+        tem_receita = "LearnedRecipes" in props
+
+        if eh_skillbook:
+            tipo_item = "SkillBook"
+        elif tem_receita:
+            tipo_item = "RecipeMagazine"
+        else:
+            # Cai aqui tudo que não ensina perícia nem receita:
+            # jornais comuns, HQs, cadernos, livros genéricos, etc.
+            continue
+
+        # ======================================================================
+        # CÁLCULO HÍBRIDO DO BOOST DE SKILL COM TRADUÇÃO DINÂMICA
+        # ======================================================================
+        skill_boost = None
+
+        if eh_skillbook:
+            skill_bruta = props["SkillTrained"].strip()
+
+            # LvlSkillTrained: nível inicial do efeito do livro
+            lvl_min = int(props.get("LvlSkillTrained", 1))
+            # NumLevelsTrained: quantidade de níveis abrangidos (padrão do PZ: 2)
+            delta = int(props.get("NumLevelsTrained", 2))
+            lvl_max = lvl_min + delta - 1
+
+            # Chave exata para busca no IG_UI.json
+            chave_perk = f"IGUI_perks_{skill_bruta}"
+
+            skill_names = traduzir_texto(
+                chave_traducao=chave_perk,
+                dicionario_categoria=traducoes["perks"],
+                fallback_padrao=skill_bruta
+            )
+
+            skill_boost = {
+                "skill": skill_bruta,
+                "skill_names": skill_names,
+                "min_level": lvl_min,
+                "max_level": lvl_max,
+                "label": f"{lvl_min}–{lvl_max}"
             }
 
-    return itens_literatura
+        # ======================================================================
+        # TRATAMENTO DAS RECEITAS APRENDIDAS
+        # ======================================================================
+        lista_receitas = []
+
+        if tem_receita:
+            # Quebra por ponto e vírgula e remove espaços em branco
+            receitas_brutas = props["LearnedRecipes"].split(";")
+
+            lista_receitas = [
+                receita.strip(" ,") 
+                for receita in receitas_brutas 
+                if receita.strip(" ,")
+            ]
+
+        # ======================================================================
+        # RESOLUÇÃO DO ÍCONE E NOMES BILÍNGUES
+        # ======================================================================
+        item_id = f"Base.{nome_bruto}"
+
+        # Montagem dinâmica para todos os idiomas suportados
+        item_names = traduzir_texto(
+            chave_traducao=item_id,
+            dicionario_categoria=traducoes["itens"],
+            fallback_padrao=nome_bruto
+        )
+
+        icone = props.get("Icon", nome_bruto)
+
+        # ======================================================================
+        # MONTAGEM DO OBJETO ESTRUTURADO
+        # ======================================================================
+        itens_catalogados[nome_bruto] = {
+            "id": item_id,
+            "type": tipo_item,
+            "icon": icone,
+            "names": item_names,
+            "skill_boost": skill_boost,
+            "recipes": lista_receitas
+        }
+
+    return itens_catalogados
 
 
 # ==============================================================================
 # 4. EXTRAÇÃO DE FITAS VHS
 # ==============================================================================
-def extrair_vhs(caminho_media: Path) -> dict:
-    caminho_lua = caminho_media / "lua" / "shared" / "recorded_media.lua"
-    caminho_media_json = caminho_media / "lua" / "shared" / "Translate" / "EN" / "Recorded_Media.json"
+def extrair_vhs(diretorio_media: Path, traducoes: dict) -> dict:
+    '''
+    Lê o recorded_media.lua, procura por VHS e formata para a estrutura de dados final.
 
-    with open(caminho_media_json, "r", encoding="utf-8") as f:
-        textos_media = json.load(f)
+    Input: Diretório da pasta media do jogo e dicionário de dicionários de traduções
+    
+    Ouput: Dicionário com os VHS. 
+    '''
+    # Diretório padrão para o arquivo recorded_media.lua
+    diretorio_recorded_media_lua = diretorio_media / "lua" / "shared" / "RecordedMedia" / "recorded_media.lua"
 
-    with open(caminho_lua, "r", encoding="utf-8", errors="ignore") as f:
+    with open(diretorio_recorded_media_lua, "r", encoding="utf-8", errors="ignore") as f:
         conteudo_lua = f.read()
-
+    
+    # padrao_bloco: localiza blocos "RecMedia NomeDoVHS = { corpo }"
     padrao_bloco = re.compile(r'RecMedia\["([a-f0-9\-]+)"\]\s*=\s*\{([^;]+)\};', re.DOTALL)
+
+    # Dicionário com os VHS (Output)
     itens_vhs = {}
 
     for match in padrao_bloco.finditer(conteudo_lua):
         media_id = match.group(1)
         corpo = match.group(2)
 
+        # Localiza a categoria da RecMedia
         match_cat = re.search(r'category\s*=\s*"([^"]+)"', corpo)
         categoria = match_cat.group(1) if match_cat else ""
 
+        # Filtra pela categoria que contém "vhs"
         if "vhs" in categoria.lower():
             match_nome = re.search(r'itemDisplayName\s*=\s*"([^"]+)"', corpo)
-            chave_nome = match_nome.group(1) if match_nome else None
-            titulo_en = textos_media.get(chave_nome, f"VHS ({media_id})")
+            chave_vhs_nome = match_nome.group(1) if match_nome else None
+
+            # Montagem dinâmica para todos os idiomas suportados
+            vhs_names = traduzir_texto(
+                chave_traducao=chave_vhs_nome,
+                dicionario_categoria=traducoes["vhs"],
+                fallback_padrao=f"VHS {media_id}"
+            )
 
             # Cálculo de XP
             skills = re.findall(r'([A-Z]{3})\+\d+', corpo)
-            xp_rewards = {skill: qtd * XP_POR_PONTO for skill, qtd in Counter(skills).items()}
+            xp_rewards = []
+
+            for sigla, contagem in Counter(skills).items():
+                # Converte a sigla da fita (ex: "CRP") no identificador canônico (ex: "Carpentry")
+                skill_id = MAPA_SKILLS_VHS.get(sigla, sigla)
+                
+                # Monta a chave oficial de busca no IG_UI.json
+                chave_perk = f"IGUI_perks_{skill_id}"
+
+                # Gera dinamicamente o dicionário para todos os idiomas suportados
+                skill_names = traduzir_texto(
+                    chave_traducao=chave_perk,
+                    dicionario_categoria=traducoes["perks"],
+                    fallback_padrao=skill_id
+                )
+
+                xp_rewards.append({
+                    "skill": skill_id,
+                    "skill_names": skill_names,
+                    "amount": contagem * XP_POR_PONTO
+                })
 
             # Captura de Receitas
             receitas = list(dict.fromkeys(re.findall(r'RCP=([A-Za-z0-9_]+)', corpo)))
@@ -128,14 +319,9 @@ def extrair_vhs(caminho_media: Path) -> dict:
             itens_vhs[registro_id] = {
                 "id": registro_id,
                 "category": categoria,
-                "icon": "Cassette3",
-                "names": {
-                    "en": titulo_en,
-                    "pt": titulo_en  # Fallback padrão
-                },
-                "gives_xp": len(xp_rewards) > 0,
+                "icon": "Cassette3", # Ícone padrão para os VHS
+                "names": vhs_names,
                 "xp_rewards": xp_rewards,
-                "teaches_recipes": len(receitas) > 0,
                 "recipes": receitas
             }
 
