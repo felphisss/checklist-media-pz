@@ -13,7 +13,7 @@ DIRETORIO_PZ_MEDIA = Path(r"D:\SteamLibrary\steamapps\common\ProjectZomboid\medi
 # Pasta onde você extraiu os PNGs com o PackViewer do TileZed:
 DIRETORIO_RAW_TEXTURES = Path(r"raw_textures")
 
-# Destinos dentro do seu projeto de checklist:
+# diretorio_Destinos dentro do seu projeto de checklist:
 PASTA_DATA = Path("data")
 PASTA_STATIC_ICONS = Path("app/static/icons")
 ARQUIVO_ITEMS_JSON = PASTA_DATA / "items.json"
@@ -326,3 +326,76 @@ def extrair_vhs(diretorio_media: Path, traducoes: dict) -> dict:
             }
 
     return itens_vhs
+
+# ==============================================================================
+# 5. SINCRONIZAÇÃO DE ASSETS COM PRUNING E FALLBACK
+# ==============================================================================
+def sincronizar_icones(
+    itens_catalogados: dict,
+    pasta_texturas_brutas: Path,
+    pasta_estatica_app: Path
+):
+    pasta_estatica_app.mkdir(parents=True, exist_ok=True)
+
+    # Configuração do Fallback (Spiffo)
+    nome_placeholder = "placeholder.png"
+    diretorio_destino_placeholder = pasta_estatica_app / nome_placeholder
+    icone_placeholder = "Item_SpiffoXL.png"
+    origem_placeholder = None
+
+    teste_diretorio = pasta_texturas_brutas / icone_placeholder
+    if teste_diretorio.exists():
+        origem_placeholder = teste_diretorio
+
+    if origem_placeholder:
+        shutil.copy2(origem_placeholder, diretorio_destino_placeholder)
+    elif not diretorio_destino_placeholder.exists():
+        print(f"[ALERTA CRÍTICO] Ícone não encontrado em {pasta_texturas_brutas}! (procurado: {icone_placeholder})")
+        print("-> A aplicação ficará sem imagem padrão de fallback até que essa textura seja extraída.")
+
+    arquivos_esperados_no_app = {nome_placeholder}
+    # Setar para não haver icones repetidos
+    icones_unicos = {dados["icon"] for dados in itens_catalogados.values()}
+
+    icones_faltantes = []
+    icones_copiados = 0
+
+    print(f"\n--- Sincronizando {len(icones_unicos)} ícones ---")
+
+    for icone in icones_unicos:
+        candidatos = [f"Item_{icone}.png", f"{icone}.png"]
+        arquivo_encontrado = None
+
+        for nome_arquivo in candidatos:
+            diretorio_origem = pasta_texturas_brutas / nome_arquivo
+            if diretorio_origem.exists():
+                arquivo_encontrado = diretorio_origem
+                break
+
+        if arquivo_encontrado:
+            diretorio_destino = pasta_estatica_app / arquivo_encontrado.name
+            shutil.copy2(arquivo_encontrado, diretorio_destino)
+            icones_copiados += 1
+            arquivos_esperados_no_app.add(arquivo_encontrado.name)
+        else:
+            print(f"[AVISO] Ícone ausente: '{icone}' (tentativas: {candidatos})")
+            icones_faltantes.append(icone)
+
+    # Remoção de Obsoletos (Pruning)
+    arquivos_atuais = set(f.name for f in pasta_estatica_app.glob("*.png"))
+    arquivos_obsoletos = arquivos_atuais - arquivos_esperados_no_app
+
+    removidos = 0
+    for nome_obsoleto in arquivos_obsoletos:
+        (pasta_estatica_app / nome_obsoleto).unlink()
+        print(f"[REMOVIDO] Ícone obsoleto deletado: {nome_obsoleto}")
+        removidos += 1
+
+    # 3. Relatório
+    print("\n--- Relatório de Sincronização ---")
+    print(f" Ícones sincronizados/atualizados: {icones_copiados}")
+    print(f" Ícones obsoletos removidos: {removidos}")
+    if icones_faltantes:
+        print(f"⚠️ Ícones não localizados ({len(icones_faltantes)}): {icones_faltantes}")
+    else:
+        print(" Todos os ícones foram localizados perfeitamente!")
