@@ -1,5 +1,6 @@
 {
   "ArmorMag1": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_War2",
     "id": "Base.ArmorMag1",
     "names": {
@@ -17,9 +18,10 @@
       "SewLeatherGorget"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "ArmorMag2": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_EarlyArmour",
     "id": "Base.ArmorMag2",
     "names": {
@@ -40,9 +42,10 @@
       "MakeWoodThighArmor"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "ArmorMag3": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_OutbackArmour",
     "id": "Base.ArmorMag3",
     "names": {
@@ -56,9 +59,10 @@
       "MakeScrapMetalThighArmor"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "ArmorMag4": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_EarlyArmour3",
     "id": "Base.ArmorMag4",
     "names": {
@@ -78,9 +82,10 @@
       "Forge_Buckle"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "ArmorMag5": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_EarlyArmour2",
     "id": "Base.ArmorMag5",
     "names": {
@@ -97,9 +102,10 @@
       "Forge_Buckle"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "ArmorMag6": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_StrangeHistory",
     "id": "Base.ArmorMag6",
     "names": {
@@ -113,9 +119,10 @@
       "ForgeLongSpearHead"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "ArmorMag7": {
+    "category": "RecipeMagazine",
     "icon": "PaperReport1",
     "id": "Base.ArmorMag7",
     "names": {
@@ -126,9 +133,10 @@
       "base:makebulletprooflimbarmor"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "BookAiming1": {
+    "category": "SkillBook",
     "icon": "Book12",
     "id": "Base.BookAiming1",
     "names": {
@@ -146,9 +154,10 @@
         "pt": "Pontaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookAiming2": {
+    "category": "SkillBook",
     "icon": "Book12",
     "id": "Base.BookAiming2",
     "names": {
@@ -166,9 +175,10 @@
         "pt": "Pontaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookAiming3": {
+    "category": "SkillBook",
     "icon": "Book12",
     "id": "Base.BookAiming3",
     "names": {
@@ -186,9 +196,10 @@
         "pt": "Pontaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookAiming4": {
+    "category": "SkillBook",
     "icon": "Book12",
     "id": "Base.BookAiming4",
     "names": {
@@ -206,9 +217,10 @@
         "pt": "Pontaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookAiming5": {
+    "category": "SkillBook",
     "icon": "Book12",
     "id": "Base.BookAiming5",
     "names": {
@@ -226,9 +238,10 @@
         "pt": "Pontaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookBlacksmith1": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookBlacksmith1",
     "names": {
@@ -246,9 +259,10 @@
         "pt": "Ferraria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookBlacksmith2": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookBlacksmith2",
     "names": {
@@ -266,9 +280,10 @@
         "pt": "Ferraria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookBlacksmith3": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookBlacksmith3",
     "names": {
@@ -286,9 +301,10 @@
         "pt": "Ferraria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookBlacksmith4": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookBlacksmith4",
     "names": {
@@ -306,9 +322,10 @@
         "pt": "Ferraria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookBlacksmith5": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookBlacksmith5",
     "names": {
@@ -326,9 +343,10 @@
         "pt": "Ferraria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookButchering1": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookButchering1",
     "names": {
@@ -346,9 +364,10 @@
         "pt": "Abate"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookButchering2": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookButchering2",
     "names": {
@@ -366,9 +385,10 @@
         "pt": "Abate"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookButchering3": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookButchering3",
     "names": {
@@ -386,9 +406,10 @@
         "pt": "Abate"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookButchering4": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookButchering4",
     "names": {
@@ -406,9 +427,10 @@
         "pt": "Abate"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookButchering5": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookButchering5",
     "names": {
@@ -426,9 +448,10 @@
         "pt": "Abate"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCarpentry1": {
+    "category": "SkillBook",
     "icon": "Book8",
     "id": "Base.BookCarpentry1",
     "names": {
@@ -446,9 +469,10 @@
         "pt": "Carpintaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCarpentry2": {
+    "category": "SkillBook",
     "icon": "Book8",
     "id": "Base.BookCarpentry2",
     "names": {
@@ -466,9 +490,10 @@
         "pt": "Carpintaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCarpentry3": {
+    "category": "SkillBook",
     "icon": "Book8",
     "id": "Base.BookCarpentry3",
     "names": {
@@ -486,9 +511,10 @@
         "pt": "Carpintaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCarpentry4": {
+    "category": "SkillBook",
     "icon": "Book8",
     "id": "Base.BookCarpentry4",
     "names": {
@@ -506,9 +532,10 @@
         "pt": "Carpintaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCarpentry5": {
+    "category": "SkillBook",
     "icon": "Book8",
     "id": "Base.BookCarpentry5",
     "names": {
@@ -526,9 +553,10 @@
         "pt": "Carpintaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCarving1": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookCarving1",
     "names": {
@@ -546,9 +574,10 @@
         "pt": "Entalhamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCarving2": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookCarving2",
     "names": {
@@ -566,9 +595,10 @@
         "pt": "Entalhamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCarving3": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookCarving3",
     "names": {
@@ -586,9 +616,10 @@
         "pt": "Entalhamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCarving4": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookCarving4",
     "names": {
@@ -606,9 +637,10 @@
         "pt": "Entalhamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCarving5": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookCarving5",
     "names": {
@@ -626,9 +658,10 @@
         "pt": "Entalhamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCooking1": {
+    "category": "SkillBook",
     "icon": "Book9",
     "id": "Base.BookCooking1",
     "names": {
@@ -646,9 +679,10 @@
         "pt": "Culinária"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCooking2": {
+    "category": "SkillBook",
     "icon": "Book9",
     "id": "Base.BookCooking2",
     "names": {
@@ -666,9 +700,10 @@
         "pt": "Culinária"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCooking3": {
+    "category": "SkillBook",
     "icon": "Book9",
     "id": "Base.BookCooking3",
     "names": {
@@ -686,9 +721,10 @@
         "pt": "Culinária"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCooking4": {
+    "category": "SkillBook",
     "icon": "Book9",
     "id": "Base.BookCooking4",
     "names": {
@@ -706,9 +742,10 @@
         "pt": "Culinária"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookCooking5": {
+    "category": "SkillBook",
     "icon": "Book9",
     "id": "Base.BookCooking5",
     "names": {
@@ -726,9 +763,10 @@
         "pt": "Culinária"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookElectrician1": {
+    "category": "SkillBook",
     "icon": "Book6",
     "id": "Base.BookElectrician1",
     "names": {
@@ -746,9 +784,10 @@
         "pt": "Elétrica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookElectrician2": {
+    "category": "SkillBook",
     "icon": "Book6",
     "id": "Base.BookElectrician2",
     "names": {
@@ -766,9 +805,10 @@
         "pt": "Elétrica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookElectrician3": {
+    "category": "SkillBook",
     "icon": "Book6",
     "id": "Base.BookElectrician3",
     "names": {
@@ -786,9 +826,10 @@
         "pt": "Elétrica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookElectrician4": {
+    "category": "SkillBook",
     "icon": "Book6",
     "id": "Base.BookElectrician4",
     "names": {
@@ -806,9 +847,10 @@
         "pt": "Elétrica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookElectrician5": {
+    "category": "SkillBook",
     "icon": "Book6",
     "id": "Base.BookElectrician5",
     "names": {
@@ -826,9 +868,10 @@
         "pt": "Elétrica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFarming1": {
+    "category": "SkillBook",
     "icon": "Book3",
     "id": "Base.BookFarming1",
     "names": {
@@ -846,9 +889,10 @@
         "pt": "Agricultura"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFarming2": {
+    "category": "SkillBook",
     "icon": "Book3",
     "id": "Base.BookFarming2",
     "names": {
@@ -866,9 +910,10 @@
         "pt": "Agricultura"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFarming3": {
+    "category": "SkillBook",
     "icon": "Book3",
     "id": "Base.BookFarming3",
     "names": {
@@ -886,9 +931,10 @@
         "pt": "Agricultura"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFarming4": {
+    "category": "SkillBook",
     "icon": "Book3",
     "id": "Base.BookFarming4",
     "names": {
@@ -906,9 +952,10 @@
         "pt": "Agricultura"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFarming5": {
+    "category": "SkillBook",
     "icon": "Book3",
     "id": "Base.BookFarming5",
     "names": {
@@ -926,9 +973,10 @@
         "pt": "Agricultura"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFirstAid1": {
+    "category": "SkillBook",
     "icon": "Book2",
     "id": "Base.BookFirstAid1",
     "names": {
@@ -946,9 +994,10 @@
         "pt": "FirstAid"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFirstAid2": {
+    "category": "SkillBook",
     "icon": "Book2",
     "id": "Base.BookFirstAid2",
     "names": {
@@ -966,9 +1015,10 @@
         "pt": "FirstAid"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFirstAid3": {
+    "category": "SkillBook",
     "icon": "Book2",
     "id": "Base.BookFirstAid3",
     "names": {
@@ -986,9 +1036,10 @@
         "pt": "FirstAid"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFirstAid4": {
+    "category": "SkillBook",
     "icon": "Book2",
     "id": "Base.BookFirstAid4",
     "names": {
@@ -1006,9 +1057,10 @@
         "pt": "FirstAid"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFirstAid5": {
+    "category": "SkillBook",
     "icon": "Book2",
     "id": "Base.BookFirstAid5",
     "names": {
@@ -1026,9 +1078,10 @@
         "pt": "FirstAid"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFishing1": {
+    "category": "SkillBook",
     "icon": "Book5",
     "id": "Base.BookFishing1",
     "names": {
@@ -1046,9 +1099,10 @@
         "pt": "Pesca"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFishing2": {
+    "category": "SkillBook",
     "icon": "Book5",
     "id": "Base.BookFishing2",
     "names": {
@@ -1066,9 +1120,10 @@
         "pt": "Pesca"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFishing3": {
+    "category": "SkillBook",
     "icon": "Book5",
     "id": "Base.BookFishing3",
     "names": {
@@ -1086,9 +1141,10 @@
         "pt": "Pesca"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFishing4": {
+    "category": "SkillBook",
     "icon": "Book5",
     "id": "Base.BookFishing4",
     "names": {
@@ -1106,9 +1162,10 @@
         "pt": "Pesca"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFishing5": {
+    "category": "SkillBook",
     "icon": "Book5",
     "id": "Base.BookFishing5",
     "names": {
@@ -1126,9 +1183,10 @@
         "pt": "Pesca"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFlintKnapping1": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookFlintKnapping1",
     "names": {
@@ -1146,9 +1204,10 @@
         "pt": "Lascamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFlintKnapping2": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookFlintKnapping2",
     "names": {
@@ -1166,9 +1225,10 @@
         "pt": "Lascamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFlintKnapping3": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookFlintKnapping3",
     "names": {
@@ -1186,9 +1246,10 @@
         "pt": "Lascamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFlintKnapping4": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookFlintKnapping4",
     "names": {
@@ -1206,9 +1267,10 @@
         "pt": "Lascamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookFlintKnapping5": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookFlintKnapping5",
     "names": {
@@ -1226,9 +1288,10 @@
         "pt": "Lascamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookForaging1": {
+    "category": "SkillBook",
     "icon": "Book10",
     "id": "Base.BookForaging1",
     "names": {
@@ -1246,9 +1309,10 @@
         "pt": "Coleta"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookForaging2": {
+    "category": "SkillBook",
     "icon": "Book10",
     "id": "Base.BookForaging2",
     "names": {
@@ -1266,9 +1330,10 @@
         "pt": "Coleta"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookForaging3": {
+    "category": "SkillBook",
     "icon": "Book10",
     "id": "Base.BookForaging3",
     "names": {
@@ -1286,9 +1351,10 @@
         "pt": "Coleta"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookForaging4": {
+    "category": "SkillBook",
     "icon": "Book10",
     "id": "Base.BookForaging4",
     "names": {
@@ -1306,9 +1372,10 @@
         "pt": "Coleta"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookForaging5": {
+    "category": "SkillBook",
     "icon": "Book10",
     "id": "Base.BookForaging5",
     "names": {
@@ -1326,9 +1393,10 @@
         "pt": "Coleta"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookGlassmaking1": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookGlassmaking1",
     "names": {
@@ -1346,9 +1414,10 @@
         "pt": "Vidraria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookGlassmaking2": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookGlassmaking2",
     "names": {
@@ -1366,9 +1435,10 @@
         "pt": "Vidraria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookGlassmaking3": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookGlassmaking3",
     "names": {
@@ -1386,9 +1456,10 @@
         "pt": "Vidraria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookGlassmaking4": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookGlassmaking4",
     "names": {
@@ -1406,9 +1477,10 @@
         "pt": "Vidraria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookGlassmaking5": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookGlassmaking5",
     "names": {
@@ -1426,9 +1498,10 @@
         "pt": "Vidraria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookHusbandry1": {
+    "category": "SkillBook",
     "icon": "Book14",
     "id": "Base.BookHusbandry1",
     "names": {
@@ -1446,9 +1519,10 @@
         "pt": "Cuidados com Animais"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookHusbandry2": {
+    "category": "SkillBook",
     "icon": "Book14",
     "id": "Base.BookHusbandry2",
     "names": {
@@ -1466,9 +1540,10 @@
         "pt": "Cuidados com Animais"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookHusbandry3": {
+    "category": "SkillBook",
     "icon": "Book14",
     "id": "Base.BookHusbandry3",
     "names": {
@@ -1486,9 +1561,10 @@
         "pt": "Cuidados com Animais"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookHusbandry4": {
+    "category": "SkillBook",
     "icon": "Book14",
     "id": "Base.BookHusbandry4",
     "names": {
@@ -1506,9 +1582,10 @@
         "pt": "Cuidados com Animais"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookHusbandry5": {
+    "category": "SkillBook",
     "icon": "Book14",
     "id": "Base.BookHusbandry5",
     "names": {
@@ -1526,9 +1603,10 @@
         "pt": "Cuidados com Animais"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookLongBlade1": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookLongBlade1",
     "names": {
@@ -1546,9 +1624,10 @@
         "pt": "Lâminas Longas"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookLongBlade2": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookLongBlade2",
     "names": {
@@ -1566,9 +1645,10 @@
         "pt": "Lâminas Longas"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookLongBlade3": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookLongBlade3",
     "names": {
@@ -1586,9 +1666,10 @@
         "pt": "Lâminas Longas"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookLongBlade4": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookLongBlade4",
     "names": {
@@ -1606,9 +1687,10 @@
         "pt": "Lâminas Longas"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookLongBlade5": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookLongBlade5",
     "names": {
@@ -1626,9 +1708,10 @@
         "pt": "Lâminas Longas"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMaintenance1": {
+    "category": "SkillBook",
     "icon": "Book8",
     "id": "Base.BookMaintenance1",
     "names": {
@@ -1646,9 +1729,10 @@
         "pt": "Manutenção"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMaintenance2": {
+    "category": "SkillBook",
     "icon": "Book8",
     "id": "Base.BookMaintenance2",
     "names": {
@@ -1666,9 +1750,10 @@
         "pt": "Manutenção"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMaintenance3": {
+    "category": "SkillBook",
     "icon": "Book8",
     "id": "Base.BookMaintenance3",
     "names": {
@@ -1686,9 +1771,10 @@
         "pt": "Manutenção"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMaintenance4": {
+    "category": "SkillBook",
     "icon": "Book8",
     "id": "Base.BookMaintenance4",
     "names": {
@@ -1706,9 +1792,10 @@
         "pt": "Manutenção"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMaintenance5": {
+    "category": "SkillBook",
     "icon": "Book8",
     "id": "Base.BookMaintenance5",
     "names": {
@@ -1726,9 +1813,10 @@
         "pt": "Manutenção"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMasonry1": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookMasonry1",
     "names": {
@@ -1746,9 +1834,10 @@
         "pt": "Alvenaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMasonry2": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookMasonry2",
     "names": {
@@ -1766,9 +1855,10 @@
         "pt": "Alvenaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMasonry3": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookMasonry3",
     "names": {
@@ -1786,9 +1876,10 @@
         "pt": "Alvenaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMasonry4": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookMasonry4",
     "names": {
@@ -1806,9 +1897,10 @@
         "pt": "Alvenaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMasonry5": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookMasonry5",
     "names": {
@@ -1826,9 +1918,10 @@
         "pt": "Alvenaria"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMechanic1": {
+    "category": "SkillBook",
     "icon": "Book11",
     "id": "Base.BookMechanic1",
     "names": {
@@ -1846,9 +1939,10 @@
         "pt": "Mecânica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMechanic2": {
+    "category": "SkillBook",
     "icon": "Book11",
     "id": "Base.BookMechanic2",
     "names": {
@@ -1866,9 +1960,10 @@
         "pt": "Mecânica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMechanic3": {
+    "category": "SkillBook",
     "icon": "Book11",
     "id": "Base.BookMechanic3",
     "names": {
@@ -1886,9 +1981,10 @@
         "pt": "Mecânica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMechanic4": {
+    "category": "SkillBook",
     "icon": "Book11",
     "id": "Base.BookMechanic4",
     "names": {
@@ -1906,9 +2002,10 @@
         "pt": "Mecânica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMechanic5": {
+    "category": "SkillBook",
     "icon": "Book11",
     "id": "Base.BookMechanic5",
     "names": {
@@ -1926,9 +2023,10 @@
         "pt": "Mecânica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMetalWelding1": {
+    "category": "SkillBook",
     "icon": "Book7",
     "id": "Base.BookMetalWelding1",
     "names": {
@@ -1946,9 +2044,10 @@
         "pt": "Soldagem"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMetalWelding2": {
+    "category": "SkillBook",
     "icon": "Book7",
     "id": "Base.BookMetalWelding2",
     "names": {
@@ -1966,9 +2065,10 @@
         "pt": "Soldagem"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMetalWelding3": {
+    "category": "SkillBook",
     "icon": "Book7",
     "id": "Base.BookMetalWelding3",
     "names": {
@@ -1986,9 +2086,10 @@
         "pt": "Soldagem"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMetalWelding4": {
+    "category": "SkillBook",
     "icon": "Book7",
     "id": "Base.BookMetalWelding4",
     "names": {
@@ -2006,9 +2107,10 @@
         "pt": "Soldagem"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookMetalWelding5": {
+    "category": "SkillBook",
     "icon": "Book7",
     "id": "Base.BookMetalWelding5",
     "names": {
@@ -2026,9 +2128,10 @@
         "pt": "Soldagem"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookPottery1": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookPottery1",
     "names": {
@@ -2046,9 +2149,10 @@
         "pt": "Cerâmica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookPottery2": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookPottery2",
     "names": {
@@ -2066,9 +2170,10 @@
         "pt": "Cerâmica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookPottery3": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookPottery3",
     "names": {
@@ -2086,9 +2191,10 @@
         "pt": "Cerâmica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookPottery4": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookPottery4",
     "names": {
@@ -2106,9 +2212,10 @@
         "pt": "Cerâmica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookPottery5": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookPottery5",
     "names": {
@@ -2126,9 +2233,10 @@
         "pt": "Cerâmica"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookReloading1": {
+    "category": "SkillBook",
     "icon": "Book13",
     "id": "Base.BookReloading1",
     "names": {
@@ -2146,9 +2254,10 @@
         "pt": "Recarga"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookReloading2": {
+    "category": "SkillBook",
     "icon": "Book13",
     "id": "Base.BookReloading2",
     "names": {
@@ -2166,9 +2275,10 @@
         "pt": "Recarga"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookReloading3": {
+    "category": "SkillBook",
     "icon": "Book13",
     "id": "Base.BookReloading3",
     "names": {
@@ -2186,9 +2296,10 @@
         "pt": "Recarga"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookReloading4": {
+    "category": "SkillBook",
     "icon": "Book13",
     "id": "Base.BookReloading4",
     "names": {
@@ -2206,9 +2317,10 @@
         "pt": "Recarga"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookReloading5": {
+    "category": "SkillBook",
     "icon": "Book13",
     "id": "Base.BookReloading5",
     "names": {
@@ -2226,9 +2338,10 @@
         "pt": "Recarga"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTailoring1": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookTailoring1",
     "names": {
@@ -2246,9 +2359,10 @@
         "pt": "Costura"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTailoring2": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookTailoring2",
     "names": {
@@ -2266,9 +2380,10 @@
         "pt": "Costura"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTailoring3": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookTailoring3",
     "names": {
@@ -2286,9 +2401,10 @@
         "pt": "Costura"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTailoring4": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookTailoring4",
     "names": {
@@ -2306,9 +2422,10 @@
         "pt": "Costura"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTailoring5": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookTailoring5",
     "names": {
@@ -2326,9 +2443,10 @@
         "pt": "Costura"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTracking1": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookTracking1",
     "names": {
@@ -2346,9 +2464,10 @@
         "pt": "Rastreamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTracking2": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookTracking2",
     "names": {
@@ -2366,9 +2485,10 @@
         "pt": "Rastreamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTracking3": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookTracking3",
     "names": {
@@ -2386,9 +2506,10 @@
         "pt": "Rastreamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTracking4": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookTracking4",
     "names": {
@@ -2406,9 +2527,10 @@
         "pt": "Rastreamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTracking5": {
+    "category": "SkillBook",
     "icon": "Book_Generic",
     "id": "Base.BookTracking5",
     "names": {
@@ -2426,9 +2548,10 @@
         "pt": "Rastreamento"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTrapping1": {
+    "category": "SkillBook",
     "icon": "Book4",
     "id": "Base.BookTrapping1",
     "names": {
@@ -2446,9 +2569,10 @@
         "pt": "Armadilhas"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTrapping2": {
+    "category": "SkillBook",
     "icon": "Book4",
     "id": "Base.BookTrapping2",
     "names": {
@@ -2466,9 +2590,10 @@
         "pt": "Armadilhas"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTrapping3": {
+    "category": "SkillBook",
     "icon": "Book4",
     "id": "Base.BookTrapping3",
     "names": {
@@ -2486,9 +2611,10 @@
         "pt": "Armadilhas"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTrapping4": {
+    "category": "SkillBook",
     "icon": "Book4",
     "id": "Base.BookTrapping4",
     "names": {
@@ -2506,9 +2632,10 @@
         "pt": "Armadilhas"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "BookTrapping5": {
+    "category": "SkillBook",
     "icon": "Book4",
     "id": "Base.BookTrapping5",
     "names": {
@@ -2526,9 +2653,10 @@
         "pt": "Armadilhas"
       }
     },
-    "type": "SkillBook"
+    "xp_rewards": []
   },
   "CookingMag1": {
+    "category": "RecipeMagazine",
     "icon": "MagazineFood",
     "id": "Base.CookingMag1",
     "names": {
@@ -2540,9 +2668,10 @@
       "MakePieDough"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "CookingMag2": {
+    "category": "RecipeMagazine",
     "icon": "MagazineFood2",
     "id": "Base.CookingMag2",
     "names": {
@@ -2555,9 +2684,10 @@
       "MakeBiscuits"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "CookingMag3": {
+    "category": "RecipeMagazine",
     "icon": "MagazineFood3",
     "id": "Base.CookingMag3",
     "names": {
@@ -2568,9 +2698,10 @@
       "MakePizza"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "CookingMag4": {
+    "category": "RecipeMagazine",
     "icon": "MagazineFood4",
     "id": "Base.CookingMag4",
     "names": {
@@ -2585,9 +2716,10 @@
       "MakeShortbreadCookieDough"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "CookingMag5": {
+    "category": "RecipeMagazine",
     "icon": "MagazineFood5",
     "id": "Base.CookingMag5",
     "names": {
@@ -2600,9 +2732,10 @@
       "MakeOnigiri"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "CookingMag6": {
+    "category": "RecipeMagazine",
     "icon": "MagazineFood6",
     "id": "Base.CookingMag6",
     "names": {
@@ -2616,9 +2749,10 @@
       "MakeGuacamole"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "ElectronicsMag1": {
+    "category": "RecipeMagazine",
     "icon": "MagazineElectronics01",
     "id": "Base.ElectronicsMag1",
     "names": {
@@ -2633,9 +2767,10 @@
       "AddCraftedTriggerToBomb"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "ElectronicsMag2": {
+    "category": "RecipeMagazine",
     "icon": "MagazineElectronics03",
     "id": "Base.ElectronicsMag2",
     "names": {
@@ -2647,9 +2782,10 @@
       "AddTimerToBomb"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "ElectronicsMag3": {
+    "category": "RecipeMagazine",
     "icon": "MagazineElectronics04",
     "id": "Base.ElectronicsMag3",
     "names": {
@@ -2662,9 +2798,10 @@
       "AddMotionSensorV3ToBomb"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "ElectronicsMag4": {
+    "category": "RecipeMagazine",
     "icon": "MagazineElectronics02",
     "id": "Base.ElectronicsMag4",
     "names": {
@@ -2675,9 +2812,10 @@
       "Generator"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "ElectronicsMag5": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Electric",
     "id": "Base.ElectronicsMag5",
     "names": {
@@ -2689,9 +2827,10 @@
       "MakeImprovisedLantern"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "EngineerMagazine1": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Spy2",
     "id": "Base.EngineerMagazine1",
     "names": {
@@ -2703,9 +2842,10 @@
       "MakeFirecracker"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "EngineerMagazine2": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Underground3",
     "id": "Base.EngineerMagazine2",
     "names": {
@@ -2719,9 +2859,10 @@
       "RechargeFilters"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "EngineerMagazine3": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Underground6",
     "id": "Base.EngineerMagazine3",
     "names": {
@@ -2734,9 +2875,10 @@
       "MakePipeBomb"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "FarmingMag1": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Farming7",
     "id": "Base.FarmingMag1",
     "names": {
@@ -2747,9 +2889,10 @@
       "MakeMildewCure"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "FarmingMag2": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Farming8",
     "id": "Base.FarmingMag2",
     "names": {
@@ -2763,9 +2906,10 @@
       "MakeAphidsCure"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "FarmingMag3": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Gardening1",
     "id": "Base.FarmingMag3",
     "names": {
@@ -2781,9 +2925,10 @@
       "base:lavender growing season"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "FarmingMag4": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Farming9",
     "id": "Base.FarmingMag4",
     "names": {
@@ -2795,9 +2940,10 @@
       "MakeBarbedWire"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "FarmingMag5": {
+    "category": "RecipeMagazine",
     "icon": "MagazineFarming5",
     "id": "Base.FarmingMag5",
     "names": {
@@ -2808,9 +2954,10 @@
       "MakeJar"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "FarmingMag6": {
+    "category": "RecipeMagazine",
     "icon": "MagazineFarming1",
     "id": "Base.FarmingMag6",
     "names": {
@@ -2828,9 +2975,10 @@
       "base:wheat growing season"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "FarmingMag7": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Farming6",
     "id": "Base.FarmingMag7",
     "names": {
@@ -2864,9 +3012,10 @@
       "base:zucchini growing season"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "FarmingMag8": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Farming10",
     "id": "Base.FarmingMag8",
     "names": {
@@ -2887,9 +3036,10 @@
       "base:hops growing season"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "FarmingMag9": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Herbal1",
     "id": "Base.FarmingMag9",
     "names": {
@@ -2904,9 +3054,10 @@
       "base:wild garlic growing season"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "FishingMag1": {
+    "category": "RecipeMagazine",
     "icon": "MagazineFish",
     "id": "Base.FishingMag1",
     "names": {
@@ -2919,9 +3070,10 @@
       "MakeChum"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "FishingMag2": {
+    "category": "RecipeMagazine",
     "icon": "MagazineFish2",
     "id": "Base.FishingMag2",
     "names": {
@@ -2933,9 +3085,10 @@
       "GetWireBack"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "GlassmakingMag1": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Glass1",
     "id": "Base.GlassmakingMag1",
     "names": {
@@ -2947,9 +3100,10 @@
       "MakeLanternGlass"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "GlassmakingMag2": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Glass2",
     "id": "Base.GlassmakingMag2",
     "names": {
@@ -2961,9 +3115,10 @@
       "MakeGlassPanel"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "GlassmakingMag3": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Glass3",
     "id": "Base.GlassmakingMag3",
     "names": {
@@ -2975,9 +3130,10 @@
       "MakeGlassJar"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "HempMag1": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Hemp1",
     "id": "Base.HempMag1",
     "names": {
@@ -2988,9 +3144,10 @@
       "base:hemp growing season"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "HerbalistMag": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Survival1",
     "id": "Base.HerbalistMag",
     "names": {
@@ -3008,9 +3165,10 @@
       "BindSpear"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "HuntingMag1": {
+    "category": "RecipeMagazine",
     "icon": "MagazineHunting",
     "id": "Base.HuntingMag1",
     "names": {
@@ -3021,9 +3179,10 @@
       "MakeSnareTrap"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "HuntingMag2": {
+    "category": "RecipeMagazine",
     "icon": "MagazineHunting2",
     "id": "Base.HuntingMag2",
     "names": {
@@ -3035,9 +3194,10 @@
       "MakeStickTrap"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "HuntingMag3": {
+    "category": "RecipeMagazine",
     "icon": "MagazineHunting3",
     "id": "Base.HuntingMag3",
     "names": {
@@ -3049,9 +3209,10 @@
       "MakeCageTrap"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "HuntingMag4": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Taxidermy1",
     "id": "Base.HuntingMag4",
     "names": {
@@ -3062,9 +3223,10 @@
       "MakeStagHeadTrophy"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "KeyMag1": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Underground4",
     "id": "Base.KeyMag1",
     "names": {
@@ -3076,9 +3238,10 @@
       "MakeScrewdriver"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "KnittingMag1": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Knitting1",
     "id": "Base.KnittingMag1",
     "names": {
@@ -3093,9 +3256,10 @@
       "KnitDoily"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "KnittingMag2": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Knitting2",
     "id": "Base.KnittingMag2",
     "names": {
@@ -3109,9 +3273,10 @@
       "KnitBeany"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "MechanicMag1": {
+    "category": "RecipeMagazine",
     "icon": "MagazineMechanic1",
     "id": "Base.MechanicMag1",
     "names": {
@@ -3122,9 +3287,10 @@
       "Basic Mechanics"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "MechanicMag2": {
+    "category": "RecipeMagazine",
     "icon": "MagazineMechanic2",
     "id": "Base.MechanicMag2",
     "names": {
@@ -3135,9 +3301,10 @@
       "Intermediate Mechanics"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "MechanicMag3": {
+    "category": "RecipeMagazine",
     "icon": "MagazineMechanic3",
     "id": "Base.MechanicMag3",
     "names": {
@@ -3148,9 +3315,10 @@
       "Advanced Mechanics"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "MetalworkMag1": {
+    "category": "RecipeMagazine",
     "icon": "MagazineWelding1",
     "id": "Base.MetalworkMag1",
     "names": {
@@ -3169,9 +3337,10 @@
       "Metal_Stairs"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "MetalworkMag2": {
+    "category": "RecipeMagazine",
     "icon": "MagazineWelding2",
     "id": "Base.MetalworkMag2",
     "names": {
@@ -3193,9 +3362,10 @@
       "Metal_Shelves_Lvl2"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "MetalworkMag3": {
+    "category": "RecipeMagazine",
     "icon": "MagazineWelding3",
     "id": "Base.MetalworkMag3",
     "names": {
@@ -3216,9 +3386,10 @@
       "MetalSmallWireFence"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "MetalworkMag4": {
+    "category": "RecipeMagazine",
     "icon": "MagazineWelding3",
     "id": "Base.MetalworkMag4",
     "names": {
@@ -3230,9 +3401,10 @@
       "MakeSmallMetalSheet"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "PrimitiveToolMag1": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_EarlyToolmaking",
     "id": "Base.PrimitiveToolMag1",
     "names": {
@@ -3250,9 +3422,10 @@
       "RemakeLongStoneBlade"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "PrimitiveToolMag2": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Prehistory1",
     "id": "Base.PrimitiveToolMag2",
     "names": {
@@ -3269,9 +3442,10 @@
       "CarveWhistle"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "PrimitiveToolMag3": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Carving",
     "id": "Base.PrimitiveToolMag3",
     "names": {
@@ -3287,7 +3461,7 @@
       "CarveBucket"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "RM.00a8b565-a566-44f3-b6d2-7a1ae2eafb0c": {
     "category": "Home-VHS",
@@ -3298,6 +3472,7 @@
       "pt": "VHS Caseiro: Vovó Nani"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -3318,6 +3493,7 @@
       "pt": "VHS Caseiro: Programas infantis"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.01940222-8880-4757-be51-9b919bfc0f5c": {
@@ -3329,6 +3505,7 @@
       "pt": "VHS: Golpe Mortal"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.01b3d832-602c-4566-b8d6-c2b74a4a0b00": {
@@ -3340,6 +3517,7 @@
       "pt": "VHS: The Cook Show EP6"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 62.5,
@@ -3360,6 +3538,7 @@
       "pt": "VHS: Woodcraft EP7"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 62.5,
@@ -3380,6 +3559,7 @@
       "pt": "VHS: Ás da Aviação"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.03885118-50f5-4b05-b586-07d512a40cbe": {
@@ -3391,6 +3571,7 @@
       "pt": "VHS: A Floresta Mágica EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.0454442e-ce08-4d01-bba5-6a8822bf86d1": {
@@ -3402,6 +3583,7 @@
       "pt": "VHS: Esquadrão Abatido"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.05b31204-ed9f-4fee-b181-070c85f6dd18": {
@@ -3413,6 +3595,7 @@
       "pt": "VHS Caseiro: Aniversário de 21 Anos do Brent"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.05f702e8-3c94-4cb4-a93e-b07f88bb5b17": {
@@ -3424,6 +3607,7 @@
       "pt": "VHS: Cosa Nostra"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.05f9056b-914e-4810-9a6a-9267249e9bcf": {
@@ -3435,6 +3619,7 @@
       "pt": "VHS: A Floresta Mágica EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.0627a89a-a32b-4e80-9926-815aa9d22b2b": {
@@ -3446,6 +3631,7 @@
       "pt": "VHS: Woodcraft EP4"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -3466,6 +3652,7 @@
       "pt": "VHS: Um Ponto no Tempo"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -3486,6 +3673,7 @@
       "pt": "VHS: Space Crew T3.EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.07b0cd73-7563-4699-9fb4-99316a0fc0bd": {
@@ -3497,6 +3685,7 @@
       "pt": "VHS: Carzone EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -3517,6 +3706,7 @@
       "pt": "VHS: Cão Goblin III"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.0b26734a-f962-4539-8dda-3822b759173d": {
@@ -3528,6 +3718,7 @@
       "pt": "VHS Caseiro: Tingindo o Cabelo em Casa"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.0b953c0d-04cc-4dda-b3c1-5317ff899bec": {
@@ -3539,6 +3730,7 @@
       "pt": "VHS Caseiro: documentário das raposas"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.0bac9338-28c4-4a72-94fe-9d47cf956f7b": {
@@ -3550,6 +3742,7 @@
       "pt": "VHS: Guerreiro Global"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.0cd1fbcb-1ea6-4edc-aeb6-f0a81eff6c5e": {
@@ -3561,6 +3754,7 @@
       "pt": "VHS: Primeiros Socorros Médicos de Rosewood"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -3581,6 +3775,7 @@
       "pt": "VHS: Ballincoolin T1.EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.0fd06ed7-6757-4ae9-b4b7-6ef8316a5c4b": {
@@ -3592,6 +3787,7 @@
       "pt": "VHS Caseiro: Escovando os Dentes com o Coelho Zachary"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.109373b7-1720-4d95-acd7-062da3f61d2b": {
@@ -3603,6 +3799,7 @@
       "pt": "VHS Caseiro: FITA DO PAPAI NÃO TOQUE"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.1123df57-5e9b-4d61-88f1-7561949132e3": {
@@ -3614,6 +3811,7 @@
       "pt": "VHS: Sobrevivência na Natureza EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 50.0,
@@ -3642,6 +3840,7 @@
       "pt": "VHS: Completamente Errado T2.EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.14fca23a-86ca-44b3-8342-264791175421": {
@@ -3653,6 +3852,7 @@
       "pt": "VHS Caseiro: RMFA"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -3673,6 +3873,7 @@
       "pt": "VHS Caseiro: OSCC '92"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 12.5,
@@ -3693,6 +3894,7 @@
       "pt": "VHS: O Retorno do Porteiro Noturno"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.18a00063-b838-4aaa-8991-7acc16554a08": {
@@ -3704,6 +3906,7 @@
       "pt": "VHS Caseiro: vacas malhadas"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.192752a2-bf3f-4dba-b2e7-6fbb9e27fa79": {
@@ -3715,6 +3918,7 @@
       "pt": "VHS Caseiro: Casamento em Vegas de Jeff/Kaylee"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.1a22a4b3-156b-4474-a455-8d6c066e5a21": {
@@ -3728,6 +3932,7 @@
     "recipes": [
       "base"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -3748,6 +3953,7 @@
       "pt": "VHS: Ballincoolin T1.EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.1c6745f6-70b8-49e8-9087-b1bbb9263985": {
@@ -3762,6 +3968,7 @@
       "MetalFloorLvl1",
       "MetalWallLvl1"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 100.0,
@@ -3784,6 +3991,7 @@
     "recipes": [
       "base"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -3804,6 +4012,7 @@
       "pt": "VHS: Cetim e Seda"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.1dc05702-0af2-4087-b120-02376b3e39ad": {
@@ -3815,6 +4024,7 @@
       "pt": "VHS Caseiro: Mothballs x Honey Bears 16.02.91"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.1ef8dff0-952f-49db-9312-2e363764160e": {
@@ -3826,6 +4036,7 @@
       "pt": "VHS: Cliente Sórdido"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.1f13efd4-42db-4889-9695-9b74d39dcdf7": {
@@ -3837,6 +4048,7 @@
       "pt": "VHS: Strangely True T2.EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.1f906205-c751-4157-add7-dd79e6b1f823": {
@@ -3848,6 +4060,7 @@
       "pt": "VHS Caseiro: Cuidando dos Seus Funcionários"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.1fd47a18-db73-473e-8f80-8379db58b297": {
@@ -3859,6 +4072,7 @@
       "pt": "VHS Caseiro: Agência de Encontros (Feminino)"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.200e0912-8bfc-4d16-bd0b-8c63a7893773": {
@@ -3870,6 +4084,7 @@
       "pt": "VHS: Do Minério à Loja"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 87.5,
@@ -3890,6 +4105,7 @@
       "pt": "VHS: O Cão Goblin"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 100.0,
@@ -3918,6 +4134,7 @@
       "pt": "VHS Caseiro: Documentário do Fort Knox"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.2221f0f4-4937-4c35-81b3-6267c8b47bcf": {
@@ -3929,6 +4146,7 @@
       "pt": "VHS Caseiro: porcaria de conspiração???"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.22b33878-8089-4bc7-81c0-c0825ba0d85e": {
@@ -3940,6 +4158,7 @@
       "pt": "VHS: Os Moderadores T2.EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.23c075cf-bd66-4bfd-9b6f-b94e4a063055": {
@@ -3951,6 +4170,7 @@
       "pt": "VHS: Albert Wellen QC T2.EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.23e9dec5-8183-46dc-9f3f-5c5bda49f4ba": {
@@ -3962,6 +4182,7 @@
       "pt": "VHS: O Departamento Ômega T5.EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.24e06bf8-5bd5-417e-8727-13f26da706c5": {
@@ -3973,6 +4194,7 @@
       "pt": "VHS Caseiro: Tempestade"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.254ce9f9-2f49-497c-8914-c64f28bf8bce": {
@@ -3984,6 +4206,7 @@
       "pt": "VHS: Descida Lenta"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.255cccad-36c7-435d-b01e-cf9d7811382e": {
@@ -3995,6 +4218,7 @@
       "pt": "VHS: Os Moderadores T2.EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.25df99f3-2866-498e-8016-9b005df1d250": {
@@ -4006,6 +4230,7 @@
       "pt": "VHS: Diamantes Baratos"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.26437711-f5e5-47a7-b958-438e3202449a": {
@@ -4017,6 +4242,7 @@
       "pt": "VHS: O Departamento Ômega T3.EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.2655efff-166a-4bec-914f-893860760eb9": {
@@ -4028,6 +4254,7 @@
       "pt": "VHS Caseiro: Lopez-Grady luta"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.2695eb00-ee79-4b39-833a-1023a28ce397": {
@@ -4039,6 +4266,7 @@
       "pt": "VHS: The Cook Show EP5"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 50.0,
@@ -4059,6 +4287,7 @@
       "pt": "VHS: Completamente Errado T2.EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.27d9ab7b-ab9a-464a-b392-ca0e451fa7d8": {
@@ -4070,6 +4299,7 @@
       "pt": "VHS Caseiro: Fita das Novelas"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.2b27a1eb-c3e3-42ad-9da5-a077789ca019": {
@@ -4081,6 +4311,7 @@
       "pt": "VHS Caseiro: XYZ's com Abe E. Seez!"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.2b918617-dd19-42c4-8955-808f57fe5891": {
@@ -4092,6 +4323,7 @@
       "pt": "VHS Caseiro: Grande Aniversário do Keith!"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.2bf49f71-0d46-43aa-bbfd-f311e5bda9b2": {
@@ -4103,6 +4335,7 @@
       "pt": "VHS: Woodcraft EP5"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 37.5,
@@ -4125,6 +4358,7 @@
     "recipes": [
       "MakePieDough"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -4145,6 +4379,7 @@
       "pt": "VHS Caseiro: Raposa da Floresta Mágica"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.2dcd687b-ac76-4b33-b0b7-79ddfba2feb4": {
@@ -4156,6 +4391,7 @@
       "pt": "VHS: Sobrevivência na Natureza EP07"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 87.5,
@@ -4176,6 +4412,7 @@
       "pt": "VHS Caseiro: Fairweather-Mahoney 11/02/93"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.2f44d58f-f8dc-498f-9890-cf1eeb1bbd62": {
@@ -4187,6 +4424,7 @@
       "pt": "VHS Caseiro: nosso mundo #9"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.2f5f43fd-8d17-4ef0-ba60-dd4b7591c512": {
@@ -4198,6 +4436,7 @@
       "pt": "VHS: The Thompsons T3.EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.30ef3e9e-6270-441c-acbb-77191dbe073b": {
@@ -4209,6 +4448,7 @@
       "pt": "VHS: Space Crew T3.EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.313fa630-d448-44ab-b1f0-7cff1d1db830": {
@@ -4220,6 +4460,7 @@
       "pt": "VHS: Carzone EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -4240,6 +4481,7 @@
       "pt": "VHS: Completamente Errado"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 12.5,
@@ -4268,6 +4510,7 @@
       "pt": "VHS: Clube Fitness do Simon EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.33ecc070-9725-4459-9f14-1e0d609dd59b": {
@@ -4279,6 +4522,7 @@
       "pt": "VHS Caseiro: praia no verão de 91"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.348f5cea-ac75-4fb9-a3c4-c504dc0d8df5": {
@@ -4290,6 +4534,7 @@
       "pt": "VHS Caseiro: Bauman/Triskel 14"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.35991256-3806-4d78-a06d-b71c516d193f": {
@@ -4301,6 +4546,7 @@
       "pt": "VHS: O Departamento Ômega T3.EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.3633446b-54f4-463b-9305-45d9c0876d36": {
@@ -4312,6 +4558,7 @@
       "pt": "VHS: Washington High T5.EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.37912243-f832-4a64-99cb-71ac909ded01": {
@@ -4323,6 +4570,7 @@
       "pt": "VHS Caseiro: Bebê Summer!"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.38580dcf-3da0-469a-b35f-57c2720de3b1": {
@@ -4334,6 +4582,7 @@
       "pt": "VHS: A Floresta Mágica EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.38cc7ba3-a100-475d-83a3-9c17525c1dd7": {
@@ -4345,6 +4594,7 @@
       "pt": "VHS: Completamente Errado T2.EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.3a6e9627-47fd-40d5-b7ff-f0d9ff78f4ff": {
@@ -4356,6 +4606,7 @@
       "pt": "VHS: Os Moderadores T2.EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.3ce70040-2776-4403-9f16-759cf1ce86d9": {
@@ -4367,6 +4618,7 @@
       "pt": "VHS Caseiro: gravações do Papai"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.3e9c5cf0-bf40-40eb-bcd7-4fd6c5ae58ca": {
@@ -4378,6 +4630,7 @@
       "pt": "VHS: Woodcraft EP3"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 62.5,
@@ -4398,6 +4651,7 @@
       "pt": "VHS Caseiro: Para o Scott"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.415f5cf6-fef1-495a-ad50-fb9b7773d178": {
@@ -4409,6 +4663,7 @@
       "pt": "VHS Caseiro: Aniversário de 4 Anos do Pequeno Jackson"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.42229010-855b-40a6-b9a0-be9d0f02925f": {
@@ -4420,6 +4675,7 @@
       "pt": "VHS Caseiro: Departamento Ômega cidade fantasma"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.4255a86b-d9f7-45e3-bf9f-060c8a35858d": {
@@ -4431,6 +4687,7 @@
       "pt": "VHS: Esquadrão Z T2.EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.43ac5750-24fc-483b-9458-ed8dd7f0e8cb": {
@@ -4442,6 +4699,7 @@
       "pt": "VHS Caseiro: documentário dos Jacarés"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.4467d917-1e90-4901-8531-e148f1fc40c7": {
@@ -4453,6 +4711,7 @@
       "pt": "VHS: Albert Wellen QC T2.EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.462ca6e0-fd5e-4bf9-9748-12b3480ece26": {
@@ -4464,6 +4723,7 @@
       "pt": "VHS: O Perigo na Sua Cama"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.4638a251-4bbe-4d91-a555-2e46eb790f8c": {
@@ -4475,6 +4735,7 @@
       "pt": "VHS: The Thompsons T3.EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.4653d39e-2fcf-49c2-9b51-0ab992fa123c": {
@@ -4486,6 +4747,7 @@
       "pt": "VHS: Tratamento de Ferimentos de Combate"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 87.5,
@@ -4506,6 +4768,7 @@
       "pt": "VHS Caseiro: Ooh, Feche Essa Porta! T7.EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.473bb1b2-3fd0-4d4b-8e8f-42d3bd01b929": {
@@ -4517,6 +4780,7 @@
       "pt": "VHS: A Jornada Radical de Fred e Ali"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.47c6a97e-2ca0-4614-b3b6-1403a59ab42d": {
@@ -4528,6 +4792,7 @@
       "pt": "VHS Caseiro: Buracos Negros documentário espacial"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.47d28904-d6d0-47a5-81b9-3c2cb819cc9a": {
@@ -4539,6 +4804,7 @@
       "pt": "VHS Caseiro: Reverendo Quigley"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.47d9170a-fe9d-42f6-8a20-def16f3955b7": {
@@ -4550,6 +4816,7 @@
       "pt": "VHS: Washington High T5.EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.4a0838f5-b881-4c94-9dfa-66b655870395": {
@@ -4561,6 +4828,7 @@
       "pt": "VHS: Space Crew T3.EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.4b60b0ce-0ee2-4d4b-b31e-c6cfd0b8bd01": {
@@ -4572,6 +4840,7 @@
       "pt": "VHS: Strangely True T2.EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.4cc3b806-4630-4dfc-a935-efa700fbd7fb": {
@@ -4583,6 +4852,7 @@
       "pt": "VHS: The Cook Show EP4"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 50.0,
@@ -4608,6 +4878,7 @@
       "MakeSlugTrap",
       "MakeAphidsCure"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 37.5,
@@ -4628,6 +4899,7 @@
       "pt": "VHS: Licença para Casar"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.4dabc4a1-9013-455f-a60f-f592ddab4818": {
@@ -4639,6 +4911,7 @@
       "pt": "VHS Caseiro: Kafka Animado - Uma Mensagem do Imperador"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.4f3f30d6-df77-4e85-b1cb-4ca7e67addd9": {
@@ -4650,6 +4923,7 @@
       "pt": "VHS: Esquadrão Z T2.EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 12.5,
@@ -4678,6 +4952,7 @@
       "pt": "VHS Caseiro: Bauman e Triskel 8 de Abril"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.526534f0-0bcd-4cca-a30c-5bc37c359fbe": {
@@ -4689,6 +4964,7 @@
       "pt": "VHS: Cão Goblin II"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.53015c80-6096-4c1c-adef-e6da20db518e": {
@@ -4700,6 +4976,7 @@
       "pt": "VHS: Albert Wellen QC T2.EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.538cdb4f-b2ec-4eb0-ab73-b0fc65b70114": {
@@ -4711,6 +4988,7 @@
       "pt": "VHS Caseiro: Estranhos Perigosos com a Coelhinha Jemima"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.53c1d840-a65b-4472-ae21-e6055cb73dbc": {
@@ -4722,6 +5000,7 @@
       "pt": "VHS Caseiro: Cidades do Mundo - Seul"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.53c7fa63-ec5d-40de-8875-a0f474ef49a6": {
@@ -4733,6 +5012,7 @@
       "pt": "VHS: Sangue no Gueto"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.541b5fff-7f01-402a-8e8a-98cfd0c90916": {
@@ -4744,6 +5024,7 @@
       "pt": "VHS Caseiro: Grady x King"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 12.5,
@@ -4764,6 +5045,7 @@
       "pt": "VHS Caseiro: Hurricanes x Mothballs 22/04/91"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.5a504f00-584b-4330-9752-b213784097c7": {
@@ -4775,6 +5057,7 @@
       "pt": "VHS: Linha de Frente"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.5c60fc4b-8e0f-40c0-8292-da9265414402": {
@@ -4786,6 +5069,7 @@
       "pt": "VHS Caseiro: Primeiras Palavras do Hao!"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.5c8893b0-9be3-4a42-8b11-9eb847e37bad": {
@@ -4797,6 +5081,7 @@
       "pt": "VHS Caseiro: aniversário de 13 anos do J"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.5de29f96-9d01-4422-9f61-f999f5816e4b": {
@@ -4808,6 +5093,7 @@
       "pt": "VHS Caseiro: ANIVERSÁRIO DE 1 ANO DO ELIJAH"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.60238f85-cf09-4f82-9324-2394c2422c94": {
@@ -4819,6 +5105,7 @@
       "pt": "VHS Caseiro: FITA DA MAMÃE"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.620997ad-5f62-4498-b589-8bcd412a7cc1": {
@@ -4830,6 +5117,7 @@
       "pt": "VHS: Você Está Morto"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.626e33bb-7fab-4c22-a803-14027f36e916": {
@@ -4841,6 +5129,7 @@
       "pt": "VHS Caseiro: Passeio ao Pôr do Sol"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.67c1dc61-ea6b-4369-8762-15d74f70b934": {
@@ -4852,6 +5141,7 @@
       "pt": "VHS Caseiro: Rio Ohio"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.68785929-d79c-4170-9fc8-5289bbf05388": {
@@ -4863,6 +5153,7 @@
       "pt": "VHS Caseiro: Matemática - Equações Quadráticas e Álgebra"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 12.5,
@@ -4883,6 +5174,7 @@
       "pt": "VHS: O Departamento Ômega T5.EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.6bf936ee-53d7-47b7-b3a7-c3ea0b88d44b": {
@@ -4894,6 +5186,7 @@
       "pt": "VHS Caseiro: #012"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.6c75473d-2de5-4438-a17d-5a9ca4cc6da7": {
@@ -4905,6 +5198,7 @@
       "pt": "VHS Caseiro: Rangers x Hurricanes 12.08.92"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.6cdf2185-d266-4e3f-918f-a1c6e87b0e27": {
@@ -4916,6 +5210,7 @@
       "pt": "VHS Caseiro: FÉRIAS EM CABO CANAVERAL Julho de 1990"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.6f03e034-4fac-460e-ace6-e86c4e34e791": {
@@ -4927,6 +5222,7 @@
       "pt": "VHS: O Departamento Ômega T5.EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.6f1be5b5-d871-4ebf-bc44-2657f7c89bb5": {
@@ -4938,6 +5234,7 @@
       "pt": "VHS: Sobrevivência na Natureza EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -4958,6 +5255,7 @@
       "pt": "VHS Caseiro: Moderadores"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.70b48d90-55fc-49f0-99e8-b7f7746d011c": {
@@ -4969,6 +5267,7 @@
       "pt": "VHS Caseiro: primeiros passos da Gabby"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.71c5af9d-2d25-4ce7-b2c6-df29b59932d5": {
@@ -4980,6 +5279,7 @@
       "pt": "VHS Caseiro: golfe chato do Papai"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.729fc45b-5f9c-46b1-8cb6-d4978b050068": {
@@ -4991,6 +5291,7 @@
       "pt": "VHS: Guia de Armas do Clube de Proprietários de Armas de Knox"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 25.0,
@@ -5019,6 +5320,7 @@
       "pt": "VHS: Esquadrão Z T2.EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.7402fb83-b5b3-4b08-99f9-82bc67f4572b": {
@@ -5030,6 +5332,7 @@
       "pt": "VHS: Sobrevivência na Natureza EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 87.5,
@@ -5052,6 +5355,7 @@
     "recipes": [
       "MakeWoodenBoxTrap"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 125.0,
@@ -5072,6 +5376,7 @@
       "pt": "VHS: O Zelador"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.75f556df-888a-4fad-9524-c7351a65ec5b": {
@@ -5083,6 +5388,7 @@
       "pt": "VHS Caseiro: Cento e Oitenta (dardos)"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.768e8dd5-99cf-40e0-b832-6f24e5baa771": {
@@ -5094,6 +5400,7 @@
       "pt": "VHS Caseiro: Cuidados Dentários"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.7694cea7-b7dd-4c55-a1fb-7ec03c6223c0": {
@@ -5105,6 +5412,7 @@
       "pt": "VHS Caseiro: Domingo Altas Horas 20/12/92"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.77facb85-3606-460c-ac75-f82a31ce25f1": {
@@ -5116,6 +5424,7 @@
       "pt": "VHS: Cão Goblin IV"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.78e173e7-021a-46cc-b02f-47bd52595522": {
@@ -5127,6 +5436,7 @@
       "pt": "VHS Caseiro: Cidades do Mundo - Paris"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.78f8be75-5819-4edb-a7a5-a953537da19a": {
@@ -5138,6 +5448,7 @@
       "pt": "VHS Caseiro: Kentucky Furlongs (02.05.92)"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.7933a371-a8a6-4c31-8886-7a97d89f2c7e": {
@@ -5149,6 +5460,7 @@
       "pt": "VHS: The Cook Show EP3"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 62.5,
@@ -5169,6 +5481,7 @@
       "pt": "VHS: Carzone EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -5189,6 +5502,7 @@
       "pt": "VHS: Tangier"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.7e395694-9830-4066-8709-bf285677937d": {
@@ -5200,6 +5514,7 @@
       "pt": "VHS: Cerâmica para Todos"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 62.5,
@@ -5220,6 +5535,7 @@
       "pt": "VHS: Strangely True T2.EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.7feb80e4-48f6-4ec6-8e17-844c9107695c": {
@@ -5231,6 +5547,7 @@
       "pt": "VHS Caseiro: Os Sinais do Satanismo"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.83134f2e-d17c-4dac-80ed-db9487327614": {
@@ -5242,6 +5559,7 @@
       "pt": "VHS Caseiro: Clássico de Riverside '92"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.872b1ecd-60fa-4994-b770-0020c2ddba54": {
@@ -5253,6 +5571,7 @@
       "pt": "VHS Caseiro: Recital da Escola"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.879430cc-34e5-452f-b905-42a9b40e66b7": {
@@ -5264,6 +5583,7 @@
       "pt": "VHS Caseiro: PROGRAMAS DE QUIZ"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.8812702d-9d7e-46e3-a8d7-3a580b5fb107": {
@@ -5275,6 +5595,7 @@
       "pt": "VHS: Ballincoolin T1.EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.88bbe9fa-dc06-4891-beb4-de538bbdee3e": {
@@ -5286,6 +5607,7 @@
       "pt": "VHS Caseiro: muldraugh x west point futebol"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.8903add4-d1a8-4be8-a5f3-c96b2467b6c3": {
@@ -5297,6 +5619,7 @@
       "pt": "VHS Caseiro: Peça de Natal"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.8904b5c7-86f6-4b49-a163-cf37d4421895": {
@@ -5308,6 +5631,7 @@
       "pt": "VHS Caseiro: carros de turismo"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 12.5,
@@ -5339,6 +5663,7 @@
       "MetalBigWireFence",
       "DoubleWireGate"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 112.5,
@@ -5359,6 +5684,7 @@
       "pt": "VHS Caseiro: Novos gatinhos!"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.8b07e425-fe72-44b5-8635-db6ab6128bb7": {
@@ -5370,6 +5696,7 @@
       "pt": "VHS: Completamente Errado T2.EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.8b5aafc8-16ad-4a41-8be8-6ca094adb5af": {
@@ -5381,6 +5708,7 @@
       "pt": "VHS: O Departamento Ômega T3.EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.8c150873-8bd1-4316-ae3f-a37742ccfa20": {
@@ -5392,6 +5720,7 @@
       "pt": "VHS Caseiro: Tratamento de Ferimentos de Combate"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 87.5,
@@ -5412,6 +5741,7 @@
       "pt": "VHS: Trem-Bomba"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.8cb5271e-368a-4676-bfc2-64687167f1a1": {
@@ -5423,6 +5753,7 @@
       "pt": "VHS Caseiro: Sandy Perry"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.8e792270-84c1-4fc3-b4b8-2a500c522347": {
@@ -5434,6 +5765,7 @@
       "pt": "VHS: Strangely True T2.EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.8f0ee6af-7365-4104-bd0d-380d8617980c": {
@@ -5445,6 +5777,7 @@
       "pt": "VHS Caseiro: Cumprimentos Finais"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.929a2ae1-a7f1-4fe5-9b4e-7779a4483091": {
@@ -5456,6 +5789,7 @@
       "pt": "VHS: Pontos de Ruptura"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.932853dc-0a71-4671-bf48-c5bfd126f367": {
@@ -5467,6 +5801,7 @@
       "pt": "VHS: Completamente Errado T2.EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.9354e364-698c-428c-a7ea-b38de6bf61fb": {
@@ -5478,6 +5813,7 @@
       "pt": "VHS Caseiro: VHS do Roger"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.9401186f-f19c-452d-a753-819c58c0d529": {
@@ -5489,6 +5825,7 @@
       "pt": "VHS Caseiro: Brincando com o Bruce"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.955bf539-6b8b-4dea-9fde-7bfaf3b31983": {
@@ -5500,6 +5837,7 @@
       "pt": "VHS: Primeiros Socorros de Emergência"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -5520,6 +5858,7 @@
       "pt": "VHS: Woodcraft EP6"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 62.5,
@@ -5540,6 +5879,7 @@
       "pt": "VHS Caseiro: Departamento Ômega T3.EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.9822e2c7-b5c2-4600-bf2c-3c1543e6fa70": {
@@ -5551,6 +5891,7 @@
       "pt": "VHS: Vidas Perdidas"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.983acfd3-0ee6-48a8-82fc-aa25a34b5c20": {
@@ -5562,6 +5903,7 @@
       "pt": "VHS Caseiro: Casamento de D&M"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.98406d57-3f55-4f36-afc4-b78554acc0aa": {
@@ -5573,6 +5915,7 @@
       "pt": "VHS: Clube Fitness do Simon EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.988e8c5a-93b4-456f-be54-4638c5dc7812": {
@@ -5590,6 +5933,7 @@
       "MakeFriedShrimp",
       "MakeCabbageRolls"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 62.5,
@@ -5610,6 +5954,7 @@
       "pt": "VHS Caseiro: Documentário do Golfo do Alasca"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.9953e7f7-396c-4400-82d7-0fc24fbfe0b7": {
@@ -5621,6 +5966,7 @@
       "pt": "VHS: Cansado em Toronto"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.9a18b23e-e597-449e-adbd-81dacae59b93": {
@@ -5632,6 +5978,7 @@
       "pt": "VHS: Agente Sombrio"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.9b8500f2-2288-4497-b85a-eacbda615a03": {
@@ -5643,6 +5990,7 @@
       "pt": "VHS: Strangely True T2.EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.9dd008c0-ed51-411b-a3e5-c3b10bd4ff66": {
@@ -5654,6 +6002,7 @@
       "pt": "VHS Caseiro: Aniversário de 16 Anos do Quentin"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.9ec23879-13eb-4b6a-ab44-e9038952104f": {
@@ -5665,6 +6014,7 @@
       "pt": "VHS: O Menino da Mamãe"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 12.5,
@@ -5685,6 +6035,7 @@
       "pt": "VHS: Como Funciona a Eletricidade"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -5705,6 +6056,7 @@
       "pt": "VHS: Instinto de Sobrevivência"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.9fd2da4a-9130-4fac-a49e-8811b8968939": {
@@ -5716,6 +6068,7 @@
       "pt": "VHS: Paris na Chuva"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.a0d8bbf2-50ae-4e9e-b314-abd8214d8182": {
@@ -5727,6 +6080,7 @@
       "pt": "VHS Caseiro: molly 30 de junho"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.a2ed359c-9462-4159-9aba-10e859ae71bb": {
@@ -5738,6 +6092,7 @@
       "pt": "VHS: Os Moderadores T2.EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.a3151ce8-1470-41af-81e8-a14a90345b80": {
@@ -5749,6 +6104,7 @@
       "pt": "VHS Caseiro: FÉRIAS NA FLÓRIDA Junho de 1991"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.a3167c3e-6f13-4b2a-8414-8eb4d4201556": {
@@ -5760,6 +6116,7 @@
       "pt": "VHS Caseiro: Spiffo World Junho de 1992"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.a3189d19-73db-41f8-8865-ef478eebd58a": {
@@ -5771,6 +6128,7 @@
       "pt": "VHS: Space Crew T3.EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.a3c8a7a1-220b-448e-9225-e98b9a0da1eb": {
@@ -5782,6 +6140,7 @@
       "pt": "VHS Caseiro: Treinamento de Voo #6"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.a5b3ba72-99ab-4813-8dcb-aa269d2e8f84": {
@@ -5793,6 +6152,7 @@
       "pt": "VHS Caseiro: Tendências em Mercadorias"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.a5d4c1aa-647c-4eeb-8a97-222d6182cfc0": {
@@ -5804,6 +6164,7 @@
       "pt": "VHS Caseiro: Bauman e Triskel 15 de Abril"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.a628a723-ac78-4bcb-927a-f84ad8c6c286": {
@@ -5815,6 +6176,7 @@
       "pt": "VHS: Sobrevivência na Natureza EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -5835,6 +6197,7 @@
       "pt": "VHS: The Cook Show EP2"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 100.0,
@@ -5857,6 +6220,7 @@
     "recipes": [
       "base"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -5877,6 +6241,7 @@
       "pt": "VHS: The Thompsons T3.EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.a8c4eccf-53d9-42ad-8091-b9e562621c8f": {
@@ -5888,6 +6253,7 @@
       "pt": "VHS Caseiro: Copa Inglesa (12.04.91)"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.a97a0024-144f-4c24-b414-cf77f3d49159": {
@@ -5899,6 +6265,7 @@
       "pt": "VHS Caseiro: vídeo do Casamento!!!!"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.aae2426f-fff8-49fa-a271-7c3a0d443b17": {
@@ -5910,6 +6277,7 @@
       "pt": "VHS Caseiro: Visita da Véspera de Natal!"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.ab77e300-a0be-4c54-a514-50d44b543489": {
@@ -5921,6 +6289,7 @@
       "pt": "VHS: Terra do Pleistoceno"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.ac4302bc-c9c1-433a-a8cd-4609d0bde968": {
@@ -5932,6 +6301,7 @@
       "pt": "VHS: Esquadrão Z T2.EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.ac791ef2-40b8-421c-984b-d8b3258b5833": {
@@ -5943,6 +6313,7 @@
       "pt": "VHS: O Departamento Ômega T3.EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.ae29b686-4d07-48d4-b67e-7fdc842c287a": {
@@ -5954,6 +6325,7 @@
       "pt": "VHS Caseiro: Aniversário de 8 Anos"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.af941537-39ac-42fb-8c7a-ed346ded282e": {
@@ -5965,6 +6337,7 @@
       "pt": "VHS Caseiro: Alfaiataria 101"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -5985,6 +6358,7 @@
       "pt": "VHS Caseiro: corrida de cavalos"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.afb8c0f4-884a-4ef7-8321-d518242dbea1": {
@@ -5996,6 +6370,7 @@
       "pt": "VHS Caseiro: Natal '91"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.b2575483-a742-46b3-939a-6f3690ecb8a0": {
@@ -6007,6 +6382,7 @@
       "pt": "VHS: Ballincoolin T1.EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.b4830b9a-341e-4f2e-b6f6-87aaaaf99d00": {
@@ -6018,6 +6394,7 @@
       "pt": "VHS: O Zoológico Interativo"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -6038,6 +6415,7 @@
       "pt": "VHS Caseiro: Aniversário de 18 da Jenn"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.b5a52c62-47f7-4715-9665-24e6826d88e0": {
@@ -6049,6 +6427,7 @@
       "pt": "VHS: A Floresta Mágica EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.b6777358-7f94-4104-8c3e-9175dc77faf9": {
@@ -6060,6 +6439,7 @@
       "pt": "VHS: O Departamento Ômega T5.EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.b68b207a-026e-4af2-9227-38277df51e41": {
@@ -6071,6 +6451,7 @@
       "pt": "VHS: Esquadrão Z T2.EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.b9d78079-738f-4304-906e-8c4d5a5a1f25": {
@@ -6082,6 +6463,7 @@
       "pt": "VHS: Washington High T5.EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.ba9a65a7-c471-436d-a2cd-3ceb75af6bca": {
@@ -6093,6 +6475,7 @@
       "pt": "VHS Caseiro: ESPECIAL DO HOLLYWOOD INSIDER"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 62.5,
@@ -6113,6 +6496,7 @@
       "pt": "VHS: O Departamento Ômega T5.EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.be51ed1d-e0dd-4836-8a18-7273f1545fc6": {
@@ -6124,6 +6508,7 @@
       "pt": "VHS: Caçadores de Carniçais"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.be64169e-3ed9-4cf8-90fa-b36283f9c2eb": {
@@ -6135,6 +6520,7 @@
       "pt": "VHS: Pequenos Homens Estranhos"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.c1a3d275-4b61-4b29-94cd-2a87b183f5e8": {
@@ -6146,6 +6532,7 @@
       "pt": "VHS: Guia de Soldagem em Casa"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -6166,6 +6553,7 @@
       "pt": "VHS Caseiro: Washington High NÃO TOQUE"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.c23539e8-c5eb-4f58-850f-18522250c470": {
@@ -6177,6 +6565,7 @@
       "pt": "VHS Caseiro: conserto de TV"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -6197,6 +6586,7 @@
       "pt": "VHS: Woodcraft EP2"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 50.0,
@@ -6217,6 +6607,7 @@
       "pt": "VHS: O Departamento Ômega T3.EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.c36c34f8-4c6c-4bec-852c-120c20ca9984": {
@@ -6228,6 +6619,7 @@
       "pt": "VHS: Washington High T5.EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.c3d6c81d-a141-49ce-9127-79180cf23c2c": {
@@ -6239,6 +6631,7 @@
       "pt": "VHS: Lascamento: A Arte Antiga"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -6259,6 +6652,7 @@
       "pt": "VHS Caseiro: Bauman e Triskel (Terra do Pleistoceno)"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.c6224369-5973-4ec9-817c-76d2aa07f553": {
@@ -6270,6 +6664,7 @@
       "pt": "VHS: Águia Abatida"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.c79ef837-974d-448e-9e0c-9e563cac847f": {
@@ -6281,6 +6676,7 @@
       "pt": "VHS: Os Moderadores T2.EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.c7b841fa-89dd-453d-a3f2-e0846a230a70": {
@@ -6292,6 +6688,7 @@
       "pt": "VHS Caseiro: Acompanhando os Jones"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.c7d905cf-3fe7-44e6-89a9-5d501bc73944": {
@@ -6306,6 +6703,7 @@
       "MakeFishingRod",
       "FixFishingRod"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -6326,6 +6724,7 @@
       "pt": "VHS Caseiro: Agência de Encontros (Masculino)"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.c8a61e36-af9e-4643-b5d7-9e21ddb4f158": {
@@ -6337,6 +6736,7 @@
       "pt": "VHS Caseiro: Cidades do Mundo - Lagos"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.c915eb17-87d3-416a-9906-9228eae1aa92": {
@@ -6348,6 +6748,7 @@
       "pt": "VHS Caseiro: Aniversário de 8 Anos da Tracy & Polly (Fofo!)"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.ca8cb8d3-c126-41a7-bb66-292c617205cd": {
@@ -6359,6 +6760,7 @@
       "pt": "VHS Caseiro: Proposta Joni-Jim vídeo!!"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.cc884f89-a56d-4d8a-9e75-24c417c14276": {
@@ -6370,6 +6772,7 @@
       "pt": "VHS: The Thompsons T3.EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.ccfd97d7-6b57-432c-bca7-f9a271f8012f": {
@@ -6383,6 +6786,7 @@
     "recipes": [
       "MakeFishingRod"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 50.0,
@@ -6403,6 +6807,7 @@
       "pt": "VHS Caseiro: ST 4"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.cddde004-4ee4-48dc-8454-83123ad8d534": {
@@ -6414,6 +6819,7 @@
       "pt": "VHS: The Thompsons T3.EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.ce2d2ae4-b097-49ac-952e-f34fd18d6d86": {
@@ -6425,6 +6831,7 @@
       "pt": "VHS: Albert Wellen QC T2.EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.cfe80cda-e58c-4129-9732-421b8f5317a3": {
@@ -6436,6 +6843,7 @@
       "pt": "VHS Caseiro: Rangers x Honey Bears 08.05.92"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d006671e-9d60-4634-8cda-27a28abbc164": {
@@ -6447,6 +6855,7 @@
       "pt": "VHS: O Choro das Raposas"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d0ee8b5a-4e37-4952-9e7b-58db9436ef9a": {
@@ -6458,6 +6867,7 @@
       "pt": "VHS Caseiro: Alva Richards (Ashling Dwyer)"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d27e7cd9-537e-4c5c-aabc-c37a7abbb214": {
@@ -6469,6 +6879,7 @@
       "pt": "VHS: Clube Fitness do Simon EP03"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d3b8c97d-d3a7-4268-88bc-7e4a6bf24d6e": {
@@ -6480,6 +6891,7 @@
       "pt": "VHS: Molly Brown"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d46ebbd8-2eb1-48c5-b18c-71d61febd36c": {
@@ -6491,6 +6903,7 @@
       "pt": "VHS: Tudo de Novo"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d544e324-b554-42e2-a36e-de7e09b32a2c": {
@@ -6502,6 +6915,7 @@
       "pt": "VHS: Coração Apaixonado"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d620fd0a-d70c-43e5-9017-d7617b642fd0": {
@@ -6513,6 +6927,7 @@
       "pt": "VHS Caseiro: Nosso Casamento 19.01.88"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d64b9df2-f069-4f0c-9891-02fc13715e88": {
@@ -6524,6 +6939,7 @@
       "pt": "VHS Caseiro: fita da Janie"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d7715bdb-f363-47cb-8c04-6a156906fcfc": {
@@ -6535,6 +6951,7 @@
       "pt": "VHS: CyberKiller 2"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d778665f-21b1-475e-a530-7233c95c2d0f": {
@@ -6546,6 +6963,7 @@
       "pt": "VHS: Invasão Domiciliar 2"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d84ea32b-e666-470f-91fb-0b4c70a06665": {
@@ -6557,6 +6975,7 @@
       "pt": "VHS Caseiro: Departamento Ômega - NÃO GRAVAR POR CIMA"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d8644aea-9694-4234-b40f-a0d780c644e9": {
@@ -6568,6 +6987,7 @@
       "pt": "VHS: Washington High T5.EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d8779c82-0cff-423d-944f-16c4f468a556": {
@@ -6579,6 +6999,7 @@
       "pt": "VHS: Albert Wellen QC T2.EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.d9c2da55-e946-42ff-82d5-5c65b5c4271e": {
@@ -6590,6 +7011,7 @@
       "pt": "VHS Caseiro: Aniversário de 80 Anos da Vovó"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.da6d1396-0e8d-4587-ac01-6343bd408706": {
@@ -6601,6 +7023,7 @@
       "pt": "VHS Caseiro: Rangers x Mothballs 08.12.90"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.db7deaf2-ddbe-42c8-8fd3-9725d8fdeff3": {
@@ -6612,6 +7035,7 @@
       "pt": "VHS Caseiro: Guia de Plantio de Árvores"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -6632,6 +7056,7 @@
       "pt": "VHS Caseiro: Apresentação da ARRA"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.dccc28f4-fc37-4d74-928d-9f7d1bdf4e3f": {
@@ -6643,6 +7068,7 @@
       "pt": "VHS: Trabalhando com Argila em Casa"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -6663,6 +7089,7 @@
       "pt": "VHS: Woodcraft EP1"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 62.5,
@@ -6683,6 +7110,7 @@
       "pt": "VHS Caseiro: Casamento de Will/Ana"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.deed9448-1498-43ce-ba7d-dcf12a8ccfbb": {
@@ -6694,6 +7122,7 @@
       "pt": "VHS Caseiro: FÉRIAS NA IRLANDA 1989"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.e311d6ae-9271-40fc-be4b-fba27317d5fc": {
@@ -6705,6 +7134,7 @@
       "pt": "VHS: Operação Fort Knox"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.e34b5a15-f058-495f-b16e-482c704d3b52": {
@@ -6716,6 +7146,7 @@
       "pt": "VHS: Space Crew T3.EP05"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.e4afaa47-795e-4124-9cf4-770a8045e6dd": {
@@ -6727,6 +7158,7 @@
       "pt": "VHS Caseiro: Riverside x West Point futebol"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.e502259c-f1ea-418c-b407-0e52849a6110": {
@@ -6738,6 +7170,7 @@
       "pt": "VHS Caseiro: Preparando um Funeral (O Que Realmente Acontece)"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.e502be90-8631-43d4-9ebd-d28f9401484c": {
@@ -6749,6 +7182,7 @@
       "pt": "VHS Caseiro: Fita Every Reason!!"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.e50928ac-f472-43d9-bae0-2c27e3187567": {
@@ -6760,6 +7194,7 @@
       "pt": "VHS: Homem em Fuga"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.e6fd44a9-1774-4204-ab45-9b316301aa2b": {
@@ -6773,6 +7208,7 @@
     "recipes": [
       "MakeCakeBatter"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 87.5,
@@ -6793,6 +7229,7 @@
       "pt": "VHS: Mansão Timbergap"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.ebd9a190-456a-4ffe-b9f5-eeaedca68661": {
@@ -6804,6 +7241,7 @@
       "pt": "VHS: Clube Fitness do Simon EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.ec1c89d4-8b80-4cc6-af2e-e7ee6e029e34": {
@@ -6815,6 +7253,7 @@
       "pt": "VHS Caseiro: Golfe #14"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.ec6b7830-297c-486d-a0e9-1a48ece936c1": {
@@ -6826,6 +7265,7 @@
       "pt": "VHS Caseiro: Programas"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.f0ba882b-cda2-4003-873e-078e757acd56": {
@@ -6837,6 +7277,7 @@
       "pt": "VHS Caseiro: KNCF"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.f2906e97-2690-47e3-a44b-0a33c8438240": {
@@ -6848,6 +7289,7 @@
       "pt": "VHS Caseiro: TDTOE"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.f33ce778-8d37-4fba-889d-d736434aad22": {
@@ -6859,6 +7301,7 @@
       "pt": "VHS Caseiro: Manuseio Básico de Armas (Uso Exclusivo de Oficiais)"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 50.0,
@@ -6887,6 +7330,7 @@
       "pt": "VHS Caseiro: Primeiras Palavras do Muhammet"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.f3e24301-7b24-4daf-ab00-e9502d8dfb22": {
@@ -6898,6 +7342,7 @@
       "pt": "VHS: Ballincoolin T1.EP01"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.f74df7fc-20ae-4600-b2d2-f504d9355440": {
@@ -6909,6 +7354,7 @@
       "pt": "VHS: Sobrevivência na Natureza EP08"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 87.5,
@@ -6929,6 +7375,7 @@
       "pt": "VHS Caseiro: DEMO DE RAP DO LARRY (ENSAIO)"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.f7da5304-8466-402a-937d-21c92f411811": {
@@ -6940,6 +7387,7 @@
       "pt": "VHS Caseiro: CCCW"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.f87aee3b-2749-4c76-a1be-471c8a9229b3": {
@@ -6951,6 +7399,7 @@
       "pt": "VHS: Clube Fitness do Simon EP02"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.fa0cd1c6-3846-4652-8be6-bb1f8c2b176c": {
@@ -6962,6 +7411,7 @@
       "pt": "VHS: Um Dia na Fazenda"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -6982,6 +7432,7 @@
       "pt": "VHS Caseiro: Mensagem do Vovô"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.fad2c5af-1968-43d5-aa35-ab8fa6555f22": {
@@ -6993,6 +7444,7 @@
       "pt": "VHS Caseiro: Segredos do Molho Especial do Spiffo"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.fc734b68-487c-46fa-8b73-ddb1450366e0": {
@@ -7004,6 +7456,7 @@
       "pt": "VHS: Três Mortes e um Divórcio"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.fd334e37-e3db-43b7-afd8-010f4e9042f9": {
@@ -7015,6 +7468,7 @@
       "pt": "VHS: A Floresta Mágica EP04"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.fe4ede3c-a153-4e46-aebe-9681d14fe196": {
@@ -7037,6 +7491,7 @@
       "MetalBigWireFence",
       "DoubleWireGate"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 112.5,
@@ -7057,6 +7512,7 @@
       "pt": "VHS Caseiro: Alva Richards (Pierce Daniels)"
     },
     "recipes": [],
+    "skill_boost": null,
     "xp_rewards": []
   },
   "RM.ffe28381-b743-4300-8c5a-89b4c4983d05": {
@@ -7070,6 +7526,7 @@
     "recipes": [
       "CraftMakeshiftRadio"
     ],
+    "skill_boost": null,
     "xp_rewards": [
       {
         "amount": 75.0,
@@ -7082,6 +7539,7 @@
     ]
   },
   "RadioMag1": {
+    "category": "RecipeMagazine",
     "icon": "MagazineElectronics01",
     "id": "Base.RadioMag1",
     "names": {
@@ -7092,9 +7550,10 @@
       "CraftMakeshiftRadio"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "RadioMag2": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Electric2",
     "id": "Base.RadioMag2",
     "names": {
@@ -7105,9 +7564,10 @@
       "CraftMakeshiftWalkieTalkie"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "RadioMag3": {
+    "category": "RecipeMagazine",
     "icon": "MagazineMechanics",
     "id": "Base.RadioMag3",
     "names": {
@@ -7118,9 +7578,10 @@
       "CraftMakeshiftHAMRadio"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "SmithingMag1": {
+    "category": "RecipeMagazine",
     "icon": "MagazineBlacksmith1",
     "id": "Base.SmithingMag1",
     "names": {
@@ -7147,9 +7608,10 @@
       "Forge_Wrench"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "SmithingMag10": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Metalworking2",
     "id": "Base.SmithingMag10",
     "names": {
@@ -7161,9 +7623,10 @@
       "Blast_Furnace"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "SmithingMag11": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Armory1",
     "id": "Base.SmithingMag11",
     "names": {
@@ -7179,9 +7642,10 @@
       "CarveShortBat"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "SmithingMag2": {
+    "category": "RecipeMagazine",
     "icon": "MagazineBlacksmith2",
     "id": "Base.SmithingMag2",
     "names": {
@@ -7203,9 +7667,10 @@
       "Forge_Cup"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "SmithingMag3": {
+    "category": "RecipeMagazine",
     "icon": "MagazineBlacksmith3",
     "id": "Base.SmithingMag3",
     "names": {
@@ -7225,9 +7690,10 @@
       "Forge_Lantern"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "SmithingMag4": {
+    "category": "RecipeMagazine",
     "icon": "MagazineBlacksmith4",
     "id": "Base.SmithingMag4",
     "names": {
@@ -7246,9 +7712,10 @@
       "Forge_Buckle"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "SmithingMag5": {
+    "category": "RecipeMagazine",
     "icon": "MagazineBlacksmith4",
     "id": "Base.SmithingMag5",
     "names": {
@@ -7264,9 +7731,10 @@
       "Forge_Pick_Axe_Head"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "SmithingMag6": {
+    "category": "RecipeMagazine",
     "icon": "MagazineBlacksmith1",
     "id": "Base.SmithingMag6",
     "names": {
@@ -7278,9 +7746,10 @@
       "Advanced_Forge"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "SmithingMag7": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Armory2",
     "id": "Base.SmithingMag7",
     "names": {
@@ -7297,9 +7766,10 @@
       "ForgeHandguardDagger"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "SmithingMag8": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Bladecraft1",
     "id": "Base.SmithingMag8",
     "names": {
@@ -7318,9 +7788,10 @@
       "Forge_Fleshing_Tool"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "SmithingMag9": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Metalworking1",
     "id": "Base.SmithingMag9",
     "names": {
@@ -7333,9 +7804,10 @@
       "Primitive_Furnace"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "TailoringMag1": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_NeolithicClothes",
     "id": "Base.TailoringMag1",
     "names": {
@@ -7351,9 +7823,10 @@
       "WeaveTwineShoes"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "TailoringMag10": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Homestead1",
     "id": "Base.TailoringMag10",
     "names": {
@@ -7372,9 +7845,10 @@
       "SewTrousers"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "TailoringMag2": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_PunkFashion",
     "id": "Base.TailoringMag2",
     "names": {
@@ -7386,9 +7860,10 @@
       "MakeGarbageBagDress"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "TailoringMag3": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_MedievalPeasantClothes",
     "id": "Base.TailoringMag3",
     "names": {
@@ -7402,9 +7877,10 @@
       "SewHideJacket"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "TailoringMag4": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Leather1",
     "id": "Base.TailoringMag4",
     "names": {
@@ -7419,9 +7895,10 @@
       "SewLeatherGloves"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "TailoringMag5": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Cowboy1",
     "id": "Base.TailoringMag5",
     "names": {
@@ -7438,9 +7915,10 @@
       "SewSheepskinVest"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "TailoringMag6": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Gladiatorpng",
     "id": "Base.TailoringMag6",
     "names": {
@@ -7455,9 +7933,10 @@
       "SewKneePads"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "TailoringMag7": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Outdoors2",
     "id": "Base.TailoringMag7",
     "names": {
@@ -7471,9 +7950,10 @@
       "SewCrudeLeatherBackpack"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "TailoringMag8": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Outdoors1",
     "id": "Base.TailoringMag8",
     "names": {
@@ -7488,9 +7968,10 @@
       "SewHideFannyBag"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "TailoringMag9": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Alpine1",
     "id": "Base.TailoringMag9",
     "names": {
@@ -7505,9 +7986,10 @@
       "SewSheepskinPants"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "TrickMag1": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Spy1",
     "id": "Base.TrickMag1",
     "names": {
@@ -7518,9 +8000,10 @@
       "MakeHollowBook"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "TrickMag2": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Underground5",
     "id": "Base.TrickMag2",
     "names": {
@@ -7531,9 +8014,10 @@
       "MakeBlankID"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "WeaponMag1": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_War3",
     "id": "Base.WeaponMag1",
     "names": {
@@ -7551,9 +8035,10 @@
       "BoneSpikeWeapon"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "WeaponMag2": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_War1",
     "id": "Base.WeaponMag2",
     "names": {
@@ -7566,9 +8051,10 @@
       "RechargeFilters"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "WeaponMag3": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Underground1",
     "id": "Base.WeaponMag3",
     "names": {
@@ -7583,9 +8069,10 @@
       "MakeImprovisedLighter"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "WeaponMag4": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Wrestling1",
     "id": "Base.WeaponMag4",
     "names": {
@@ -7596,9 +8083,10 @@
       "BarbedWireWeapon"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "WeaponMag5": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Underground2",
     "id": "Base.WeaponMag5",
     "names": {
@@ -7615,9 +8103,10 @@
       "MakeBrakeWeapon"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "WeaponMag6": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_History_PeasantRevolt",
     "id": "Base.WeaponMag6",
     "names": {
@@ -7631,9 +8120,10 @@
       "MakeSawPlank"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   },
   "WeaponMag7": {
+    "category": "RecipeMagazine",
     "icon": "Magazine_Baseball",
     "id": "Base.WeaponMag7",
     "names": {
@@ -7644,6 +8134,6 @@
       "CarveBat"
     ],
     "skill_boost": null,
-    "type": "RecipeMagazine"
+    "xp_rewards": []
   }
 }

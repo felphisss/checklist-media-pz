@@ -186,7 +186,7 @@ def extrair_literatura(diretorio_media: Path, traducoes: dict) -> dict:
         # ======================================================================
         # CÁLCULO HÍBRIDO DO BOOST DE SKILL COM TRADUÇÃO DINÂMICA
         # ======================================================================
-        skill_boost = None
+        skill_boost = None # Padronizado "None" para os VHS's e Revistas 
 
         if eh_skillbook:
             skill_bruta = props["SkillTrained"].strip()
@@ -248,11 +248,12 @@ def extrair_literatura(diretorio_media: Path, traducoes: dict) -> dict:
         # ======================================================================
         itens_catalogados[nome_bruto] = {
             "id": item_id,
-            "type": tipo_item,
+            "category": tipo_item,
             "icon": icone,
             "names": item_names,
             "skill_boost": skill_boost,
-            "recipes": lista_receitas
+            "recipes": lista_receitas,
+            "xp_rewards" : [] # Padronizado lista vazia [] para os livros e revistas
         }
 
     return itens_catalogados
@@ -335,7 +336,8 @@ def extrair_vhs(diretorio_media: Path, traducoes: dict) -> dict:
                 "icon": "Cassette3", # Ícone padrão para os VHS
                 "names": vhs_names,
                 "xp_rewards": xp_rewards,
-                "recipes": receitas
+                "recipes": receitas,
+                "skill_boost" : None # Padronizado "None" para os VHS's e Revistas 
             }
 
     return itens_vhs
