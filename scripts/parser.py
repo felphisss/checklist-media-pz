@@ -27,9 +27,11 @@ if not DIRETORIO_PZ_MEDIA.exists():
 # Pasta onde você extraiu os PNGs com o PackViewer do TileZed:
 DIRETORIO_RAW_TEXTURES = Path(r"raw_textures")
 
-# diretorio_Destinos dentro do seu projeto de checklist:
-PASTA_DATA = Path("data")
-PASTA_STATIC_ICONS = Path(r"app\static\icons")
+# Diretórios de saída (pasta public do React):
+PASTA_PUBLIC_REACT = Path("pz-checklist/public")
+
+PASTA_DATA = PASTA_PUBLIC_REACT / "data"
+PASTA_STATIC_ICONS = PASTA_PUBLIC_REACT / "icons"
 ARQUIVO_ITEMS_JSON = PASTA_DATA / "items.json"
 
 XP_POR_PONTO = 12.5
