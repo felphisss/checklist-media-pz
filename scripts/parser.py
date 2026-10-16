@@ -392,7 +392,7 @@ def sincronizar_icones(
     icones_faltantes = []
     icones_copiados = 0
 
-    print(f"\n--- Sincronizando {len(icones_unicos)} ícones ---")
+    print(f"\nSincronizando {len(icones_unicos)} ícones")
 
     for icone in icones_unicos:
         candidatos = [f"Item_{icone}.png", f"{icone}.png"]
@@ -514,7 +514,7 @@ def main():
     print("\n[4/7] Gerando catálogo de itens...")
     # Consolidar catálogo completo
     catalogo_completo = {**literatura, **fitas_vhs}
-    print(f"\nTotal geral de itens unificados: {len(catalogo_completo)}")
+    print(f"Total geral de itens unificados: {len(catalogo_completo)}")
     PASTA_DATA.mkdir(parents=True, exist_ok=True)
     with open(ARQUIVO_ITEMS_JSON, "w", encoding="utf-8") as f:
         json.dump(catalogo_completo, f, indent=2, sort_keys=True, ensure_ascii=False)
@@ -523,7 +523,7 @@ def main():
     # 5. Salvar recipes.json
     print("\n[5/7] Gerando catálogo de receitas...")
     catalogo_receitas = gerar_catalogo_receitas(catalogo_completo, traducoes.get("recipes", {}))
-    print(f"\n Total de receitas: {len(catalogo_receitas)}")
+    print(f"Total de receitas: {len(catalogo_receitas)}")
     with open(ARQUIVO_RECIPES_JSON, "w", encoding="utf-8") as f:
         json.dump(catalogo_receitas, f, indent=2, sort_keys=True, ensure_ascii=False)
     print(f"Catálogo de receitas gerado com sucesso em: {ARQUIVO_RECIPES_JSON}")

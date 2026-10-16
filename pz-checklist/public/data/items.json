@@ -3758,10 +3758,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "First Aid",
+        "skill": "Doctor",
         "skill_names": {
           "en": "First Aid",
-          "pt": "First Aid"
+          "pt": "Primeiros Socorros"
         }
       }
     ]
@@ -3856,10 +3856,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "First Aid",
+        "skill": "Doctor",
         "skill_names": {
           "en": "First Aid",
-          "pt": "First Aid"
+          "pt": "Primeiros Socorros"
         }
       }
     ]
@@ -3936,10 +3936,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "Agriculture",
+        "skill": "Farming",
         "skill_names": {
           "en": "Agriculture",
-          "pt": "Agriculture"
+          "pt": "Agricultura"
         }
       }
     ]
@@ -3972,10 +3972,10 @@
     "xp_rewards": [
       {
         "amount": 100.0,
-        "skill": "Welding",
+        "skill": "MetalWelding",
         "skill_names": {
           "en": "Welding",
-          "pt": "Welding"
+          "pt": "Soldagem"
         }
       }
     ]
@@ -3995,10 +3995,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "Agriculture",
+        "skill": "Farming",
         "skill_names": {
           "en": "Agriculture",
-          "pt": "Agriculture"
+          "pt": "Agricultura"
         }
       }
     ]
@@ -4088,10 +4088,10 @@
     "xp_rewards": [
       {
         "amount": 87.5,
-        "skill": "Blacksmithing",
+        "skill": "Blacksmith",
         "skill_names": {
           "en": "Blacksmithing",
-          "pt": "Blacksmithing"
+          "pt": "Ferraria"
         }
       }
     ]
@@ -4106,24 +4106,7 @@
     },
     "recipes": [],
     "skill_boost": null,
-    "xp_rewards": [
-      {
-        "amount": 100.0,
-        "skill": "STS",
-        "skill_names": {
-          "en": "STS",
-          "pt": "STS"
-        }
-      },
-      {
-        "amount": 37.5,
-        "skill": "PAN",
-        "skill_names": {
-          "en": "PAN",
-          "pt": "PAN"
-        }
-      }
-    ]
+    "xp_rewards": []
   },
   "RM.21b95697-6235-4b8a-a1d9-a9ddc0cd1154": {
     "category": "Home-VHS",
@@ -4751,10 +4734,10 @@
     "xp_rewards": [
       {
         "amount": 87.5,
-        "skill": "First Aid",
+        "skill": "Doctor",
         "skill_names": {
           "en": "First Aid",
-          "pt": "First Aid"
+          "pt": "Primeiros Socorros"
         }
       }
     ]
@@ -4882,10 +4865,10 @@
     "xp_rewards": [
       {
         "amount": 37.5,
-        "skill": "Agriculture",
+        "skill": "Farming",
         "skill_names": {
           "en": "Agriculture",
-          "pt": "Agriculture"
+          "pt": "Agricultura"
         }
       }
     ]
@@ -4927,10 +4910,10 @@
     "xp_rewards": [
       {
         "amount": 12.5,
-        "skill": "Welding",
+        "skill": "MetalWelding",
         "skill_names": {
           "en": "Welding",
-          "pt": "Welding"
+          "pt": "Soldagem"
         }
       },
       {
@@ -5157,10 +5140,10 @@
     "xp_rewards": [
       {
         "amount": 12.5,
-        "skill": "Long Blunt",
+        "skill": "Blunt",
         "skill_names": {
           "en": "Long Blunt",
-          "pt": "Long Blunt"
+          "pt": "Contundentes Longos"
         }
       }
     ]
@@ -5336,10 +5319,10 @@
     "xp_rewards": [
       {
         "amount": 87.5,
-        "skill": "Agriculture",
+        "skill": "Farming",
         "skill_names": {
           "en": "Agriculture",
-          "pt": "Agriculture"
+          "pt": "Agricultura"
         }
       }
     ]
@@ -5667,10 +5650,10 @@
     "xp_rewards": [
       {
         "amount": 112.5,
-        "skill": "Welding",
+        "skill": "MetalWelding",
         "skill_names": {
           "en": "Welding",
-          "pt": "Welding"
+          "pt": "Soldagem"
         }
       }
     ]
@@ -5724,10 +5707,10 @@
     "xp_rewards": [
       {
         "amount": 87.5,
-        "skill": "First Aid",
+        "skill": "Doctor",
         "skill_names": {
           "en": "First Aid",
-          "pt": "First Aid"
+          "pt": "Primeiros Socorros"
         }
       }
     ]
@@ -5841,10 +5824,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "First Aid",
+        "skill": "Doctor",
         "skill_names": {
           "en": "First Aid",
-          "pt": "First Aid"
+          "pt": "Primeiros Socorros"
         }
       }
     ]
@@ -6018,10 +6001,10 @@
     "xp_rewards": [
       {
         "amount": 12.5,
-        "skill": "Short Blade",
+        "skill": "SmallBlade",
         "skill_names": {
           "en": "Short Blade",
-          "pt": "Short Blade"
+          "pt": "Lâminas Curtas"
         }
       }
     ]
@@ -6039,10 +6022,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "Electrical",
+        "skill": "Electricity",
         "skill_names": {
           "en": "Electrical",
-          "pt": "Electrical"
+          "pt": "Elétrica"
         }
       }
     ]
@@ -6224,10 +6207,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "Agriculture",
+        "skill": "Farming",
         "skill_names": {
           "en": "Agriculture",
-          "pt": "Agriculture"
+          "pt": "Agricultura"
         }
       }
     ]
@@ -6398,10 +6381,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "Animal Care",
+        "skill": "Husbandry",
         "skill_names": {
           "en": "Animal Care",
-          "pt": "Animal Care"
+          "pt": "Cuidados com Animais"
         }
       }
     ]
@@ -6476,16 +6459,7 @@
     },
     "recipes": [],
     "skill_boost": null,
-    "xp_rewards": [
-      {
-        "amount": 62.5,
-        "skill": "STS",
-        "skill_names": {
-          "en": "STS",
-          "pt": "STS"
-        }
-      }
-    ]
+    "xp_rewards": []
   },
   "RM.bd31c750-cb0b-4e80-98e7-4bb71a386d1a": {
     "category": "Retail-VHS",
@@ -6536,10 +6510,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "Welding",
+        "skill": "MetalWelding",
         "skill_names": {
           "en": "Welding",
-          "pt": "Welding"
+          "pt": "Soldagem"
         }
       }
     ]
@@ -6569,10 +6543,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "Electrical",
+        "skill": "Electricity",
         "skill_names": {
           "en": "Electrical",
-          "pt": "Electrical"
+          "pt": "Elétrica"
         }
       }
     ]
@@ -6635,10 +6609,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "Knapping",
+        "skill": "FlintKnapping",
         "skill_names": {
           "en": "Knapping",
-          "pt": "Knapping"
+          "pt": "Lascamento"
         }
       }
     ]
@@ -7039,10 +7013,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "Agriculture",
+        "skill": "Farming",
         "skill_names": {
           "en": "Agriculture",
-          "pt": "Agriculture"
+          "pt": "Agricultura"
         }
       }
     ]
@@ -7304,7 +7278,7 @@
     "skill_boost": null,
     "xp_rewards": [
       {
-        "amount": 50.0,
+        "amount": 75.0,
         "skill": "Aiming",
         "skill_names": {
           "en": "Aiming",
@@ -7312,7 +7286,7 @@
         }
       },
       {
-        "amount": 50.0,
+        "amount": 75.0,
         "skill": "Reloading",
         "skill_names": {
           "en": "Reloading",
@@ -7415,10 +7389,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "Animal Care",
+        "skill": "Husbandry",
         "skill_names": {
           "en": "Animal Care",
-          "pt": "Animal Care"
+          "pt": "Cuidados com Animais"
         }
       }
     ]
@@ -7495,10 +7469,10 @@
     "xp_rewards": [
       {
         "amount": 112.5,
-        "skill": "Welding",
+        "skill": "MetalWelding",
         "skill_names": {
           "en": "Welding",
-          "pt": "Welding"
+          "pt": "Soldagem"
         }
       }
     ]
@@ -7530,10 +7504,10 @@
     "xp_rewards": [
       {
         "amount": 75.0,
-        "skill": "Electrical",
+        "skill": "Electricity",
         "skill_names": {
           "en": "Electrical",
-          "pt": "Electrical"
+          "pt": "Elétrica"
         }
       }
     ]

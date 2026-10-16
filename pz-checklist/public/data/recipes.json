@@ -1,0 +1,2788 @@
+{
+  "AddCraftedTriggerToBomb": {
+    "id": "AddCraftedTriggerToBomb",
+    "names": {
+      "en": "Add Remote Trigger to Bomb",
+      "pt": "Adicionar Gatilho Remoto à Bomba"
+    }
+  },
+  "AddMotionSensorV1ToBomb": {
+    "id": "AddMotionSensorV1ToBomb",
+    "names": {
+      "en": "Add Short-Range Motion Sensor to Bomb",
+      "pt": "Adicionar Sensor de Movimento de Curto Alcance à Bomba"
+    }
+  },
+  "AddMotionSensorV2ToBomb": {
+    "id": "AddMotionSensorV2ToBomb",
+    "names": {
+      "en": "Add Medium-Range Motion Sensor to Bomb",
+      "pt": "Adicionar Sensor de Movimento de Médio Alcance à Bomba"
+    }
+  },
+  "AddMotionSensorV3ToBomb": {
+    "id": "AddMotionSensorV3ToBomb",
+    "names": {
+      "en": "Add Long-Range Motion Sensor to Bomb",
+      "pt": "Adicionar Sensor de Movimento de Longo Alcance à Bomba"
+    }
+  },
+  "AddTimerToBomb": {
+    "id": "AddTimerToBomb",
+    "names": {
+      "en": "Add Timer to Bomb",
+      "pt": "Adicionar Temporizador à Bomba"
+    }
+  },
+  "Advanced Mechanics": {
+    "id": "Advanced Mechanics",
+    "names": {
+      "en": "Advanced Mechanics",
+      "pt": "Advanced Mechanics"
+    }
+  },
+  "Advanced_Forge": {
+    "id": "Advanced_Forge",
+    "names": {
+      "en": "Construct Advanced Forge",
+      "pt": "Construir Forja Avançada"
+    }
+  },
+  "AssembleAdvancedFramepack": {
+    "id": "AssembleAdvancedFramepack",
+    "names": {
+      "en": "Assemble Framepack",
+      "pt": "Montar Mochila com Armação"
+    }
+  },
+  "AssembleAdvancedLargeFramepack": {
+    "id": "AssembleAdvancedLargeFramepack",
+    "names": {
+      "en": "Assemble Large Framepack",
+      "pt": "Montar Mochila Grande com Armação"
+    }
+  },
+  "AssembleLargeFramepack": {
+    "id": "AssembleLargeFramepack",
+    "names": {
+      "en": "Assemble Simple Framepack",
+      "pt": "Montar Mochila Simples com Armação"
+    }
+  },
+  "AssembleSmallFramepack": {
+    "id": "AssembleSmallFramepack",
+    "names": {
+      "en": "Assemble Small Simple Framepack",
+      "pt": "Montar Mochila Pequena e Simples com Armação"
+    }
+  },
+  "Assemble_Articulated_Shin_Armor": {
+    "id": "Assemble_Articulated_Shin_Armor",
+    "names": {
+      "en": "Assemble Articulated Metal Shin Armor",
+      "pt": "Montar Caneleira Articulada de Metal"
+    }
+  },
+  "Assemble_Articulated_Thigh_Armor": {
+    "id": "Assemble_Articulated_Thigh_Armor",
+    "names": {
+      "en": "Assemble Articulated Metal Thigh Armor",
+      "pt": "Montar Coxote Articulado de Metal"
+    }
+  },
+  "Assemble_Forearm_Armor": {
+    "id": "Assemble_Forearm_Armor",
+    "names": {
+      "en": "Assemble Forearm Armor",
+      "pt": "Montar Braçal"
+    }
+  },
+  "Assemble_FullMetal_Forearm_Armor": {
+    "id": "Assemble_FullMetal_Forearm_Armor",
+    "names": {
+      "en": "Assemble Full Metal Forearm Armor",
+      "pt": "Montar Braçal Completo de Metal"
+    }
+  },
+  "Assemble_Shin_Armor": {
+    "id": "Assemble_Shin_Armor",
+    "names": {
+      "en": "Assemble Shin Armor",
+      "pt": "Montar Caneleira"
+    }
+  },
+  "Assemble_Simple_Shoulder_Armor": {
+    "id": "Assemble_Simple_Shoulder_Armor",
+    "names": {
+      "en": "Assemble Metal Shoulder Armor",
+      "pt": "Montar Ombreira de Metal"
+    }
+  },
+  "Assemble_Thigh_Armor": {
+    "id": "Assemble_Thigh_Armor",
+    "names": {
+      "en": "Assemble Metal Thigh Armor",
+      "pt": "Montar Coxote de Metal"
+    }
+  },
+  "BarbedWireWeapon": {
+    "id": "BarbedWireWeapon",
+    "names": {
+      "en": "Barbed-Wire Wrap Weapon",
+      "pt": "Enrolar Arame Farpado em Arma"
+    }
+  },
+  "Basic Mechanics": {
+    "id": "Basic Mechanics",
+    "names": {
+      "en": "Basic Mechanics",
+      "pt": "Basic Mechanics"
+    }
+  },
+  "BindSpear": {
+    "id": "BindSpear",
+    "names": {
+      "en": "Bind Spear Head",
+      "pt": "Prender Ponta de Lança"
+    }
+  },
+  "Blast_Furnace": {
+    "id": "Blast_Furnace",
+    "names": {
+      "en": "Construct Blast Furnace",
+      "pt": "Construir Alto-forno"
+    }
+  },
+  "BoneSpikeWeapon": {
+    "id": "BoneSpikeWeapon",
+    "names": {
+      "en": "Bone Spike Weapon",
+      "pt": "Arma com Espinhos de Osso"
+    }
+  },
+  "CanReinforceWeapon": {
+    "id": "CanReinforceWeapon",
+    "names": {
+      "en": "Can-Reinforce Weapon",
+      "pt": "Reforçar Arma com Lata"
+    }
+  },
+  "CarveBat": {
+    "id": "CarveBat",
+    "names": {
+      "en": "Carve Bat",
+      "pt": "Entalhar Bastão"
+    }
+  },
+  "CarveBucket": {
+    "id": "CarveBucket",
+    "names": {
+      "en": "Carve Bucket",
+      "pt": "Entalhar Balde"
+    }
+  },
+  "CarveFleshingTool": {
+    "id": "CarveFleshingTool",
+    "names": {
+      "en": "Carve Fleshing Tool",
+      "pt": "Entalhar Raspadeira"
+    }
+  },
+  "CarveGoblets": {
+    "id": "CarveGoblets",
+    "names": {
+      "en": "Carve Goblets",
+      "pt": "Entalhar Taças"
+    }
+  },
+  "CarveKnittingNeedles": {
+    "id": "CarveKnittingNeedles",
+    "names": {
+      "en": "Carve Knitting Needles",
+      "pt": "Entalhar Agulhas de Tricô"
+    }
+  },
+  "CarveShortBat": {
+    "id": "CarveShortBat",
+    "names": {
+      "en": "Carve Short Bat",
+      "pt": "Entalhar Bastão Curto"
+    }
+  },
+  "CarveWhistle": {
+    "id": "CarveWhistle",
+    "names": {
+      "en": "Carve Whistle",
+      "pt": "Entalhar Apito"
+    }
+  },
+  "CarveWoodenFork": {
+    "id": "CarveWoodenFork",
+    "names": {
+      "en": "Carve Wooden Fork",
+      "pt": "Entalhar Garfo de Madeira"
+    }
+  },
+  "CarveWoodenSpade": {
+    "id": "CarveWoodenSpade",
+    "names": {
+      "en": "Carve Wooden Spade",
+      "pt": "Entalhar Pá de Madeira"
+    }
+  },
+  "Charcoal_Pit": {
+    "id": "Charcoal_Pit",
+    "names": {
+      "en": "Charcoal Burning Pile",
+      "pt": "Pilha para Produzir Carvão Vegetal"
+    }
+  },
+  "CopyBuildingKey": {
+    "id": "CopyBuildingKey",
+    "names": {
+      "en": "Copy Building Key",
+      "pt": "Copiar Chave do Edifício"
+    }
+  },
+  "CraftMakeshiftHAMRadio": {
+    "id": "CraftMakeshiftHAMRadio",
+    "names": {
+      "en": "Make Makeshift Ham Radio",
+      "pt": "Fazer Rádio Amador Improvisado"
+    }
+  },
+  "CraftMakeshiftRadio": {
+    "id": "CraftMakeshiftRadio",
+    "names": {
+      "en": "Make Makeshift Radio",
+      "pt": "Fazer Rádio Improvisado"
+    }
+  },
+  "CraftMakeshiftWalkieTalkie": {
+    "id": "CraftMakeshiftWalkieTalkie",
+    "names": {
+      "en": "Make Makeshift Walkie Talkie",
+      "pt": "Fazer Walkie-Talkie Improvisado"
+    }
+  },
+  "DoubleFenceGate": {
+    "id": "DoubleFenceGate",
+    "names": {
+      "en": "Big Double Pole Gate",
+      "pt": "Portão Duplo Grande de Barras de Metal"
+    }
+  },
+  "DoubleWireGate": {
+    "id": "DoubleWireGate",
+    "names": {
+      "en": "Big Double Wire Gate",
+      "pt": "Portão Duplo Grande de Arame"
+    }
+  },
+  "Drill_Draw_Plate": {
+    "id": "Drill_Draw_Plate",
+    "names": {
+      "en": "Drill Draw Plate",
+      "pt": "Furar Fieira"
+    }
+  },
+  "Drill_Heading_Tool": {
+    "id": "Drill_Heading_Tool",
+    "names": {
+      "en": "Drill Heading Tool",
+      "pt": "Furar Ferramenta de Encabeçamento"
+    }
+  },
+  "FireHardenSpear": {
+    "id": "FireHardenSpear",
+    "names": {
+      "en": "Fire Harden Spear",
+      "pt": "Endurecer Lança no Fogo"
+    }
+  },
+  "FixFishingRod": {
+    "id": "FixFishingRod",
+    "names": {
+      "en": "Fix Fishing Rod",
+      "pt": "Consertar Vara de Pesca"
+    }
+  },
+  "Forge": {
+    "id": "Forge",
+    "names": {
+      "en": "Simple Forge",
+      "pt": "Forja Simples"
+    }
+  },
+  "ForgeHandguardDagger": {
+    "id": "ForgeHandguardDagger",
+    "names": {
+      "en": "Forge Handguard Dagger",
+      "pt": "Forjar Adaga com Guarda"
+    }
+  },
+  "ForgeLongSpearHead": {
+    "id": "ForgeLongSpearHead",
+    "names": {
+      "en": "Forge Long Spear Head",
+      "pt": "Forjar Ponta de Lança Longa"
+    }
+  },
+  "ForgeMaceHead": {
+    "id": "ForgeMaceHead",
+    "names": {
+      "en": "Forge Mace Head",
+      "pt": "Forjar Cabeça de Maça"
+    }
+  },
+  "ForgeSpearHead": {
+    "id": "ForgeSpearHead",
+    "names": {
+      "en": "Forge Spear Head",
+      "pt": "Forjar Ponta de Lança"
+    }
+  },
+  "Forge_Armored_Gloves": {
+    "id": "Forge_Armored_Gloves",
+    "names": {
+      "en": "Forge Fingerless Metal Gloves",
+      "pt": "Forjar Luvas de Metal Sem Dedos"
+    }
+  },
+  "Forge_Baking_Pan": {
+    "id": "Forge_Baking_Pan",
+    "names": {
+      "en": "Forge Baking Pan",
+      "pt": "Forjar Forma"
+    }
+  },
+  "Forge_Baking_Tray": {
+    "id": "Forge_Baking_Tray",
+    "names": {
+      "en": "Forge Baking Tray",
+      "pt": "Forjar Assadeira"
+    }
+  },
+  "Forge_Ball_Peen_Hammer_Head": {
+    "id": "Forge_Ball_Peen_Hammer_Head",
+    "names": {
+      "en": "Forge Ball-peen Hammer Head",
+      "pt": "Forjar Cabeça de Martelo de Bola"
+    }
+  },
+  "Forge_Body_Armor": {
+    "id": "Forge_Body_Armor",
+    "names": {
+      "en": "Forge Metal Body Armor",
+      "pt": "Forjar Armadura Corporal de Metal"
+    }
+  },
+  "Forge_Bucket": {
+    "id": "Forge_Bucket",
+    "names": {
+      "en": "Forge Bucket",
+      "pt": "Forjar Balde"
+    }
+  },
+  "Forge_Buckle": {
+    "id": "Forge_Buckle",
+    "names": {
+      "en": "Forge Buckle",
+      "pt": "Forjar Fivela"
+    }
+  },
+  "Forge_Clawhammer_Head": {
+    "id": "Forge_Clawhammer_Head",
+    "names": {
+      "en": "Forge Claw Hammer Head",
+      "pt": "Forjar Cabeça de Martelo de Unha"
+    }
+  },
+  "Forge_Club_Hammer_Head": {
+    "id": "Forge_Club_Hammer_Head",
+    "names": {
+      "en": "Forge Club Hammer Head",
+      "pt": "Forjar Cabeça de Marreta"
+    }
+  },
+  "Forge_CoatOfPlates": {
+    "id": "Forge_CoatOfPlates",
+    "names": {
+      "en": "Forge Coat of Plates Body Armor",
+      "pt": "Forjar Armadura Corporal de Placas"
+    }
+  },
+  "Forge_Codpiece": {
+    "id": "Forge_Codpiece",
+    "names": {
+      "en": "Forge Codpiece",
+      "pt": "Forjar Coquilha"
+    }
+  },
+  "Forge_Cooking_Pot": {
+    "id": "Forge_Cooking_Pot",
+    "names": {
+      "en": "Forge Cooking Pot",
+      "pt": "Forjar Panela"
+    }
+  },
+  "Forge_Corkscrew": {
+    "id": "Forge_Corkscrew",
+    "names": {
+      "en": "Forge Corkscrew",
+      "pt": "Forjar Saca-rolhas"
+    }
+  },
+  "Forge_Crowbar": {
+    "id": "Forge_Crowbar",
+    "names": {
+      "en": "Forge Crowbar",
+      "pt": "Forjar Pé de Cabra"
+    }
+  },
+  "Forge_Crude_Shortsword_Blade": {
+    "id": "Forge_Crude_Shortsword_Blade",
+    "names": {
+      "en": "Forge Simple Shortsword Blade",
+      "pt": "Forjar Lâmina de Espada Curta Simples"
+    }
+  },
+  "Forge_Crude_Sword_Blade": {
+    "id": "Forge_Crude_Sword_Blade",
+    "names": {
+      "en": "Forge Crude Sword Blade",
+      "pt": "Forjar Lâmina de Espada Rudimentar"
+    }
+  },
+  "Forge_Cup": {
+    "id": "Forge_Cup",
+    "names": {
+      "en": "Forge Cup",
+      "pt": "Forjar Caneca"
+    }
+  },
+  "Forge_Door_Knob": {
+    "id": "Forge_Door_Knob",
+    "names": {
+      "en": "Forge Doorknob",
+      "pt": "Forjar Maçaneta"
+    }
+  },
+  "Forge_Draw_Plate": {
+    "id": "Forge_Draw_Plate",
+    "names": {
+      "en": "Forge Draw Plate",
+      "pt": "Forjar Fieira"
+    }
+  },
+  "Forge_Drill": {
+    "id": "Forge_Drill",
+    "names": {
+      "en": "Forge Drill",
+      "pt": "Forjar Trado"
+    }
+  },
+  "Forge_File": {
+    "id": "Forge_File",
+    "names": {
+      "en": "Forge File",
+      "pt": "Forjar Lima"
+    }
+  },
+  "Forge_Fireplace_Poker": {
+    "id": "Forge_Fireplace_Poker",
+    "names": {
+      "en": "Forge Fireplace Poker",
+      "pt": "Forjar Atiçador de Lareira"
+    }
+  },
+  "Forge_Fishing_Hooks": {
+    "id": "Forge_Fishing_Hooks",
+    "names": {
+      "en": "Forge 4 Fishing Hooks",
+      "pt": "Forjar 4 Anzóis de Pesca"
+    }
+  },
+  "Forge_Fleshing_Tool": {
+    "id": "Forge_Fleshing_Tool",
+    "names": {
+      "en": "Forge Fleshing Tool",
+      "pt": "Forjar Raspadeira"
+    }
+  },
+  "Forge_Forceps": {
+    "id": "Forge_Forceps",
+    "names": {
+      "en": "Forge Forceps",
+      "pt": "Forjar Pinça"
+    }
+  },
+  "Forge_Frying_Pan": {
+    "id": "Forge_Frying_Pan",
+    "names": {
+      "en": "Forge Frying Pan",
+      "pt": "Forjar Frigideira"
+    }
+  },
+  "Forge_Garden_Hoe_Head": {
+    "id": "Forge_Garden_Hoe_Head",
+    "names": {
+      "en": "Forge Gardening Hoe Head",
+      "pt": "Forjar Cabeça de Enxada de Jardim"
+    }
+  },
+  "Forge_Gardening_Trowel": {
+    "id": "Forge_Gardening_Trowel",
+    "names": {
+      "en": "Forge Gardening Trowel",
+      "pt": "Forjar Pá de Jardinagem"
+    }
+  },
+  "Forge_Goblet": {
+    "id": "Forge_Goblet",
+    "names": {
+      "en": "Forge Goblet",
+      "pt": "Forjar Taça"
+    }
+  },
+  "Forge_Gorget": {
+    "id": "Forge_Gorget",
+    "names": {
+      "en": "Forge Metal Neck Guard",
+      "pt": "Forjar Gorjal de Metal"
+    }
+  },
+  "Forge_Hand_Axe_Head": {
+    "id": "Forge_Hand_Axe_Head",
+    "names": {
+      "en": "Forge Hatchet Head",
+      "pt": "Forjar Cabeça de Machadinha"
+    }
+  },
+  "Forge_Hand_Scythe_Head": {
+    "id": "Forge_Hand_Scythe_Head",
+    "names": {
+      "en": "Forge Hand Scythe Head",
+      "pt": "Forjar Cabeça de Foice de Mão"
+    }
+  },
+  "Forge_Heading_Tool": {
+    "id": "Forge_Heading_Tool",
+    "names": {
+      "en": "Forge Heading Tool",
+      "pt": "Forjar Ferramenta de Encabeçamento"
+    }
+  },
+  "Forge_Hinge": {
+    "id": "Forge_Hinge",
+    "names": {
+      "en": "Forge Hinge",
+      "pt": "Forjar Dobradiça"
+    }
+  },
+  "Forge_Hunting_Knife_Blade": {
+    "id": "Forge_Hunting_Knife_Blade",
+    "names": {
+      "en": "Forge Hunting Knife Blade",
+      "pt": "Forjar Lâmina de Faca de Caça"
+    }
+  },
+  "Forge_Kettle": {
+    "id": "Forge_Kettle",
+    "names": {
+      "en": "Forge Kettle",
+      "pt": "Forjar Chaleira"
+    }
+  },
+  "Forge_Lantern": {
+    "id": "Forge_Lantern",
+    "names": {
+      "en": "Forge Lantern",
+      "pt": "Forjar Lanterna"
+    }
+  },
+  "Forge_Large_Knife_Blade": {
+    "id": "Forge_Large_Knife_Blade",
+    "names": {
+      "en": "Forge Large Knife Blade",
+      "pt": "Forjar Lâmina de Faca Grande"
+    }
+  },
+  "Forge_Machete_Blade": {
+    "id": "Forge_Machete_Blade",
+    "names": {
+      "en": "Forge Machete Blade",
+      "pt": "Forjar Lâmina de Facão"
+    }
+  },
+  "Forge_Masons_Chisel": {
+    "id": "Forge_Masons_Chisel",
+    "names": {
+      "en": "Forge Masonry Chisel",
+      "pt": "Forjar Talhadeira de Pedreiro"
+    }
+  },
+  "Forge_Masons_Trowel": {
+    "id": "Forge_Masons_Trowel",
+    "names": {
+      "en": "Forge Masonry Trowel",
+      "pt": "Forjar Colher de Pedreiro"
+    }
+  },
+  "Forge_Meat_Cleaver_Blade": {
+    "id": "Forge_Meat_Cleaver_Blade",
+    "names": {
+      "en": "Forge Meat Cleaver Blade",
+      "pt": "Forjar Lâmina de Cutelo"
+    }
+  },
+  "Forge_Metal_Helmet": {
+    "id": "Forge_Metal_Helmet",
+    "names": {
+      "en": "Forge Metal Helmet",
+      "pt": "Forjar Capacete de Metal"
+    }
+  },
+  "Forge_Metal_Mask": {
+    "id": "Forge_Metal_Mask",
+    "names": {
+      "en": "Forge Metal Mask",
+      "pt": "Forjar Máscara de Metal"
+    }
+  },
+  "Forge_Metalworking_Chisel": {
+    "id": "Forge_Metalworking_Chisel",
+    "names": {
+      "en": "Forge Metalworking Chisel",
+      "pt": "Forjar Talhadeira para Metal"
+    }
+  },
+  "Forge_Metalworking_Pliers": {
+    "id": "Forge_Metalworking_Pliers",
+    "names": {
+      "en": "Forge Metalworking Pliers",
+      "pt": "Forjar Alicate para Metalurgia"
+    }
+  },
+  "Forge_Metalworking_Punch": {
+    "id": "Forge_Metalworking_Punch",
+    "names": {
+      "en": "Forge Metalworking Punch",
+      "pt": "Forjar Punção para Metalurgia"
+    }
+  },
+  "Forge_Nails": {
+    "id": "Forge_Nails",
+    "names": {
+      "en": "Forge 10 Nails",
+      "pt": "Forjar 10 Pregos"
+    }
+  },
+  "Forge_Needle": {
+    "id": "Forge_Needle",
+    "names": {
+      "en": "Forge Needle",
+      "pt": "Forjar Agulha"
+    }
+  },
+  "Forge_Old_Axe_Head": {
+    "id": "Forge_Old_Axe_Head",
+    "names": {
+      "en": "Forge Axe Head",
+      "pt": "Forjar Cabeça de Machado"
+    }
+  },
+  "Forge_Pick_Axe_Head": {
+    "id": "Forge_Pick_Axe_Head",
+    "names": {
+      "en": "Forge Pick Axe Head",
+      "pt": "Forjar Cabeça de Picareta"
+    }
+  },
+  "Forge_Primitive_Forge": {
+    "id": "Forge_Primitive_Forge",
+    "names": {
+      "en": "Construct Primitive Forge",
+      "pt": "Construir Forja Primitiva"
+    }
+  },
+  "Forge_Roasting_Pan": {
+    "id": "Forge_Roasting_Pan",
+    "names": {
+      "en": "Forge Roasting Pan",
+      "pt": "Forjar Assadeira"
+    }
+  },
+  "Forge_Saucepan": {
+    "id": "Forge_Saucepan",
+    "names": {
+      "en": "Forge Saucepan",
+      "pt": "Forjar Panela com Cabo"
+    }
+  },
+  "Forge_Saw": {
+    "id": "Forge_Saw",
+    "names": {
+      "en": "Forge Saw",
+      "pt": "Forjar Serra"
+    }
+  },
+  "Forge_Scissors": {
+    "id": "Forge_Scissors",
+    "names": {
+      "en": "Forge Scissors",
+      "pt": "Forjar Tesoura"
+    }
+  },
+  "Forge_Scythe_Head": {
+    "id": "Forge_Scythe_Head",
+    "names": {
+      "en": "Forge Scythe Head",
+      "pt": "Forjar Cabeça de Foice"
+    }
+  },
+  "Forge_Sheep_Shears": {
+    "id": "Forge_Sheep_Shears",
+    "names": {
+      "en": "Forge Sheep Shears",
+      "pt": "Forjar Tesoura de Tosquia"
+    }
+  },
+  "Forge_ShortSwordBlade": {
+    "id": "Forge_ShortSwordBlade",
+    "names": {
+      "en": "Forge Shortsword Blade",
+      "pt": "Forjar Lâmina de Espada Curta"
+    }
+  },
+  "Forge_Sledgehammer_Head": {
+    "id": "Forge_Sledgehammer_Head",
+    "names": {
+      "en": "Forge Sledgehammer Head",
+      "pt": "Forjar Cabeça de Marreta"
+    }
+  },
+  "Forge_Small_Knife": {
+    "id": "Forge_Small_Knife",
+    "names": {
+      "en": "Forge Small Knife",
+      "pt": "Forjar Faca Pequena"
+    }
+  },
+  "Forge_Small_Steel_Sheet": {
+    "id": "Forge_Small_Steel_Sheet",
+    "names": {
+      "en": "Forge Small Steel Sheet",
+      "pt": "Forjar Chapa Pequena de Aço"
+    }
+  },
+  "Forge_Smithing_Hammer_Head": {
+    "id": "Forge_Smithing_Hammer_Head",
+    "names": {
+      "en": "Forge Smithing Hammer Head",
+      "pt": "Forjar Cabeça de Martelo de Ferreiro"
+    }
+  },
+  "Forge_Spade_Head": {
+    "id": "Forge_Spade_Head",
+    "names": {
+      "en": "Forge Spade Head",
+      "pt": "Forjar Cabeça de Pá"
+    }
+  },
+  "Forge_Steel_Sheet": {
+    "id": "Forge_Steel_Sheet",
+    "names": {
+      "en": "Forge Steel Sheet",
+      "pt": "Forjar Chapa de Aço"
+    }
+  },
+  "Forge_Straight_Razor": {
+    "id": "Forge_Straight_Razor",
+    "names": {
+      "en": "Forge Straight Razor",
+      "pt": "Forjar Navalha Reta"
+    }
+  },
+  "Forge_Sword_Blade": {
+    "id": "Forge_Sword_Blade",
+    "names": {
+      "en": "Forge Sword Blade",
+      "pt": "Forjar Lâmina de Espada"
+    }
+  },
+  "Forge_Tongs": {
+    "id": "Forge_Tongs",
+    "names": {
+      "en": "Forge Tongs",
+      "pt": "Forjar Pinça de Ferreiro"
+    }
+  },
+  "Forge_Tweezers": {
+    "id": "Forge_Tweezers",
+    "names": {
+      "en": "Forge Tweezers",
+      "pt": "Forjar Pinça"
+    }
+  },
+  "Forge_Wood_Axe_Head": {
+    "id": "Forge_Wood_Axe_Head",
+    "names": {
+      "en": "Forge Wood Axe Head",
+      "pt": "Forjar Cabeça de Machado para Lenha"
+    }
+  },
+  "Forge_Wrench": {
+    "id": "Forge_Wrench",
+    "names": {
+      "en": "Forge Wrench",
+      "pt": "Forjar Chave Inglesa"
+    }
+  },
+  "Generator": {
+    "id": "Generator",
+    "names": {
+      "en": "Generator Maintenance",
+      "pt": "Manutenção do Gerador"
+    }
+  },
+  "GetWireBack": {
+    "id": "GetWireBack",
+    "names": {
+      "en": "Dismantle Fishing Net",
+      "pt": "Desmontar Rede de Pesca"
+    }
+  },
+  "Herbalist": {
+    "id": "Herbalist",
+    "names": {
+      "en": "Herbal Remedies",
+      "pt": "Remédios à Base de Ervas"
+    }
+  },
+  "Intermediate Mechanics": {
+    "id": "Intermediate Mechanics",
+    "names": {
+      "en": "Intermediate Mechanics",
+      "pt": "Intermediate Mechanics"
+    }
+  },
+  "KnitBalaclavaFace": {
+    "id": "KnitBalaclavaFace",
+    "names": {
+      "en": "Knit Open-Face Balaclava",
+      "pt": "Tricotar Balaclava Aberta"
+    }
+  },
+  "KnitBalaclavaFull": {
+    "id": "KnitBalaclavaFull",
+    "names": {
+      "en": "Knit Full Balaclava",
+      "pt": "Tricotar Balaclava Completa"
+    }
+  },
+  "KnitBeany": {
+    "id": "KnitBeany",
+    "names": {
+      "en": "Knit Beanie",
+      "pt": "Tricotar Gorro"
+    }
+  },
+  "KnitDoily": {
+    "id": "KnitDoily",
+    "names": {
+      "en": "Knit Doily",
+      "pt": "Tricotar Toalhinha de Renda"
+    }
+  },
+  "KnitLegwarmers": {
+    "id": "KnitLegwarmers",
+    "names": {
+      "en": "Knit Legwarmers",
+      "pt": "Tricotar Aquecedores de Pernas"
+    }
+  },
+  "KnitScarf": {
+    "id": "KnitScarf",
+    "names": {
+      "en": "Knit Scarf",
+      "pt": "Tricotar Cachecol"
+    }
+  },
+  "KnitSocks": {
+    "id": "KnitSocks",
+    "names": {
+      "en": "Knit Socks",
+      "pt": "Tricotar Meias"
+    }
+  },
+  "KnitSweaterVest": {
+    "id": "KnitSweaterVest",
+    "names": {
+      "en": "Knit Sweater Vest",
+      "pt": "Tricotar Colete de Tricô"
+    }
+  },
+  "KnitWoolyHat": {
+    "id": "KnitWoolyHat",
+    "names": {
+      "en": "Knit Wool Hat",
+      "pt": "Tricotar Gorro de Lã"
+    }
+  },
+  "MakeAdvancedFramepackFrame": {
+    "id": "MakeAdvancedFramepackFrame",
+    "names": {
+      "en": "Make Advanced Framepack Frame",
+      "pt": "Fazer Armação Avançada de Mochila"
+    }
+  },
+  "MakeAdvancedLargeFramepackFrame": {
+    "id": "MakeAdvancedLargeFramepackFrame",
+    "names": {
+      "en": "Make Advanced Large Framepack Frame",
+      "pt": "Fazer Armação Avançada Grande de Mochila"
+    }
+  },
+  "MakeAerosolBomb": {
+    "id": "MakeAerosolBomb",
+    "names": {
+      "en": "Make Aerosol Bomb",
+      "pt": "Fazer Bomba de Aerossol"
+    }
+  },
+  "MakeAphidsCure": {
+    "id": "MakeAphidsCure",
+    "names": {
+      "en": "Make Aphids Cure",
+      "pt": "Fazer Spray contra Pulgões"
+    }
+  },
+  "MakeBaguetteDough": {
+    "id": "MakeBaguetteDough",
+    "names": {
+      "en": "Prepare Baguette",
+      "pt": "Preparar Baguete"
+    }
+  },
+  "MakeBarbedWire": {
+    "id": "MakeBarbedWire",
+    "names": {
+      "en": "Make Barbed Wire from Wire",
+      "pt": "Transformar Arame em Arame Farpado"
+    }
+  },
+  "MakeBiscuits": {
+    "id": "MakeBiscuits",
+    "names": {
+      "en": "Prepare Biscuits",
+      "pt": "Preparar Pãezinhos"
+    }
+  },
+  "MakeBlankID": {
+    "id": "MakeBlankID",
+    "names": {
+      "en": "Make Blank ID",
+      "pt": "Fazer Carteira de Identidade em Branco"
+    }
+  },
+  "MakeBoneAwl": {
+    "id": "MakeBoneAwl",
+    "names": {
+      "en": "Carve Bone Awl",
+      "pt": "Entalhar Sovela de Osso"
+    }
+  },
+  "MakeBoneBodyArmor": {
+    "id": "MakeBoneBodyArmor",
+    "names": {
+      "en": "Make Bone Body Armor",
+      "pt": "Fazer Armadura Corporal de Osso"
+    }
+  },
+  "MakeBoneChoker": {
+    "id": "MakeBoneChoker",
+    "names": {
+      "en": "Make Bone Choker",
+      "pt": "Fazer Gargantilha de Osso"
+    }
+  },
+  "MakeBoneClub": {
+    "id": "MakeBoneClub",
+    "names": {
+      "en": "Make Bone Club",
+      "pt": "Fazer Clava de Osso"
+    }
+  },
+  "MakeBoneFishingHook": {
+    "id": "MakeBoneFishingHook",
+    "names": {
+      "en": "Carve Bone Fishing Hook",
+      "pt": "Entalhar Anzol de Osso"
+    }
+  },
+  "MakeBoneForearmArmor": {
+    "id": "MakeBoneForearmArmor",
+    "names": {
+      "en": "Make Bone Forearm Armor",
+      "pt": "Fazer Braçal de Osso"
+    }
+  },
+  "MakeBoneFork": {
+    "id": "MakeBoneFork",
+    "names": {
+      "en": "Carve Bone Fork",
+      "pt": "Entalhar Garfo de Osso"
+    }
+  },
+  "MakeBoneHatchetHead": {
+    "id": "MakeBoneHatchetHead",
+    "names": {
+      "en": "Carve Bone War Hatchet Head",
+      "pt": "Entalhar Cabeça de Machadinha de Guerra de Osso"
+    }
+  },
+  "MakeBoneSewingNeedle": {
+    "id": "MakeBoneSewingNeedle",
+    "names": {
+      "en": "Carve Bone Sewing Needle",
+      "pt": "Entalhar Agulha de Costura de Osso"
+    }
+  },
+  "MakeBoneShinArmor": {
+    "id": "MakeBoneShinArmor",
+    "names": {
+      "en": "Make Bone Shin Armor",
+      "pt": "Fazer Caneleira de Osso"
+    }
+  },
+  "MakeBoneShoulderArmor": {
+    "id": "MakeBoneShoulderArmor",
+    "names": {
+      "en": "Make Bone Shoulder Armor",
+      "pt": "Fazer Ombreira de Osso"
+    }
+  },
+  "MakeBoneThighArmor": {
+    "id": "MakeBoneThighArmor",
+    "names": {
+      "en": "Make Bone Thigh Armor",
+      "pt": "Fazer Coxote de Osso"
+    }
+  },
+  "MakeBrakeWeapon": {
+    "id": "MakeBrakeWeapon",
+    "names": {
+      "en": "Make Brake Disc Weapon",
+      "pt": "Fazer Arma com Disco de Freio"
+    }
+  },
+  "MakeBreadDough": {
+    "id": "MakeBreadDough",
+    "names": {
+      "en": "Prepare Bread Dough",
+      "pt": "Preparar Massa de Pão"
+    }
+  },
+  "MakeBucketMaul": {
+    "id": "MakeBucketMaul",
+    "names": {
+      "en": "Make Bucket Maul",
+      "pt": "Fazer Marreta de Balde"
+    }
+  },
+  "MakeCabbageRolls": {
+    "id": "MakeCabbageRolls",
+    "names": {
+      "en": "Make 4 Cabbage Rolls",
+      "pt": "Preparar 4 Charutos de Repolho"
+    }
+  },
+  "MakeCageTrap": {
+    "id": "MakeCageTrap",
+    "names": {
+      "en": "Make Cage Trap",
+      "pt": "Fazer Armadilha de Gaiola"
+    }
+  },
+  "MakeCakeBatter": {
+    "id": "MakeCakeBatter",
+    "names": {
+      "en": "Make Cake Batter",
+      "pt": "Preparar Massa de Bolo"
+    }
+  },
+  "MakeChocolateChipCookieDough": {
+    "id": "MakeChocolateChipCookieDough",
+    "names": {
+      "en": "Prepare Chocolate Chip Cookies",
+      "pt": "Preparar Cookies com Gotas de Chocolate"
+    }
+  },
+  "MakeChocolateCookieDough": {
+    "id": "MakeChocolateCookieDough",
+    "names": {
+      "en": "Prepare Chocolate Cookies",
+      "pt": "Preparar Cookies de Chocolate"
+    }
+  },
+  "MakeChum": {
+    "id": "MakeChum",
+    "names": {
+      "en": "Make Chum Base",
+      "pt": "Preparar Base de Engodo"
+    }
+  },
+  "MakeComfreyPoultice": {
+    "id": "MakeComfreyPoultice",
+    "names": {
+      "en": "Grind Up Comfrey",
+      "pt": "Triturar Confrei"
+    }
+  },
+  "MakeCraftedGasMaskFilter": {
+    "id": "MakeCraftedGasMaskFilter",
+    "names": {
+      "en": "Make Gas Mask Filter",
+      "pt": "Fazer Filtro para Máscara de Gás"
+    }
+  },
+  "MakeCrudeWhetstone": {
+    "id": "MakeCrudeWhetstone",
+    "names": {
+      "en": "Make Improvised Whetstone",
+      "pt": "Fazer Pedra de Amolar Improvisada"
+    }
+  },
+  "MakeDrinkingGlass": {
+    "id": "MakeDrinkingGlass",
+    "names": {
+      "en": "Make Drinking Glass",
+      "pt": "Fazer Copo"
+    }
+  },
+  "MakeFirecracker": {
+    "id": "MakeFirecracker",
+    "names": {
+      "en": "Make Firecracker",
+      "pt": "Fazer Bombinha"
+    }
+  },
+  "MakeFishingNet": {
+    "id": "MakeFishingNet",
+    "names": {
+      "en": "Make Fishing Net",
+      "pt": "Fazer Rede de Pesca"
+    }
+  },
+  "MakeFishingRod": {
+    "id": "MakeFishingRod",
+    "names": {
+      "en": "Make Fishing Rod",
+      "pt": "Fazer Vara de Pesca"
+    }
+  },
+  "MakeFlameBomb": {
+    "id": "MakeFlameBomb",
+    "names": {
+      "en": "Make Fire Bomb",
+      "pt": "Fazer Bomba Incendiária"
+    }
+  },
+  "MakeFliesCure": {
+    "id": "MakeFliesCure",
+    "names": {
+      "en": "Make Flies Cure",
+      "pt": "Fazer Spray contra Moscas"
+    }
+  },
+  "MakeFliesCureFromChewingTobacco": {
+    "id": "MakeFliesCureFromChewingTobacco",
+    "names": {
+      "en": "Make Flies Cure from Chewing Tobacco",
+      "pt": "Fazer Spray contra Moscas com Tabaco Mascável"
+    }
+  },
+  "MakeFliesCureFromCigarettes": {
+    "id": "MakeFliesCureFromCigarettes",
+    "names": {
+      "en": "Make Flies Cure from Cigarettes",
+      "pt": "Fazer Spray contra Moscas com Cigarros"
+    }
+  },
+  "MakeFliesCureFromLooseTobacco": {
+    "id": "MakeFliesCureFromLooseTobacco",
+    "names": {
+      "en": "Make Flies Cure from Loose Tobacco",
+      "pt": "Fazer Spray contra Moscas com Tabaco Solto"
+    }
+  },
+  "MakeFriedOnionRings": {
+    "id": "MakeFriedOnionRings",
+    "names": {
+      "en": "Prepare 2 Breaded Onion Rings",
+      "pt": "Preparar 2 Anéis de Cebola Empanados"
+    }
+  },
+  "MakeFriedShrimp": {
+    "id": "MakeFriedShrimp",
+    "names": {
+      "en": "Prepare Breaded Shrimp",
+      "pt": "Preparar Camarão Empanado"
+    }
+  },
+  "MakeGarbageBagDress": {
+    "id": "MakeGarbageBagDress",
+    "names": {
+      "en": "Make Garbage Bag Dress",
+      "pt": "Fazer Vestido de Saco de Lixo"
+    }
+  },
+  "MakeGarbageBagTankTop": {
+    "id": "MakeGarbageBagTankTop",
+    "names": {
+      "en": "Make Garbage Bag Tank Top",
+      "pt": "Fazer Regata de Saco de Lixo"
+    }
+  },
+  "MakeGardenForkHeadWeapon": {
+    "id": "MakeGardenForkHeadWeapon",
+    "names": {
+      "en": "Make Garden Fork Head Weapon",
+      "pt": "Fazer Arma com Cabeça de Forcado de Jardim"
+    }
+  },
+  "MakeGlassBottle": {
+    "id": "MakeGlassBottle",
+    "names": {
+      "en": "Make Glass Bottle",
+      "pt": "Fazer Garrafa de Vidro"
+    }
+  },
+  "MakeGlassJar": {
+    "id": "MakeGlassJar",
+    "names": {
+      "en": "Make Glass Jar",
+      "pt": "Fazer Pote de Vidro"
+    }
+  },
+  "MakeGlassPanel": {
+    "id": "MakeGlassPanel",
+    "names": {
+      "en": "Make Glass Pane",
+      "pt": "Fazer Vidraça"
+    }
+  },
+  "MakeGlassShiv": {
+    "id": "MakeGlassShiv",
+    "names": {
+      "en": "Make Glass Shiv",
+      "pt": "Fazer Punhal de Vidro"
+    }
+  },
+  "MakeGuacamole": {
+    "id": "MakeGuacamole",
+    "names": {
+      "en": "Make Guacamole",
+      "pt": "Preparar Guacamole"
+    }
+  },
+  "MakeHollowBook": {
+    "id": "MakeHollowBook",
+    "names": {
+      "en": "Hollow Out Book",
+      "pt": "Fazer Compartimento no Livro"
+    }
+  },
+  "MakeImprovisedFlashlight": {
+    "id": "MakeImprovisedFlashlight",
+    "names": {
+      "en": "Make Improvised Flashlight",
+      "pt": "Fazer Lanterna Improvisada"
+    }
+  },
+  "MakeImprovisedGasMask": {
+    "id": "MakeImprovisedGasMask",
+    "names": {
+      "en": "Make Improvised Gas Mask",
+      "pt": "Fazer Máscara de Gás Improvisada"
+    }
+  },
+  "MakeImprovisedLantern": {
+    "id": "MakeImprovisedLantern",
+    "names": {
+      "en": "Make Improvised Lantern",
+      "pt": "Fazer Lanterna Elétrica Improvisada"
+    }
+  },
+  "MakeImprovisedLighter": {
+    "id": "MakeImprovisedLighter",
+    "names": {
+      "en": "Make Improvised Lighter",
+      "pt": "Fazer Isqueiro Improvisado"
+    }
+  },
+  "MakeJar": {
+    "id": "MakeJar",
+    "names": {
+      "en": "Make Jar of Preserved Food",
+      "pt": "Preparar Pote de Conserva"
+    }
+  },
+  "MakeJawboneAxe": {
+    "id": "MakeJawboneAxe",
+    "names": {
+      "en": "Make Jawbone Axe",
+      "pt": "Fazer Machado de Mandíbula"
+    }
+  },
+  "MakeJawboneClub": {
+    "id": "MakeJawboneClub",
+    "names": {
+      "en": "Make Jawbone Club",
+      "pt": "Fazer Clava de Mandíbula"
+    }
+  },
+  "MakeKettleMaul": {
+    "id": "MakeKettleMaul",
+    "names": {
+      "en": "Make Kettle Maul",
+      "pt": "Fazer Marreta de Chaleira"
+    }
+  },
+  "MakeLanternGlass": {
+    "id": "MakeLanternGlass",
+    "names": {
+      "en": "Make Lantern Glass",
+      "pt": "Fazer Vidro de Lanterna"
+    }
+  },
+  "MakeLargeStoneAxeHead": {
+    "id": "MakeLargeStoneAxeHead",
+    "names": {
+      "en": "Knap Large Stone Axe Head",
+      "pt": "Lascar Cabeça de Machado Grande de Pedra"
+    }
+  },
+  "MakeMaki": {
+    "id": "MakeMaki",
+    "names": {
+      "en": "Prepare Maki",
+      "pt": "Preparar Maki"
+    }
+  },
+  "MakeMetalSheet": {
+    "id": "MakeMetalSheet",
+    "names": {
+      "en": "Make Metal Sheet",
+      "pt": "Fazer Chapa de Metal"
+    }
+  },
+  "MakeMildewCure": {
+    "id": "MakeMildewCure",
+    "names": {
+      "en": "Make Mildew Cure",
+      "pt": "Fazer Spray contra Míldio"
+    }
+  },
+  "MakeNoiseMaker": {
+    "id": "MakeNoiseMaker",
+    "names": {
+      "en": "Make Noise Maker",
+      "pt": "Fazer Gerador de Ruído"
+    }
+  },
+  "MakeOatmealCookieDough": {
+    "id": "MakeOatmealCookieDough",
+    "names": {
+      "en": "Prepare Oatmeal Cookies",
+      "pt": "Preparar Cookies de Aveia"
+    }
+  },
+  "MakeOnigiri": {
+    "id": "MakeOnigiri",
+    "names": {
+      "en": "Prepare Onigiri",
+      "pt": "Preparar Onigiri"
+    }
+  },
+  "MakePieDough": {
+    "id": "MakePieDough",
+    "names": {
+      "en": "Prepare Pie Dough",
+      "pt": "Preparar Massa de Torta"
+    }
+  },
+  "MakePipeBomb": {
+    "id": "MakePipeBomb",
+    "names": {
+      "en": "Make Pipe Bomb",
+      "pt": "Fazer Bomba de Cano"
+    }
+  },
+  "MakePizza": {
+    "id": "MakePizza",
+    "names": {
+      "en": "Prepare Pizza",
+      "pt": "Preparar Pizza"
+    }
+  },
+  "MakePlantainPoultice": {
+    "id": "MakePlantainPoultice",
+    "names": {
+      "en": "Grind Up Plantain",
+      "pt": "Triturar Tanchagem"
+    }
+  },
+  "MakeRailspikeWeapon": {
+    "id": "MakeRailspikeWeapon",
+    "names": {
+      "en": "Make Railspike Weapon",
+      "pt": "Fazer Arma com Cravo Ferroviário"
+    }
+  },
+  "MakeRakeHeadWeapon": {
+    "id": "MakeRakeHeadWeapon",
+    "names": {
+      "en": "Make Rake-Head-Spiked Weapon",
+      "pt": "Fazer Arma com Cabeça de Ancinho"
+    }
+  },
+  "MakeRemoteControllerV1": {
+    "id": "MakeRemoteControllerV1",
+    "names": {
+      "en": "Make Remote Controller (Short-Range)",
+      "pt": "Fazer Controle Remoto (Curto Alcance)"
+    }
+  },
+  "MakeRemoteControllerV2": {
+    "id": "MakeRemoteControllerV2",
+    "names": {
+      "en": "Make Remote Controller (Medium-Range)",
+      "pt": "Fazer Controle Remoto (Médio Alcance)"
+    }
+  },
+  "MakeRemoteControllerV3": {
+    "id": "MakeRemoteControllerV3",
+    "names": {
+      "en": "Make Remote Controller (Long-Range)",
+      "pt": "Fazer Controle Remoto (Longo Alcance)"
+    }
+  },
+  "MakeRemoteTrigger": {
+    "id": "MakeRemoteTrigger",
+    "names": {
+      "en": "Make Remote Trigger",
+      "pt": "Fazer Gatilho Remoto"
+    }
+  },
+  "MakeSawPlank": {
+    "id": "MakeSawPlank",
+    "names": {
+      "en": "Make Plank with Saw",
+      "pt": "Fazer Tábua com Serra"
+    }
+  },
+  "MakeSawbladeWeapon": {
+    "id": "MakeSawbladeWeapon",
+    "names": {
+      "en": "Make Sawblade Wooden Bat",
+      "pt": "Fazer Taco de Madeira com Lâmina de Serra"
+    }
+  },
+  "MakeScarecrow": {
+    "id": "MakeScarecrow",
+    "names": {
+      "en": "Make Scarecrow",
+      "pt": "Fazer Espantalho"
+    }
+  },
+  "MakeScrapMetalBodyArmor": {
+    "id": "MakeScrapMetalBodyArmor",
+    "names": {
+      "en": "Make Scrap Metal Body Armor",
+      "pt": "Fazer Armadura Corporal de Sucata Metálica"
+    }
+  },
+  "MakeScrapMetalHelmet": {
+    "id": "MakeScrapMetalHelmet",
+    "names": {
+      "en": "Make Scrap Metal Helmet",
+      "pt": "Fazer Capacete de Sucata Metálica"
+    }
+  },
+  "MakeScrapMetalShoulderArmor": {
+    "id": "MakeScrapMetalShoulderArmor",
+    "names": {
+      "en": "Make Scrap Metal Shoulder Armor",
+      "pt": "Fazer Ombreira de Sucata Metálica"
+    }
+  },
+  "MakeScrapMetalThighArmor": {
+    "id": "MakeScrapMetalThighArmor",
+    "names": {
+      "en": "Make Scrap Metal Thigh Armor",
+      "pt": "Fazer Coxote de Sucata Metálica"
+    }
+  },
+  "MakeScrewdriver": {
+    "id": "MakeScrewdriver",
+    "names": {
+      "en": "Make Improvised Screwdriver",
+      "pt": "Fazer Chave de Fenda Improvisada"
+    }
+  },
+  "MakeShiv": {
+    "id": "MakeShiv",
+    "names": {
+      "en": "Make Shiv",
+      "pt": "Fazer Faca Improvisada"
+    }
+  },
+  "MakeShortbreadCookieDough": {
+    "id": "MakeShortbreadCookieDough",
+    "names": {
+      "en": "Prepare Shortbread Cookies",
+      "pt": "Preparar Cookies Amanteigados"
+    }
+  },
+  "MakeSlugTrap": {
+    "id": "MakeSlugTrap",
+    "names": {
+      "en": "MakeSlugTrap",
+      "pt": "MakeSlugTrap"
+    }
+  },
+  "MakeSmallMetalSheet": {
+    "id": "MakeSmallMetalSheet",
+    "names": {
+      "en": "Cut 4 Small Metal Sheets",
+      "pt": "Cortar 4 Chapas Metálicas Pequenas"
+    }
+  },
+  "MakeSmokeBomb": {
+    "id": "MakeSmokeBomb",
+    "names": {
+      "en": "Make Smoke Bomb",
+      "pt": "Fazer Bomba de Fumaça"
+    }
+  },
+  "MakeSnareTrap": {
+    "id": "MakeSnareTrap",
+    "names": {
+      "en": "Make Snare Trap",
+      "pt": "Fazer Armadilha de Laço"
+    }
+  },
+  "MakeSpadeHeadCudgel": {
+    "id": "MakeSpadeHeadCudgel",
+    "names": {
+      "en": "Make Spade Head Cudgel",
+      "pt": "Fazer Porrete com Cabeça de Pá"
+    }
+  },
+  "MakeSpikedBaseballBat": {
+    "id": "MakeSpikedBaseballBat",
+    "names": {
+      "en": "Make Spiked Baseball Bat",
+      "pt": "Fazer Taco de Beisebol com Espinhos"
+    }
+  },
+  "MakeSpikedClub": {
+    "id": "MakeSpikedClub",
+    "names": {
+      "en": "Make Spiked Club",
+      "pt": "Fazer Clava com Espinhos"
+    }
+  },
+  "MakeSpikedCudgel": {
+    "id": "MakeSpikedCudgel",
+    "names": {
+      "en": "Make Spiked Cudgel",
+      "pt": "Fazer Porrete com Espinhos"
+    }
+  },
+  "MakeStagHeadTrophy": {
+    "id": "MakeStagHeadTrophy",
+    "names": {
+      "en": "Make Stag Head Trophy",
+      "pt": "Fazer Troféu com Cabeça de Veado Macho"
+    }
+  },
+  "MakeStickTrap": {
+    "id": "MakeStickTrap",
+    "names": {
+      "en": "Make Stick Trap",
+      "pt": "Fazer Armadilha de Gravetos"
+    }
+  },
+  "MakeStoneAwl": {
+    "id": "MakeStoneAwl",
+    "names": {
+      "en": "Knap Stone Awl",
+      "pt": "Lascar Sovela de Pedra"
+    }
+  },
+  "MakeStoneBlade": {
+    "id": "MakeStoneBlade",
+    "names": {
+      "en": "Knap Stone Blade",
+      "pt": "Lascar Lâmina de Pedra"
+    }
+  },
+  "MakeStoneBladeSaw": {
+    "id": "MakeStoneBladeSaw",
+    "names": {
+      "en": "Knapp Flint Saw",
+      "pt": "Lascar Serra de Sílex"
+    }
+  },
+  "MakeStoneBladeScythe": {
+    "id": "MakeStoneBladeScythe",
+    "names": {
+      "en": "Knap Stone Blade Scythe",
+      "pt": "Lascar Lâmina de Pedra para Foice"
+    }
+  },
+  "MakeStoneChisel": {
+    "id": "MakeStoneChisel",
+    "names": {
+      "en": "Knap Stone Chisel",
+      "pt": "Lascar Cinzel de Pedra"
+    }
+  },
+  "MakeStoneDrill": {
+    "id": "MakeStoneDrill",
+    "names": {
+      "en": "Knap Stone Drill",
+      "pt": "Lascar Broca de Pedra"
+    }
+  },
+  "MakeStoneMaulHead": {
+    "id": "MakeStoneMaulHead",
+    "names": {
+      "en": "Knap Stone Maul Head",
+      "pt": "Lascar Cabeça de Marreta de Pedra"
+    }
+  },
+  "MakeSugarCookieDough": {
+    "id": "MakeSugarCookieDough",
+    "names": {
+      "en": "Prepare Sugar Cookies",
+      "pt": "Preparar Cookies de Açúcar"
+    }
+  },
+  "MakeSushi": {
+    "id": "MakeSushi",
+    "names": {
+      "en": "Prepare Sushi",
+      "pt": "Preparar Sushi"
+    }
+  },
+  "MakeTimer": {
+    "id": "MakeTimer",
+    "names": {
+      "en": "Make Timer",
+      "pt": "Fazer Temporizador"
+    }
+  },
+  "MakeTireBodyArmor": {
+    "id": "MakeTireBodyArmor",
+    "names": {
+      "en": "Make Tire Body Armor",
+      "pt": "Fazer Armadura Corporal de Pneu"
+    }
+  },
+  "MakeTireForearmArmor": {
+    "id": "MakeTireForearmArmor",
+    "names": {
+      "en": "Make Tire Forearm Armor",
+      "pt": "Fazer Braçal de Pneu"
+    }
+  },
+  "MakeTireShinArmor": {
+    "id": "MakeTireShinArmor",
+    "names": {
+      "en": "Make Tire Shin Armor",
+      "pt": "Fazer Caneleira de Pneu"
+    }
+  },
+  "MakeTireShoulderArmorLeft": {
+    "id": "MakeTireShoulderArmorLeft",
+    "names": {
+      "en": "Make Tire Shoulder Armor - Left",
+      "pt": "Fazer Ombreira de Pneu - Esquerda"
+    }
+  },
+  "MakeTireShoulderArmorRight": {
+    "id": "MakeTireShoulderArmorRight",
+    "names": {
+      "en": "Make Tire Shoulder Armor - Right",
+      "pt": "Fazer Ombreira de Pneu - Direita"
+    }
+  },
+  "MakeToothbrushShiv": {
+    "id": "MakeToothbrushShiv",
+    "names": {
+      "en": "Make Toothbrush Shiv",
+      "pt": "Fazer Faca Improvisada de Escova de Dentes"
+    }
+  },
+  "MakeTrapBox": {
+    "id": "MakeTrapBox",
+    "names": {
+      "en": "Make Box Trap",
+      "pt": "Fazer Armadilha de Caixa"
+    }
+  },
+  "MakeWesternBoots": {
+    "id": "MakeWesternBoots",
+    "names": {
+      "en": "Make Western Boots",
+      "pt": "Fazer Botas de Cowboy"
+    }
+  },
+  "MakeWildGarlicPoultice": {
+    "id": "MakeWildGarlicPoultice",
+    "names": {
+      "en": "Grind Up Wild Garlic",
+      "pt": "Triturar Alho Selvagem"
+    }
+  },
+  "MakeWineGlass": {
+    "id": "MakeWineGlass",
+    "names": {
+      "en": "Make Wine Glass",
+      "pt": "Fazer Taça de Vinho"
+    }
+  },
+  "MakeWoodBodyArmor": {
+    "id": "MakeWoodBodyArmor",
+    "names": {
+      "en": "Make Wooden Body Armor",
+      "pt": "Fazer Armadura Corporal de Madeira"
+    }
+  },
+  "MakeWoodForearmArmor": {
+    "id": "MakeWoodForearmArmor",
+    "names": {
+      "en": "Make Wooden Forearm Armor",
+      "pt": "Fazer Braçal de Madeira"
+    }
+  },
+  "MakeWoodShinArmor": {
+    "id": "MakeWoodShinArmor",
+    "names": {
+      "en": "Make Wooden Shin Armor",
+      "pt": "Fazer Caneleira de Madeira"
+    }
+  },
+  "MakeWoodShoulderArmor": {
+    "id": "MakeWoodShoulderArmor",
+    "names": {
+      "en": "Make Wooden Shoulder Armor",
+      "pt": "Fazer Ombreira de Madeira"
+    }
+  },
+  "MakeWoodThighArmor": {
+    "id": "MakeWoodThighArmor",
+    "names": {
+      "en": "Make Wooden Thigh Armor",
+      "pt": "Fazer Coxote de Madeira"
+    }
+  },
+  "MakeWoodenBoxTrap": {
+    "id": "MakeWoodenBoxTrap",
+    "names": {
+      "en": "Make Crate Trap",
+      "pt": "Fazer Armadilha de Caixa"
+    }
+  },
+  "MetalBigMetalFence": {
+    "id": "MetalBigMetalFence",
+    "names": {
+      "en": "Metal Big Pole Fence",
+      "pt": "Cerca Grande de Barras de Metal"
+    }
+  },
+  "MetalBigWireFence": {
+    "id": "MetalBigWireFence",
+    "names": {
+      "en": "Metal Big Wire Fence",
+      "pt": "Cerca Grande de Arame"
+    }
+  },
+  "MetalDoorFrameLvl1": {
+    "id": "MetalDoorFrameLvl1",
+    "names": {
+      "en": "Metal Door Frame",
+      "pt": "Batente de Porta de Metal"
+    }
+  },
+  "MetalDoorFrameLvl2": {
+    "id": "MetalDoorFrameLvl2",
+    "names": {
+      "en": "Metal Door Frame",
+      "pt": "Batente de Porta de Metal"
+    }
+  },
+  "MetalFenceLvl1": {
+    "id": "MetalFenceLvl1",
+    "names": {
+      "en": "Metal Fence",
+      "pt": "Cerca de Metal"
+    }
+  },
+  "MetalFloorLvl1": {
+    "id": "MetalFloorLvl1",
+    "names": {
+      "en": "Metal Floor",
+      "pt": "Piso de Metal"
+    }
+  },
+  "MetalPoleFenceGate": {
+    "id": "MetalPoleFenceGate",
+    "names": {
+      "en": "Metal Big Pole Fence Gate",
+      "pt": "Portão Grande de Cerca de Barras de Metal"
+    }
+  },
+  "MetalPoleFenceGateSmall": {
+    "id": "MetalPoleFenceGateSmall",
+    "names": {
+      "en": "Metal Pole Fence Gate",
+      "pt": "Portão de Cerca de Barras de Metal"
+    }
+  },
+  "MetalSmallPoleFence": {
+    "id": "MetalSmallPoleFence",
+    "names": {
+      "en": "Metal Pole Fence",
+      "pt": "Cerca de Barras de Metal"
+    }
+  },
+  "MetalSmallWireFence": {
+    "id": "MetalSmallWireFence",
+    "names": {
+      "en": "Metal Wire Fence",
+      "pt": "Cerca de Arame Metálico"
+    }
+  },
+  "MetalWallFrame": {
+    "id": "MetalWallFrame",
+    "names": {
+      "en": "Metal Wall Frame",
+      "pt": "Estrutura de Parede de Metal"
+    }
+  },
+  "MetalWallLvl1": {
+    "id": "MetalWallLvl1",
+    "names": {
+      "en": "Metal Wall (Basic)",
+      "pt": "Parede de Metal (Básica)"
+    }
+  },
+  "MetalWallLvl2": {
+    "id": "MetalWallLvl2",
+    "names": {
+      "en": "Metal Wall (Advanced)",
+      "pt": "Parede de Metal (Avançada)"
+    }
+  },
+  "MetalWindowFrameLvl1": {
+    "id": "MetalWindowFrameLvl1",
+    "names": {
+      "en": "Metal Window Frame",
+      "pt": "Batente de Janela de Metal"
+    }
+  },
+  "MetalWindowFrameLvl2": {
+    "id": "MetalWindowFrameLvl2",
+    "names": {
+      "en": "Metal Window Frame",
+      "pt": "Batente de Janela de Metal"
+    }
+  },
+  "MetalWireFenceGate": {
+    "id": "MetalWireFenceGate",
+    "names": {
+      "en": "Big Wire Fence Gate",
+      "pt": "Portão Grande de Cerca de Arame"
+    }
+  },
+  "MetalWireFenceGateSmall": {
+    "id": "MetalWireFenceGateSmall",
+    "names": {
+      "en": "Metal Wire Fence Gate",
+      "pt": "Portão de Cerca de Arame Metálico"
+    }
+  },
+  "Metal_CounterCorner_Lvl1": {
+    "id": "Metal_CounterCorner_Lvl1",
+    "names": {
+      "en": "Metal_CounterCorner_Lvl1",
+      "pt": "Balcão de Canto de Metal"
+    }
+  },
+  "Metal_CounterCorner_Lvl2": {
+    "id": "Metal_CounterCorner_Lvl2",
+    "names": {
+      "en": "Metal_CounterCorner_Lvl2",
+      "pt": "Balcão de Canto de Metal"
+    }
+  },
+  "Metal_Counter_Lvl1": {
+    "id": "Metal_Counter_Lvl1",
+    "names": {
+      "en": "Metal_Counter_Lvl1",
+      "pt": "Balcão de Metal"
+    }
+  },
+  "Metal_Counter_Lvl2": {
+    "id": "Metal_Counter_Lvl2",
+    "names": {
+      "en": "Metal_Counter_Lvl2",
+      "pt": "Balcão de Metal"
+    }
+  },
+  "Metal_Crate_Lvl1": {
+    "id": "Metal_Crate_Lvl1",
+    "names": {
+      "en": "Metal_Crate_Lvl1",
+      "pt": "Caixa de Metal"
+    }
+  },
+  "Metal_Crate_Lvl2": {
+    "id": "Metal_Crate_Lvl2",
+    "names": {
+      "en": "Metal_Crate_Lvl2",
+      "pt": "Caixa de Metal"
+    }
+  },
+  "Metal_LockerBig_Lvl1": {
+    "id": "Metal_LockerBig_Lvl1",
+    "names": {
+      "en": "Metal_LockerBig_Lvl1",
+      "pt": "Armário Grande de Metal"
+    }
+  },
+  "Metal_LockerBig_Lvl2": {
+    "id": "Metal_LockerBig_Lvl2",
+    "names": {
+      "en": "Metal_LockerBig_Lvl2",
+      "pt": "Armário Grande de Metal"
+    }
+  },
+  "Metal_LockerSmall_Lvl1": {
+    "id": "Metal_LockerSmall_Lvl1",
+    "names": {
+      "en": "Metal_LockerSmall_Lvl1",
+      "pt": "Armário Pequeno de Metal"
+    }
+  },
+  "Metal_LockerSmall_Lvl2": {
+    "id": "Metal_LockerSmall_Lvl2",
+    "names": {
+      "en": "Metal_LockerSmall_Lvl2",
+      "pt": "Armário Pequeno de Metal"
+    }
+  },
+  "Metal_Shelves_Lvl1": {
+    "id": "Metal_Shelves_Lvl1",
+    "names": {
+      "en": "Metal Shelves",
+      "pt": "Prateleiras de Metal"
+    }
+  },
+  "Metal_Shelves_Lvl2": {
+    "id": "Metal_Shelves_Lvl2",
+    "names": {
+      "en": "Metal Shelves",
+      "pt": "Prateleiras de Metal"
+    }
+  },
+  "Metal_Stairs": {
+    "id": "Metal_Stairs",
+    "names": {
+      "en": "Metal Stairs",
+      "pt": "Escada de Metal"
+    }
+  },
+  "Primitive_Furnace": {
+    "id": "Primitive_Furnace",
+    "names": {
+      "en": "Construct Primitive Furnace",
+      "pt": "Construir Fornalha Primitiva"
+    }
+  },
+  "RechargeFilters": {
+    "id": "RechargeFilters",
+    "names": {
+      "en": "Recharge Filters",
+      "pt": "Recarregar Filtros"
+    }
+  },
+  "RemakeLongStoneBlade": {
+    "id": "RemakeLongStoneBlade",
+    "names": {
+      "en": "Remake Long Stone Blade",
+      "pt": "Refazer Lâmina Longa de Pedra"
+    }
+  },
+  "SewBandolier": {
+    "id": "SewBandolier",
+    "names": {
+      "en": "Sew Bandolier",
+      "pt": "Costurar Bandoleira"
+    }
+  },
+  "SewBelt": {
+    "id": "SewBelt",
+    "names": {
+      "en": "Sew Belt",
+      "pt": "Costurar Cinto"
+    }
+  },
+  "SewClothSatchel": {
+    "id": "SewClothSatchel",
+    "names": {
+      "en": "Sew Cloth Satchel",
+      "pt": "Costurar Bolsa Artesanal de Tecido"
+    }
+  },
+  "SewCrudeLeatherBackpack": {
+    "id": "SewCrudeLeatherBackpack",
+    "names": {
+      "en": "Sew Small Leather Backpack",
+      "pt": "Costurar Mochila Pequena de Couro"
+    }
+  },
+  "SewDressKnees": {
+    "id": "SewDressKnees",
+    "names": {
+      "en": "Sew Knee-Length Dress",
+      "pt": "Costurar Vestido na Altura do Joelho"
+    }
+  },
+  "SewDressLong": {
+    "id": "SewDressLong",
+    "names": {
+      "en": "Sew Long Dress",
+      "pt": "Costurar Vestido Longo"
+    }
+  },
+  "SewElbowPads": {
+    "id": "SewElbowPads",
+    "names": {
+      "en": "Sew Elbow Pads",
+      "pt": "Costurar Cotoveleiras"
+    }
+  },
+  "SewFurredHideCoat": {
+    "id": "SewFurredHideCoat",
+    "names": {
+      "en": "Sew Furred Hide Coat",
+      "pt": "Costurar Casaco de Pele com Pelo"
+    }
+  },
+  "SewFurredHideJacket": {
+    "id": "SewFurredHideJacket",
+    "names": {
+      "en": "Sew Furred Hide Jacket",
+      "pt": "Costurar Jaqueta de Pele com Pelo"
+    }
+  },
+  "SewHideBoots": {
+    "id": "SewHideBoots",
+    "names": {
+      "en": "Sew Hide Boots",
+      "pt": "Costurar Botas de Pele"
+    }
+  },
+  "SewHideCoat": {
+    "id": "SewHideCoat",
+    "names": {
+      "en": "Sew Hide Coat",
+      "pt": "Costurar Casaco de Pele"
+    }
+  },
+  "SewHideFannyBag": {
+    "id": "SewHideFannyBag",
+    "names": {
+      "en": "Sew Hide Fanny Pack",
+      "pt": "Costurar Pochete de Pele"
+    }
+  },
+  "SewHideHat": {
+    "id": "SewHideHat",
+    "names": {
+      "en": "Sew Hide Hat",
+      "pt": "Costurar Chapéu de Pele"
+    }
+  },
+  "SewHideHoodie": {
+    "id": "SewHideHoodie",
+    "names": {
+      "en": "Sew Hide Hoodie",
+      "pt": "Costurar Moletom de Pele"
+    }
+  },
+  "SewHideJacket": {
+    "id": "SewHideJacket",
+    "names": {
+      "en": "Sew Hide Jacket",
+      "pt": "Costurar Jaqueta de Pele"
+    }
+  },
+  "SewHidePants": {
+    "id": "SewHidePants",
+    "names": {
+      "en": "Sew Hide Pants",
+      "pt": "Costurar Calça de Pele"
+    }
+  },
+  "SewHideRobe": {
+    "id": "SewHideRobe",
+    "names": {
+      "en": "Sew Hide Robe",
+      "pt": "Costurar Manto de Pele"
+    }
+  },
+  "SewHideSleepingBag": {
+    "id": "SewHideSleepingBag",
+    "names": {
+      "en": "Sew Hide Sleeping Bag",
+      "pt": "Costurar Saco de Dormir de Pele"
+    }
+  },
+  "SewHideWallet": {
+    "id": "SewHideWallet",
+    "names": {
+      "en": "Sew Hide Wallet",
+      "pt": "Costurar Carteira de Pele"
+    }
+  },
+  "SewHolster": {
+    "id": "SewHolster",
+    "names": {
+      "en": "Sew Holster",
+      "pt": "Costurar Coldre"
+    }
+  },
+  "SewHolsterDouble": {
+    "id": "SewHolsterDouble",
+    "names": {
+      "en": "Sew Double Holster",
+      "pt": "Costurar Coldre Duplo"
+    }
+  },
+  "SewKneePads": {
+    "id": "SewKneePads",
+    "names": {
+      "en": "Sew Knee Pads",
+      "pt": "Costurar Joelheiras"
+    }
+  },
+  "SewLeatherCodpiece": {
+    "id": "SewLeatherCodpiece",
+    "names": {
+      "en": "Sew Leather Codpiece",
+      "pt": "Costurar Coquilha de Couro"
+    }
+  },
+  "SewLeatherGaiter": {
+    "id": "SewLeatherGaiter",
+    "names": {
+      "en": "Sew Leather Gaiter",
+      "pt": "Costurar Polaina de Couro"
+    }
+  },
+  "SewLeatherGloves": {
+    "id": "SewLeatherGloves",
+    "names": {
+      "en": "Sew Leather Gloves",
+      "pt": "Costurar Luvas de Couro"
+    }
+  },
+  "SewLeatherGorget": {
+    "id": "SewLeatherGorget",
+    "names": {
+      "en": "Sew Leather Neck Guard",
+      "pt": "Costurar Gorjal de Couro"
+    }
+  },
+  "SewLeatherPants": {
+    "id": "SewLeatherPants",
+    "names": {
+      "en": "Sew Leather Pants",
+      "pt": "Costurar Calça de Couro"
+    }
+  },
+  "SewLeatherToolRoll": {
+    "id": "SewLeatherToolRoll",
+    "names": {
+      "en": "Sew Leather Tool Roll",
+      "pt": "Costurar Estojo de Ferramentas de Couro"
+    }
+  },
+  "SewLeatherVambrace": {
+    "id": "SewLeatherVambrace",
+    "names": {
+      "en": "Sew Leather Vambrace",
+      "pt": "Costurar Braçal de Couro"
+    }
+  },
+  "SewLeatherWaterBag": {
+    "id": "SewLeatherWaterBag",
+    "names": {
+      "en": "Sew Leather Water Bag",
+      "pt": "Costurar Bolsa de Couro para Água"
+    }
+  },
+  "SewLongjohns": {
+    "id": "SewLongjohns",
+    "names": {
+      "en": "Sew Long Johns",
+      "pt": "Costurar Ceroula"
+    }
+  },
+  "SewLongjohnsBottom": {
+    "id": "SewLongjohnsBottom",
+    "names": {
+      "en": "Sew Long Johns Bottom",
+      "pt": "Costurar Calça de Ceroula"
+    }
+  },
+  "SewSandals": {
+    "id": "SewSandals",
+    "names": {
+      "en": "Sew Sandals",
+      "pt": "Costurar Sandálias"
+    }
+  },
+  "SewSheepskinPants": {
+    "id": "SewSheepskinPants",
+    "names": {
+      "en": "Sew Sheepskin Pants",
+      "pt": "Costurar Calça de Pele de Ovelha"
+    }
+  },
+  "SewSheepskinVest": {
+    "id": "SewSheepskinVest",
+    "names": {
+      "en": "Sew Sheepskin Vest",
+      "pt": "Costurar Colete de Pele de Ovelha"
+    }
+  },
+  "SewShirt": {
+    "id": "SewShirt",
+    "names": {
+      "en": "Sew Shirt",
+      "pt": "Costurar Camisa"
+    }
+  },
+  "SewShirtSleeveless": {
+    "id": "SewShirtSleeveless",
+    "names": {
+      "en": "Sew Sleeveless Shirt",
+      "pt": "Costurar Camisa sem Mangas"
+    }
+  },
+  "SewSkirtKnees": {
+    "id": "SewSkirtKnees",
+    "names": {
+      "en": "Sew Knee-Length Skirt",
+      "pt": "Costurar Saia na Altura do Joelho"
+    }
+  },
+  "SewSkirtLong": {
+    "id": "SewSkirtLong",
+    "names": {
+      "en": "Sew Long Skirt",
+      "pt": "Costurar Saia Longa"
+    }
+  },
+  "SewTrousers": {
+    "id": "SewTrousers",
+    "names": {
+      "en": "Sew Pants",
+      "pt": "Costurar Calça"
+    }
+  },
+  "SharpenBone": {
+    "id": "SharpenBone",
+    "names": {
+      "en": "Sharpen Bone",
+      "pt": "Afiar Osso"
+    }
+  },
+  "SharpenJawbone": {
+    "id": "SharpenJawbone",
+    "names": {
+      "en": "Sharpen Jawbone",
+      "pt": "Afiar Mandíbula"
+    }
+  },
+  "SharpenLongBone": {
+    "id": "SharpenLongBone",
+    "names": {
+      "en": "Sharpen Long Bone",
+      "pt": "Afiar Osso Longo"
+    }
+  },
+  "SheetMetalWeapon": {
+    "id": "SheetMetalWeapon",
+    "names": {
+      "en": "Sheet Metal-Reinforce Weapon",
+      "pt": "Reforçar Arma com Chapa de Metal"
+    }
+  },
+  "Smelting_Furnace": {
+    "id": "Smelting_Furnace",
+    "names": {
+      "en": "Construct Smelting Furnace",
+      "pt": "Construir Fornalha de Fundição"
+    }
+  },
+  "SpikeArmorWelding": {
+    "id": "SpikeArmorWelding",
+    "names": {
+      "en": "Weld Spikes On Metal Armor",
+      "pt": "Soldar Espinhos à Armadura de Metal"
+    }
+  },
+  "SpikePadding": {
+    "id": "SpikePadding",
+    "names": {
+      "en": "Spike Soft Armor",
+      "pt": "Adicionar Espinhos à Armadura Leve"
+    }
+  },
+  "WeaveTwineShoes": {
+    "id": "WeaveTwineShoes",
+    "names": {
+      "en": "Weave Twine Shoes",
+      "pt": "Tecer Sapatos de Barbante"
+    }
+  },
+  "base": {
+    "id": "base",
+    "names": {
+      "en": "base",
+      "pt": "base"
+    }
+  },
+  "base:assemble_shoulder_armor": {
+    "id": "base:assemble_shoulder_armor",
+    "names": {
+      "en": "base:assemble_shoulder_armor",
+      "pt": "base:assemble_shoulder_armor"
+    }
+  },
+  "base:barley growing season": {
+    "id": "base:barley growing season",
+    "names": {
+      "en": "Barley Growing Season",
+      "pt": "Época de Cultivo da Cevada"
+    }
+  },
+  "base:basil growing season": {
+    "id": "base:basil growing season",
+    "names": {
+      "en": "Basil Growing Season",
+      "pt": "Época de Cultivo do Manjericão"
+    }
+  },
+  "base:bell pepper growing season": {
+    "id": "base:bell pepper growing season",
+    "names": {
+      "en": "Bell Pepper Growing Season",
+      "pt": "Época de Cultivo do Pimentão"
+    }
+  },
+  "base:black sage growing season": {
+    "id": "base:black sage growing season",
+    "names": {
+      "en": "Black Sage Growing Season",
+      "pt": "Época de Cultivo da Sálvia Negra"
+    }
+  },
+  "base:broadleaf plantain growing season": {
+    "id": "base:broadleaf plantain growing season",
+    "names": {
+      "en": "Broadleaf Plantain Growing Season",
+      "pt": "Época de Cultivo da Tanchagem"
+    }
+  },
+  "base:broccoli growing season": {
+    "id": "base:broccoli growing season",
+    "names": {
+      "en": "Broccoli Growing Season",
+      "pt": "Época de Cultivo do Brócolis"
+    }
+  },
+  "base:cabbage growing season": {
+    "id": "base:cabbage growing season",
+    "names": {
+      "en": "Cabbage Growing Season",
+      "pt": "Época de Cultivo do Repolho"
+    }
+  },
+  "base:carrot growing season": {
+    "id": "base:carrot growing season",
+    "names": {
+      "en": "Carrot Growing Season",
+      "pt": "Época de Cultivo da Cenoura"
+    }
+  },
+  "base:cauliflower growing season": {
+    "id": "base:cauliflower growing season",
+    "names": {
+      "en": "Cauliflower Growing Season",
+      "pt": "Época de Cultivo da Couve-flor"
+    }
+  },
+  "base:chamomile growing season": {
+    "id": "base:chamomile growing season",
+    "names": {
+      "en": "Chamomile Growing Season",
+      "pt": "Época de Cultivo da Camomila"
+    }
+  },
+  "base:chives growing season": {
+    "id": "base:chives growing season",
+    "names": {
+      "en": "Chives Growing Season",
+      "pt": "Época de Cultivo da Cebolinha"
+    }
+  },
+  "base:cilantro growing season": {
+    "id": "base:cilantro growing season",
+    "names": {
+      "en": "Cilantro Growing Season",
+      "pt": "Época de Cultivo do Coentro"
+    }
+  },
+  "base:comfrey growing season": {
+    "id": "base:comfrey growing season",
+    "names": {
+      "en": "Comfrey Growing Season",
+      "pt": "Época de Cultivo do Confrei"
+    }
+  },
+  "base:common mallow growing season": {
+    "id": "base:common mallow growing season",
+    "names": {
+      "en": "Common Mallow Growing Season",
+      "pt": "Época de Cultivo da Malva-comum"
+    }
+  },
+  "base:corn growing season": {
+    "id": "base:corn growing season",
+    "names": {
+      "en": "Corn Growing Season",
+      "pt": "Época de Cultivo do Milho"
+    }
+  },
+  "base:cucumber growing season": {
+    "id": "base:cucumber growing season",
+    "names": {
+      "en": "Cucumber Growing Season",
+      "pt": "Época de Cultivo do Pepino"
+    }
+  },
+  "base:flax growing season": {
+    "id": "base:flax growing season",
+    "names": {
+      "en": "Flax Growing Season",
+      "pt": "Época de Cultivo do Linho"
+    }
+  },
+  "base:garlic growing season": {
+    "id": "base:garlic growing season",
+    "names": {
+      "en": "Garlic Growing Season",
+      "pt": "Época de Cultivo do Alho"
+    }
+  },
+  "base:green pea growing season": {
+    "id": "base:green pea growing season",
+    "names": {
+      "en": "Green Pea Growing Season",
+      "pt": "Época de Cultivo da Ervilha Verde"
+    }
+  },
+  "base:habanero growing season": {
+    "id": "base:habanero growing season",
+    "names": {
+      "en": "Habanero Growing Season",
+      "pt": "Época de Cultivo da Pimenta Habanero"
+    }
+  },
+  "base:hemp growing season": {
+    "id": "base:hemp growing season",
+    "names": {
+      "en": "Hemp Growing Season",
+      "pt": "Época de Cultivo do Cânhamo"
+    }
+  },
+  "base:hops growing season": {
+    "id": "base:hops growing season",
+    "names": {
+      "en": "Hops Growing Season",
+      "pt": "Época de Cultivo do Lúpulo"
+    }
+  },
+  "base:jalapeno growing season": {
+    "id": "base:jalapeno growing season",
+    "names": {
+      "en": "Jalapeno Growing Season",
+      "pt": "Época de Cultivo da Pimenta Jalapeño"
+    }
+  },
+  "base:kale growing season": {
+    "id": "base:kale growing season",
+    "names": {
+      "en": "Kale Growing Season",
+      "pt": "Época de Cultivo da Couve"
+    }
+  },
+  "base:kitchentools": {
+    "id": "base:kitchentools",
+    "names": {
+      "en": "base:kitchentools",
+      "pt": "base:kitchentools"
+    }
+  },
+  "base:lavender growing season": {
+    "id": "base:lavender growing season",
+    "names": {
+      "en": "Lavender Growing Season",
+      "pt": "Época de Cultivo da Lavanda"
+    }
+  },
+  "base:leek growing season": {
+    "id": "base:leek growing season",
+    "names": {
+      "en": "Leek Growing Season",
+      "pt": "Época de Cultivo do Alho-poró"
+    }
+  },
+  "base:lemongrass growing season": {
+    "id": "base:lemongrass growing season",
+    "names": {
+      "en": "Lemongrass Growing Season",
+      "pt": "Época de Cultivo do Capim-limão"
+    }
+  },
+  "base:lettuce growing season": {
+    "id": "base:lettuce growing season",
+    "names": {
+      "en": "Lettuce Growing Season",
+      "pt": "Época de Cultivo da Alface"
+    }
+  },
+  "base:makebulletprooflimbarmor": {
+    "id": "base:makebulletprooflimbarmor",
+    "names": {
+      "en": "base:makebulletprooflimbarmor",
+      "pt": "base:makebulletprooflimbarmor"
+    }
+  },
+  "base:makemagazinearmor": {
+    "id": "base:makemagazinearmor",
+    "names": {
+      "en": "base:makemagazinearmor",
+      "pt": "base:makemagazinearmor"
+    }
+  },
+  "base:marigold growing season": {
+    "id": "base:marigold growing season",
+    "names": {
+      "en": "Marigold Growing Season",
+      "pt": "Época de Cultivo da Calêndula"
+    }
+  },
+  "base:mint growing season": {
+    "id": "base:mint growing season",
+    "names": {
+      "en": "Mint Growing Season",
+      "pt": "Época de Cultivo da Hortelã"
+    }
+  },
+  "base:onion growing season": {
+    "id": "base:onion growing season",
+    "names": {
+      "en": "Onion Growing Season",
+      "pt": "Época de Cultivo da Cebola"
+    }
+  },
+  "base:oregano growing season": {
+    "id": "base:oregano growing season",
+    "names": {
+      "en": "Oregano Growing Season",
+      "pt": "Época de Cultivo do Orégano"
+    }
+  },
+  "base:parsley growing season": {
+    "id": "base:parsley growing season",
+    "names": {
+      "en": "Parsley Growing Season",
+      "pt": "Época de Cultivo da Salsinha"
+    }
+  },
+  "base:poppy growing season": {
+    "id": "base:poppy growing season",
+    "names": {
+      "en": "Poppy Growing Season",
+      "pt": "Época de Cultivo da Papoula"
+    }
+  },
+  "base:potato growing season": {
+    "id": "base:potato growing season",
+    "names": {
+      "en": "Potato Growing Season",
+      "pt": "Época de Cultivo da Batata"
+    }
+  },
+  "base:pumpkin growing season": {
+    "id": "base:pumpkin growing season",
+    "names": {
+      "en": "Pumpkin Growing Season",
+      "pt": "Época de Cultivo da Abóbora"
+    }
+  },
+  "base:radish growing season": {
+    "id": "base:radish growing season",
+    "names": {
+      "en": "Radish Growing Season",
+      "pt": "Época de Cultivo do Rabanete"
+    }
+  },
+  "base:rose growing season": {
+    "id": "base:rose growing season",
+    "names": {
+      "en": "Rose Growing Season",
+      "pt": "Época de Cultivo da Rosa"
+    }
+  },
+  "base:rosemary growing season": {
+    "id": "base:rosemary growing season",
+    "names": {
+      "en": "Rosemary Growing Season",
+      "pt": "Época de Cultivo do Alecrim"
+    }
+  },
+  "base:rye growing season": {
+    "id": "base:rye growing season",
+    "names": {
+      "en": "Rye Growing Season",
+      "pt": "Época de Cultivo do Centeio"
+    }
+  },
+  "base:sage growing season": {
+    "id": "base:sage growing season",
+    "names": {
+      "en": "Sage Growing Season",
+      "pt": "Época de Cultivo da Sálvia"
+    }
+  },
+  "base:soybean growing season": {
+    "id": "base:soybean growing season",
+    "names": {
+      "en": "Soybean Growing Season",
+      "pt": "Época de Cultivo da Soja"
+    }
+  },
+  "base:spinach growing season": {
+    "id": "base:spinach growing season",
+    "names": {
+      "en": "Spinach Growing Season",
+      "pt": "Época de Cultivo do Espinafre"
+    }
+  },
+  "base:strawberry growing season": {
+    "id": "base:strawberry growing season",
+    "names": {
+      "en": "Strawberry Growing Season",
+      "pt": "Época de Cultivo do Morango"
+    }
+  },
+  "base:sugar beet growing season": {
+    "id": "base:sugar beet growing season",
+    "names": {
+      "en": "Sugar Beet Growing Season",
+      "pt": "Época de Cultivo da Beterraba Doce"
+    }
+  },
+  "base:sunflower growing season": {
+    "id": "base:sunflower growing season",
+    "names": {
+      "en": "Sunflower Growing Season",
+      "pt": "Época de Cultivo do Girassol"
+    }
+  },
+  "base:sweet potato growing season": {
+    "id": "base:sweet potato growing season",
+    "names": {
+      "en": "Sweet Potato Growing Season",
+      "pt": "Época de Cultivo da Batata-doce"
+    }
+  },
+  "base:thyme growing season": {
+    "id": "base:thyme growing season",
+    "names": {
+      "en": "Thyme Growing Season",
+      "pt": "Época de Cultivo do Tomilho"
+    }
+  },
+  "base:tobacco growing season": {
+    "id": "base:tobacco growing season",
+    "names": {
+      "en": "Tobacco Growing Season",
+      "pt": "Época de Cultivo do Tabaco"
+    }
+  },
+  "base:tomato growing season": {
+    "id": "base:tomato growing season",
+    "names": {
+      "en": "Tomato Growing Season",
+      "pt": "Época de Cultivo do Tomate"
+    }
+  },
+  "base:turnip growing season": {
+    "id": "base:turnip growing season",
+    "names": {
+      "en": "Turnip Growing Season",
+      "pt": "Época de Cultivo do Nabo"
+    }
+  },
+  "base:watermelon growing season": {
+    "id": "base:watermelon growing season",
+    "names": {
+      "en": "Watermelon Growing Season",
+      "pt": "Época de Cultivo da Melancia"
+    }
+  },
+  "base:wheat growing season": {
+    "id": "base:wheat growing season",
+    "names": {
+      "en": "Wheat Growing Season",
+      "pt": "Época de Cultivo do Trigo"
+    }
+  },
+  "base:wild garlic growing season": {
+    "id": "base:wild garlic growing season",
+    "names": {
+      "en": "Wild Garlic Growing Season",
+      "pt": "Época de Cultivo do Alho Selvagem"
+    }
+  },
+  "base:zucchini growing season": {
+    "id": "base:zucchini growing season",
+    "names": {
+      "en": "Zucchini Growing Season",
+      "pt": "Época de Cultivo da Abobrinha"
+    }
+  }
+}
