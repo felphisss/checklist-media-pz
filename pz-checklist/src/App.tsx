@@ -22,6 +22,9 @@ function App() {
   // Novo estado: controla se a caixinha de seleção está aberta ou fechada
   const [menuIdiomaAberto, setMenuIdiomaAberto] = useState<boolean>(false);
 
+  // Novo Estado: armazena os IDs dos itens que o jogador marcou como lidos/coletados
+  const [marcados, setMarcados] = useState<Record<string, boolean>>({});
+
   // Efeito executado apenas na montagem inicial do site
   useEffect(() => {
     // Faz a requisição para o arquivo que o Python gerou na pasta public/data/
@@ -43,6 +46,14 @@ function App() {
       });
   }, []); // <-- Esse array vazio [] garante que a busca só ocorra UMA única vez
 
+  // Função para alternar o status de marcado/desmarcado
+  const alternarItem = (id: string) => {
+    setMarcados((anterior) => ({
+      ...anterior,
+      [id]: !anterior[id],
+    }));
+  };
+
   // Se os dados ainda não foram baixados, exibe uma mensagem de espera
   if (carregando) {
     return (
@@ -54,9 +65,14 @@ function App() {
 
   // Transformamos o dicionário em um array para podermos usar o .map()
   const listaItens = Object.values(items);
+  const totalItens = listaItens.length;
 
   // Pega os dados do idioma ativo no momento para exibir no botão quadrado
   const idiomaAtivoInfo = CONFIG_IDIOMAS.find((item) => item.codigo === idioma) || CONFIG_IDIOMAS[0];
+
+  // Cálculos dinâmicos de progresso
+  const totalColetados = Object.values(marcados).filter(Boolean).length;
+  const porcentagem = totalItens > 0 ? ((totalColetados / totalItens) * 100).toFixed(1) : '0.0';
 
   return (
     <main style={{ maxWidth: '1000px', margin: '0 auto' }}>
@@ -64,7 +80,20 @@ function App() {
       <header style={{ marginBottom: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
           <h1>Project Zomboid — Checklist de Mídias</h1>
-          <p>Total de itens carregados: <strong>{listaItens.length}</strong></p>
+          <p style={{ marginTop: '0.4rem', color: '#aaa' }}>
+            Progresso da Coleção: <strong style={{ color: '#81c784' }}>{totalColetados}</strong> de <strong>{totalItens}</strong> ({porcentagem}%)
+          </p>
+          {/* Barra visual de progresso */}
+          <div style={{ width: '280px', height: '8px', backgroundColor: '#333', borderRadius: '4px', marginTop: '0.5rem', overflow: 'hidden' }}>
+            <div
+              style={{
+                width: `${porcentagem}%`,
+                height: '100%',
+                backgroundColor: '#2e7d32',
+                transition: 'width 0.2s ease',
+              }}
+            />
+          </div>
         </div>
 
         {/* Dropdown de Idiomas (com position: relative para ancorar o menu) */}
@@ -144,24 +173,42 @@ function App() {
       <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
         <thead>
           <tr style={{ borderBottom: '2px solid #333' }}>
+            <th style={{ padding: '0.6rem', width: '40px', textAlign: 'center' }}>✓</th>
             <th style={{ padding: '0.6rem', width: '50px' }}>Ícone</th>
             <th style={{ padding: '0.6rem' }}>Nome ({idioma.toUpperCase()})</th>
             <th style={{ padding: '0.6rem', width: '150px' }}>Categoria</th>
             <th style={{ padding: '0.6rem', minWidth: '180px' }}>Efeito / XP</th>
-            {/* Ajuste 2: Largura mínima e centralização do título de receitas */}
             <th style={{ padding: '0.6rem', minWidth: '140px'}}>Receitas</th>
           </tr>
         </thead>
         <tbody>
           {/* A esteira do .map() renderizando uma linha <tr> para cada item */}
           {listaItens.map((item) => {
-            // Verifica se este item tem boost de livro ou ganhos de XP por VHS
+            const estaMarcado = !!marcados[item.id];
             const temSkillBoost = item.skill_boost !== null && item.skill_boost !== undefined;
             const temXpRewards = item.xp_rewards && item.xp_rewards.length > 0;
             const temReceitas = item.recipes && item.recipes.length > 0;
 
             return (
-              <tr key={item.id} style={{ borderBottom: '1px solid #222' }}>
+              <tr
+                key={item.id}
+                style={{
+                  borderBottom: '1px solid #222',
+                  backgroundColor: estaMarcado ? 'rgba(46, 125, 50, 0.08)' : 'transparent',
+                  opacity: estaMarcado ? 0.6 : 1,
+                  transition: 'background-color 0.2s, opacity 0.2s',
+                }}
+              >
+                {/* Célula do Checkbox */}
+                <td style={{ padding: '0.6rem', textAlign: 'center' }}>
+                  <input
+                    type="checkbox"
+                    checked={estaMarcado}
+                    onChange={() => alternarItem(item.id)}
+                    style={{ cursor: 'pointer', width: '16px', height: '16px', accentColor: '#2e7d32' }}
+                  />
+                </td>
+
                 {/* 1. Coluna de Ícone */}
                 <td style={{ padding: '0.6rem', width: '50px' }}>
                   <img
@@ -184,7 +231,9 @@ function App() {
                 {/* 2. Coluna de Nome */}
                 <td style={{ padding: '0.6rem' }}>
                   {/* Acesso dinâmico com fallback caso a tradução falte */}
-                  <strong>{item.names[idioma] || item.names.en}</strong>
+                  <strong style={{ textDecoration: estaMarcado ? 'line-through' : 'none' }}>
+                    {item.names[idioma] || item.names.en}
+                  </strong>
                 </td>
 
                 {/* 3. Coluna de Categoria */}
