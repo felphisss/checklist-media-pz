@@ -33,6 +33,7 @@ PASTA_PUBLIC_REACT = Path("pz-checklist/public")
 PASTA_DATA = PASTA_PUBLIC_REACT / "data"
 PASTA_STATIC_ICONS = PASTA_PUBLIC_REACT / "icons"
 ARQUIVO_ITEMS_JSON = PASTA_DATA / "items.json"
+ARQUIVO_RECIPES_JSON = PASTA_DATA / "recipes.json"
 
 XP_POR_PONTO = 12.5
 
@@ -44,25 +45,25 @@ IDIOMAS_SUPORTADOS = {
 
 # Mapeamento oficial dos códigos do PZ para as Perícias (Perks)
 MAPA_SKILLS_VHS = {
-    "BUA": "Long Blunt",
-    "SBA": "Short Blade",
+    "BUA": "Blunt", # Long Blunt
+    "SBA": "SmallBlade", # Short Blade
     "AIM": "Aiming",
     "REL": "Reloading",
     "CRP": "Carpentry",
     "COO": "Cooking",
-    "FRM": "Agriculture",
+    "FRM": "Farming", # Agriculture
     "LFT": "Lightfooted",
     "FIS": "Fishing",
     "TRA": "Trapping",
     "FOR": "Foraging",
-    "DOC": "First Aid",
-    "ELC": "Electrical",
+    "DOC": "Doctor", # First Aid
+    "ELC": "Electricity", # Electrical
     "MEC": "Mechanics",
-    "HUS": "Animal Care",
-    "FKN": "Knapping",
+    "HUS": "Husbandry", # Animal Care
+    "FKN": "FlintKnapping", # Knapping
     "POT": "Pottery",
-    "BLA": "Blacksmithing",
-    "MTL": "Welding",
+    "BLA": "Blacksmith", # Blacksmithing
+    "MTL": "MetalWelding", # Welding
     "TAI": "Tailoring"
 }
 
@@ -305,10 +306,24 @@ def extrair_vhs(diretorio_media: Path, traducoes: dict) -> dict:
             )
 
             # Cálculo de XP
-            skills = re.findall(r'([A-Z]{3})\+\d+', corpo)
-            xp_rewards = []
+            skills = re.findall(r'([A-Z]{3})\+(\d+(?:\.\d+)?)', corpo)
 
-            for sigla, contagem in Counter(skills).items():
+            STATUS_IGNORADOS = {"BOR", "STS", "PAN", "FAT"}
+
+            pontos_por_skill = {}
+
+            # PASSO A: Filtragem e soma acumulada dos pontos
+            for sigla, valor_str in skills:
+                if sigla in STATUS_IGNORADOS:
+                    continue
+
+                # Converte o texto para número decimal (suporta "1" -> 1.0 ou "0.5" -> 0.5)
+                pontos = float(valor_str)
+                pontos_por_skill[sigla] = pontos_por_skill.get(sigla, 0.0) + pontos
+
+            # PASSO B: Montagem da lista final de recompensas com tradução dinâmica
+            xp_rewards = []
+            for sigla, total_pontos in pontos_por_skill.items():
                 # Converte a sigla da fita (ex: "CRP") no identificador canônico (ex: "Carpentry")
                 skill_id = MAPA_SKILLS_VHS.get(sigla, sigla)
                 
@@ -325,7 +340,7 @@ def extrair_vhs(diretorio_media: Path, traducoes: dict) -> dict:
                 xp_rewards.append({
                     "skill": skill_id,
                     "skill_names": skill_names,
-                    "amount": contagem * XP_POR_PONTO
+                    "amount": total_pontos * XP_POR_PONTO
                 })
 
             # Captura de Receitas
@@ -434,48 +449,91 @@ def resetar_pasta_raw_textures(pasta_raw: Path):
 
     print(f"[OK] Pasta '{pasta_raw.name}' resetada com sucesso.")
 
+# ==============================================================================
+# 7. GERA AS RECEITAS (recipes.json)
+# ==============================================================================
+def gerar_catalogo_receitas(catalogo_itens: dict, traducoes_recipes: dict) -> dict:
+    '''
+    Varre todos os itens catalogados, identifica as receitas únicas e
+    gera o dicionário bilíngue para o recipes.json.
+
+    Input: Catálogo de itens e tradução das receitas.
+    
+    Ouput: Catálogo de receitas 
+    '''
+    # 1. Coleta todas as receitas de todos os itens e elimina duplicatas com set comprehension
+    receitas_unicas = {
+        recipe_id
+        for item in catalogo_itens.values()
+        for recipe_id in item.get("recipes", [])
+    }
+
+    # 2. Cruza cada receita única com as traduções usando a função que já criamos
+    catalogo_receitas = {}
+    for r_id in sorted(receitas_unicas):
+        # A chave de tradução no PZ geralmente segue o padrão Recipe_<ID> ou o ID direto
+        chave_traducao = f"{r_id}"
+        
+        catalogo_receitas[r_id] = {
+            "id": r_id,
+            "names": traduzir_texto(
+                chave_traducao=chave_traducao,
+                dicionario_categoria=traducoes_recipes,
+                fallback_padrao=r_id  # Se não tiver tradução, usa o ID bruto
+            )
+        }
+
+    return catalogo_receitas
 
 # ==============================================================================
-# 7. ORQUESTRADOR PRINCIPAL
+# 8. MAIN()
 # ==============================================================================
 def main():
     print("=== INICIANDO PIPELINE DE DADOS DO PROJECT ZOMBOID ===")
 
     # 1. Carregar traduções
-    print("\n[1/6] Carregando dicionários de tradução...")
+    print("\n[1/7] Carregando dicionários de tradução...")
     traducoes = {
             "itens": carregar_dict_traducao(DIRETORIO_PZ_MEDIA, "ItemName.json"),
             "perks": carregar_dict_traducao(DIRETORIO_PZ_MEDIA, "IG_UI.json"),
-            "vhs" : carregar_dict_traducao(DIRETORIO_PZ_MEDIA, "Recorded_Media.json")
+            "vhs" : carregar_dict_traducao(DIRETORIO_PZ_MEDIA, "Recorded_Media.json"),
+            "recipes" : carregar_dict_traducao(DIRETORIO_PZ_MEDIA, "Recipes.json")
         }
 
     # 2. Extrair itens de literature.txt
-    print("\n[2/6] Extraindo literatura dos scripts...")
+    print("\n[2/7] Extraindo literatura dos scripts...")
     literatura = extrair_literatura(DIRETORIO_PZ_MEDIA, traducoes)
     print(f"  -> {len(literatura)} itens de literatura catalogados.")
 
     # 3. Extrair VHS
-    print("\n[3/6] Extraindo fitas VHS do arquivo Lua...")
+    print("\n[3/7] Extraindo fitas VHS do arquivo Lua...")
     fitas_vhs = extrair_vhs(DIRETORIO_PZ_MEDIA, traducoes)
     print(f"  -> {len(fitas_vhs)} fitas VHS catalogadas.")
 
+    # 4. Salvar items.json
+    print("\n[4/7] Gerando catálogo de itens...")
     # Consolidar catálogo completo
     catalogo_completo = {**literatura, **fitas_vhs}
     print(f"\nTotal geral de itens unificados: {len(catalogo_completo)}")
-
-    # 4. Salvar JSON
-    print("\n[4/6] Salvando catálogo completo...")
     PASTA_DATA.mkdir(parents=True, exist_ok=True)
     with open(ARQUIVO_ITEMS_JSON, "w", encoding="utf-8") as f:
         json.dump(catalogo_completo, f, indent=2, sort_keys=True, ensure_ascii=False)
-    print(f"Catálogo salvo com sucesso em: {ARQUIVO_ITEMS_JSON}")
+    print(f"Catálogo de itens gerado com sucesso em: {ARQUIVO_ITEMS_JSON}")
 
-    # 5. Sincronizar ícones
-    print("\n[5/6] Iniciando sincronização e auditoria de texturas...")
+    # 5. Salvar recipes.json
+    print("\n[5/7] Gerando catálogo de receitas...")
+    catalogo_receitas = gerar_catalogo_receitas(catalogo_completo, traducoes.get("recipes", {}))
+    print(f"\n Total de receitas: {len(catalogo_receitas)}")
+    with open(ARQUIVO_RECIPES_JSON, "w", encoding="utf-8") as f:
+        json.dump(catalogo_receitas, f, indent=2, sort_keys=True, ensure_ascii=False)
+    print(f"Catálogo de receitas gerado com sucesso em: {ARQUIVO_RECIPES_JSON}")
+
+    # 6. Sincronizar ícones
+    print("\n[6/7] Iniciando sincronização e auditoria de texturas...")
     sincronizar_icones(catalogo_completo, DIRETORIO_RAW_TEXTURES, PASTA_STATIC_ICONS)
 
-    # 6. Limpar texturas brutas
-    print("\n[6/6] Limpando texturas brutas...")
+    # 7. Limpar texturas brutas
+    print("\n[7/7] Limpando texturas brutas...")
     resetar_pasta_raw_textures(DIRETORIO_RAW_TEXTURES)
 
     print("\n=== PIPELINE FINALIZADO COM SUCESSO! ===")
