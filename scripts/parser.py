@@ -344,7 +344,7 @@ def extrair_vhs(diretorio_media: Path, traducoes: dict) -> dict:
                 })
 
             # Captura de Receitas
-            receitas = list(dict.fromkeys(re.findall(r'RCP=([A-Za-z0-9_]+)', corpo)))
+            receitas = list(dict.fromkeys(re.findall(r'RCP=([^,"]+)', corpo)))
 
             registro_id = f"RM.{media_id}"
             itens_vhs[registro_id] = {
@@ -475,7 +475,6 @@ def gerar_catalogo_receitas(catalogo_itens: dict, traducoes_recipes: dict) -> di
         chave_traducao = f"{r_id}"
         
         catalogo_receitas[r_id] = {
-            "id": r_id,
             "names": traduzir_texto(
                 chave_traducao=chave_traducao,
                 dicionario_categoria=traducoes_recipes,

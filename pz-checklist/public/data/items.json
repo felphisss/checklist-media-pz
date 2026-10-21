@@ -3930,7 +3930,14 @@
       "pt": "VHS: Cultivando Frutas e Legumes em Casa 1"
     },
     "recipes": [
-      "base"
+      "base:cabbage growing season",
+      "base:potato growing season",
+      "base:radish growing season",
+      "base:carrot growing season",
+      "base:onion growing season",
+      "base:broccoli growing season",
+      "base:strawberry growing season",
+      "base:tomato growing season"
     ],
     "skill_boost": null,
     "xp_rewards": [
@@ -3989,7 +3996,14 @@
       "pt": "VHS: Cultivando Ervas em Casa"
     },
     "recipes": [
-      "base"
+      "base:basil growing season",
+      "base:chives growing season",
+      "base:cilantro growing season",
+      "base:oregano growing season",
+      "base:parsley growing season",
+      "base:sage growing season",
+      "base:rosemary growing season",
+      "base:thyme growing season"
     ],
     "skill_boost": null,
     "xp_rewards": [
@@ -6201,7 +6215,12 @@
       "pt": "VHS: Cultivando Frutas e Legumes em Casa 2"
     },
     "recipes": [
-      "base"
+      "base:green pea growing season",
+      "base:soybean growing season",
+      "base:kale growing season",
+      "base:garlic growing season",
+      "base:sweet potato growing season",
+      "base:corn growing season"
     ],
     "skill_boost": null,
     "xp_rewards": [
