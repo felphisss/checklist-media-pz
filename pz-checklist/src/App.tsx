@@ -142,6 +142,38 @@ function App() {
     });
   };
 
+  // Marca em lote todos os itens visíveis no filtro atual
+  const marcarTodosFiltrados = () => {
+    if (itensFiltrados.length === 0) return;
+
+    const mensagem = `Deseja MARCAR todos os ${itensFiltrados.length} itens exibidos nesta lista?`;
+    if (!window.confirm(mensagem)) return;
+
+    setMarcados((anterior) => {
+      const novo = { ...anterior };
+      itensFiltrados.forEach((item) => {
+        novo[item.id] = true;
+      });
+      return novo;
+    });
+  };
+
+  // Desmarca em lote todos os itens visíveis no filtro atual
+  const desmarcarTodosFiltrados = () => {
+    if (itensFiltrados.length === 0) return;
+
+    const mensagem = `Deseja DESMARCAR todos os ${itensFiltrados.length} itens exibidos nesta lista?`;
+    if (!window.confirm(mensagem)) return;
+
+    setMarcados((anterior) => {
+      const novo = { ...anterior };
+      itensFiltrados.forEach((item) => {
+        delete novo[item.id];
+      });
+      return novo;
+    });
+  };
+
   // Alterna abrir/fechar a gaveta de receitas
   const alternarExpansao = (id: string) => {
     setItemExpandidoId((atual) => (atual === id ? null : id));
@@ -552,10 +584,58 @@ function App() {
         })}
       </div>
 
-      {/* Informação contextual de resultados */}
-      <p style={{ fontSize: '0.85rem', color: '#666', marginBottom: '0.8rem' }}>
-        Exibindo <strong>{itensFiltrados.length}</strong> de {totalItens} itens
-      </p>
+      {/* Barra de Ações em Lote e Contagem */}
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          marginBottom: '0.8rem',
+          flexWrap: 'wrap',
+          gap: '0.5rem',
+        }}
+      >
+        <p style={{ fontSize: '0.85rem', color: '#888', margin: 0 }}>
+          Exibindo <strong>{itensFiltrados.length}</strong> de {totalItens} itens
+        </p>
+
+        {itensFiltrados.length > 0 && (
+          <div style={{ display: 'flex', gap: '0.5rem' }}>
+            <button
+              type="button"
+              onClick={marcarTodosFiltrados}
+              style={{
+                padding: '0.3rem 0.6rem',
+                backgroundColor: 'rgba(46, 125, 50, 0.15)',
+                color: '#81c784',
+                border: '1px solid #2e7d32',
+                borderRadius: '4px',
+                cursor: 'pointer',
+                fontSize: '0.8rem',
+                fontWeight: '500',
+              }}
+            >
+              ✓ Marcar todos
+            </button>
+            <button
+              type="button"
+              onClick={desmarcarTodosFiltrados}
+              style={{
+                padding: '0.3rem 0.6rem',
+                backgroundColor: 'rgba(198, 40, 40, 0.15)',
+                color: '#e57373',
+                border: '1px solid #c62828',
+                borderRadius: '4px',
+                cursor: 'pointer',
+                fontSize: '0.8rem',
+                fontWeight: '500',
+              }}
+            >
+              ✕ Desmarcar todos
+            </button>
+          </div>
+        )}
+      </div>
 
       {/* Tabela de Itens (agora renderiza itensFiltrados) */}
       <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>

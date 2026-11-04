@@ -4,7 +4,6 @@ import json
 from pathlib import Path
 import re
 import shutil
-from collections import Counter
 
 # ==============================================================================
 # 1. CONFIGURAÇÕES E DIRETÓRIOS
