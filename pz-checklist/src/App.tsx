@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import type { ItemsCatalog } from './types/item';
 import type { RecipesCatalog } from './types/recipe';
 import {
@@ -25,6 +25,11 @@ function App() {
   // Estado para controlar se a caixinha de seleção está aberta ou fechada
   const [menuIdiomaAberto, setMenuIdiomaAberto] = useState<boolean>(false);
   const [menuFiltrosAberto, setMenuFiltrosAberto] = useState<boolean>(false);
+  
+  // Referências para detectar o clique fora dos contêineres
+  const menuIdiomaRef = useRef<HTMLDivElement>(null);
+  const menuFiltrosRef = useRef<HTMLDivElement>(null);
+  
   // Estado ID do item que está com a gaveta de receitas aberta (ou null)
   const [itemExpandidoId, setItemExpandidoId] = useState<string | null>(null);
 
@@ -126,6 +131,31 @@ function App() {
       console.error('Falha ao salvar preferências:', erro);
     }
   }, [idioma, abaAtiva, filtroStatus, filtroConteudo]);
+
+  // Fecha menus ao clicar em qualquer lugar fora deles
+  useEffect(() => {
+    const manipularCliqueFora = (event: MouseEvent) => {
+      const alvo = event.target as Node;
+
+      // Se o menu de idioma está aberto e o clique não foi dentro dele
+      if (menuIdiomaAberto && menuIdiomaRef.current && !menuIdiomaRef.current.contains(alvo)) {
+        setMenuIdiomaAberto(false);
+      }
+
+      // Se o menu de filtros está aberto e o clique não foi dentro dele
+      if (menuFiltrosAberto && menuFiltrosRef.current && !menuFiltrosRef.current.contains(alvo)) {
+        setMenuFiltrosAberto(false);
+      }
+    };
+
+    // Escuta o evento no momento do clique (mousedown é mais responsivo que click)
+    document.addEventListener('mousedown', manipularCliqueFora);
+
+    return () => {
+      // Limpeza obrigatória do listener
+      document.removeEventListener('mousedown', manipularCliqueFora);
+    };
+  }, [menuIdiomaAberto, menuFiltrosAberto]);
 
   // Função para alternar o status de marcado/desmarcado
   // Alterna o status: adiciona true ou remove a chave completamente
@@ -310,7 +340,7 @@ function App() {
         </div>
 
         {/* Dropdown de Idiomas (com position: relative para ancorar o menu) */}
-        <div style={{ position: 'relative' }}>
+        <div ref={menuIdiomaRef} style={{ position: 'relative' }}>
           {/* O Quadradinho compacto com a bandeira e sigla */}
           <button
             type="button"
@@ -402,7 +432,7 @@ function App() {
         />
 
         {/* Menu Popover de Filtros */}
-        <div style={{ position: 'relative' }}>
+        <div ref={menuFiltrosRef} style={{ position: 'relative' }}>
           <button
             type="button"
             onClick={() => {
@@ -517,28 +547,28 @@ function App() {
                   Concede XP
                 </label>
               </div>
-
-              {temFiltroAtivo && (
-                <button
-                  type="button"
-                  onClick={() => {
-                    setFiltroStatus('TODOS');
-                    setFiltroConteudo(FILTRO_CONTEUDO_PADRAO);
-                  }}
-                  style={{
-                    width: '100%',
-                    padding: '0.4rem',
-                    backgroundColor: '#333',
-                    color: '#aaa',
-                    border: 'none',
-                    borderRadius: '4px',
-                    cursor: 'pointer',
-                    fontSize: '0.8rem',
-                  }}
-                >
-                  Restaurar filtros padrão
-                </button>
-              )}
+              <button
+                type="button"
+                disabled={!temFiltroAtivo}
+                onClick={() => {
+                  setFiltroStatus('TODOS');
+                  setFiltroConteudo(FILTRO_CONTEUDO_PADRAO);
+                }}
+                style={{
+                  width: '100%',
+                  padding: '0.5rem',
+                  backgroundColor: temFiltroAtivo ? '#1b5e20' : '#2a2a2a',
+                  color: temFiltroAtivo ? '#fff' : '#666',
+                  border: temFiltroAtivo ? '1px solid #43a047' : '1px solid #3a3a3a',
+                  borderRadius: '4px',
+                  cursor: temFiltroAtivo ? 'pointer' : 'not-allowed',
+                  fontSize: '0.82rem',
+                  fontWeight: temFiltroAtivo ? 'bold' : 'normal',
+                  transition: 'background-color 0.2s, color 0.2s, border-color 0.2s',
+                }}
+              >
+                Restaurar filtros padrão
+              </button>
             </div>
           )}
         </div>
