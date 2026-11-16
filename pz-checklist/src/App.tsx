@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, Fragment } from 'react';
 import type { ItemsCatalog } from './types/item';
 import type { RecipesCatalog } from './types/recipe';
 import {
@@ -29,6 +29,9 @@ function App() {
   // Referências para detectar o clique fora dos contêineres
   const menuIdiomaRef = useRef<HTMLDivElement>(null);
   const menuFiltrosRef = useRef<HTMLDivElement>(null);
+
+  // Referência para acionar o input de arquivo oculto
+  const inputImportarRef = useRef<HTMLInputElement>(null);
   
   // Estado ID do item que está com a gaveta de receitas aberta (ou null)
   const [itemExpandidoId, setItemExpandidoId] = useState<string | null>(null);
@@ -204,6 +207,71 @@ function App() {
     });
   };
 
+  // 1. Exporta o progresso atual para um arquivo .json
+  const exportarProgresso = () => {
+    const dadosString = JSON.stringify(marcados, null, 2);
+    const blob = new Blob([dadosString], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+
+    // Gera data atual no formato YYYY-MM-DD para o nome do arquivo
+    const dataHoje = new Date().toISOString().split('T')[0];
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `pz-checklist-backup-${dataHoje}.json`;
+    
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    // Libera a memória alocada para a URL temporária
+    URL.revokeObjectURL(url);
+  };
+
+  // 2. Lê e valida um arquivo .json selecionado pelo usuário
+  const importarProgresso = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const arquivo = event.target.files?.[0];
+    if (!arquivo) return;
+
+    const leitor = new FileReader();
+
+    leitor.onload = (e) => {
+      try {
+        const conteudo = e.target?.result as string;
+        const dadosParseados = JSON.parse(conteudo);
+
+        // Validação defensiva: garante que é um dicionário válido e não um array ou nulo
+        if (typeof dadosParseados !== 'object' || dadosParseados === null || Array.isArray(dadosParseados)) {
+          throw new Error('Formato de arquivo inválido.');
+        }
+
+        // Sanitização: extrai apenas chaves válidas com valor booleano true
+        const novoEstadoLimpo: Record<string, boolean> = {};
+        Object.entries(dadosParseados).forEach(([chave, valor]) => {
+          if (valor === true && typeof chave === 'string') {
+            novoEstadoLimpo[chave] = true;
+          }
+        });
+
+        const qtdImportada = Object.keys(novoEstadoLimpo).length;
+        const confirmou = window.confirm(
+          `Foram encontrados ${qtdImportada} itens marcados no backup. Deseja substituir seu progresso atual por este arquivo?`
+        );
+
+        if (confirmou) {
+          setMarcados(novoEstadoLimpo);
+        }
+      } catch (erro) {
+        alert('Erro ao ler o arquivo. Certifique-se de selecionar um arquivo JSON de backup válido.');
+        console.error('Erro na importação do backup:', erro);
+      } finally {
+        // Reseta o valor do input para permitir importar o mesmo arquivo novamente se necessário
+        event.target.value = '';
+      }
+    };
+
+    leitor.readAsText(arquivo);
+  };
+
   // Alterna abrir/fechar a gaveta de receitas
   const alternarExpansao = (id: string) => {
     setItemExpandidoId((atual) => (atual === id ? null : id));
@@ -339,97 +407,171 @@ function App() {
           </div>
         </div>
 
-        {/* Dropdown de Idiomas (com position: relative para ancorar o menu) */}
-        <div ref={menuIdiomaRef} style={{ position: 'relative' }}>
-          {/* O Quadradinho compacto com a bandeira e sigla */}
+        
+        {/* Controles do Cabeçalho: Backup + Idiomas */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+          {/* Input oculto controlado via ref */}
+          <input
+            ref={inputImportarRef}
+            type="file"
+            accept=".json"
+            onChange={importarProgresso}
+            style={{ display: 'none' }}
+          />
+
           <button
             type="button"
-            onClick={() => setMenuIdiomaAberto(!menuIdiomaAberto)}
+            onClick={exportarProgresso}
+            title="Baixar cópia de segurança do progresso"
             style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '0.4rem',
               padding: '0.5rem 0.75rem',
               backgroundColor: '#242424',
-              color: '#fff',
+              color: '#ccc',
               border: '1px solid #444',
               borderRadius: '6px',
               cursor: 'pointer',
-              fontSize: '0.95rem',
-              fontWeight: 'bold',
+              fontSize: '0.85rem',
             }}
           >
-            <span>{idiomaAtivoInfo.bandeira}</span>
-            <span>{idiomaAtivoInfo.rotulo}</span>
-            <span style={{ fontSize: '0.7rem', color: '#888' }}>▼</span>
+            ⬇ Exportar
           </button>
 
-          {/* A caixinha suspensa com os idiomas (aparece apenas quando menuIdiomaAberto for true) */}
-          {menuIdiomaAberto && (
-            <div
+          <button
+            type="button"
+            onClick={() => inputImportarRef.current?.click()}
+            title="Restaurar progresso a partir de um arquivo JSON"
+            style={{
+              padding: '0.5rem 0.75rem',
+              backgroundColor: '#242424',
+              color: '#ccc',
+              border: '1px solid #444',
+              borderRadius: '6px',
+              cursor: 'pointer',
+              fontSize: '0.85rem',
+            }}
+          >
+            ⬆ Importar
+          </button>
+          
+          {/* Dropdown de Idiomas (com position: relative para ancorar o menu) */}
+          <div ref={menuIdiomaRef} style={{ position: 'relative' }}>
+            {/* O Quadradinho compacto com a bandeira e sigla */}
+            <button
+              type="button"
+              onClick={() => setMenuIdiomaAberto(!menuIdiomaAberto)}
               style={{
-                position: 'absolute',
-                top: '100%',
-                right: 0,
-                marginTop: '0.4rem',
-                backgroundColor: '#1f1f1f',
-                border: '1px solid #333',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.4rem',
+                padding: '0.5rem 0.75rem',
+                backgroundColor: '#242424',
+                color: '#fff',
+                border: '1px solid #444',
                 borderRadius: '6px',
-                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.5)',
-                overflow: 'hidden',
-                zIndex: 10,
-                minWidth: '160px',
+                cursor: 'pointer',
+                fontSize: '0.95rem',
+                fontWeight: 'bold',
               }}
             >
-              {CONFIG_IDIOMAS.map((lang) => (
-                <button
-                  key={lang.codigo}
-                  type="button"
-                  onClick={() => {
-                    setIdioma(lang.codigo);
-                    setMenuIdiomaAberto(false); // Fecha o menu ao selecionar
-                  }}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.6rem',
-                    width: '100%',
-                    padding: '0.6rem 0.8rem',
-                    backgroundColor: idioma === lang.codigo ? '#2e7d32' : 'transparent',
-                    color: '#fff',
-                    border: 'none',
-                    textAlign: 'left',
-                    cursor: 'pointer',
-                    fontSize: '0.9rem',
-                  }}
-                >
-                  <span>{lang.bandeira}</span>
-                  <span>{lang.nomeCompleto}</span>
-                </button>
-              ))}
-            </div>
-          )}
+              <span>{idiomaAtivoInfo.bandeira}</span>
+              <span>{idiomaAtivoInfo.rotulo}</span>
+              <span style={{ fontSize: '0.7rem', color: '#888' }}>▼</span>
+            </button>
+
+            {/* A caixinha suspensa com os idiomas (aparece apenas quando menuIdiomaAberto for true) */}
+            {menuIdiomaAberto && (
+              <div
+                style={{
+                  position: 'absolute',
+                  top: '100%',
+                  right: 0,
+                  marginTop: '0.4rem',
+                  backgroundColor: '#1f1f1f',
+                  border: '1px solid #333',
+                  borderRadius: '6px',
+                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.5)',
+                  overflow: 'hidden',
+                  zIndex: 10,
+                  minWidth: '160px',
+                }}
+              >
+                {CONFIG_IDIOMAS.map((lang) => (
+                  <button
+                    key={lang.codigo}
+                    type="button"
+                    onClick={() => {
+                      setIdioma(lang.codigo);
+                      setMenuIdiomaAberto(false); // Fecha o menu ao selecionar
+                    }}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '0.6rem',
+                      width: '100%',
+                      padding: '0.6rem 0.8rem',
+                      backgroundColor: idioma === lang.codigo ? '#2e7d32' : 'transparent',
+                      color: '#fff',
+                      border: 'none',
+                      textAlign: 'left',
+                      cursor: 'pointer',
+                      fontSize: '0.9rem',
+                    }}
+                  >
+                    <span>{lang.bandeira}</span>
+                    <span>{lang.nomeCompleto}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       </header>
 
       {/* Ações: Campo de Busca + Botão Filtros */}
       <div style={{ marginBottom: '1.2rem', display: 'flex', gap: '0.6rem', alignItems: 'center' }}>
-        <input
-          type="text"
-          value={termoBusca}
-          onChange={(e) => setTermoBusca(e.target.value)}
-          placeholder="🔍 Buscar por título, perícia, ID ou receita aprendida..."
-          style={{
-            flex: 1,
-            padding: '0.75rem 1rem',
-            backgroundColor: '#1e1e1e',
-            color: '#fff',
-            border: '1px solid #3a3a3a',
-            borderRadius: '6px',
-            fontSize: '0.95rem',
-            outline: 'none',
-          }}
-        />
+        <div style={{ position: 'relative', flex: 1 }}>
+          <input
+            type="text"
+            value={termoBusca}
+            onChange={(e) => setTermoBusca(e.target.value)}
+            placeholder="🔍 Buscar por título, perícia, ID ou receita aprendida..."
+            style={{
+              width: '100%',
+              padding: '0.75rem 2.4rem 0.75rem 1rem', // Espaço extra na direita para o botão X
+              backgroundColor: '#1e1e1e',
+              color: '#fff',
+              border: '1px solid #3a3a3a',
+              borderRadius: '6px',
+              fontSize: '0.95rem',
+              outline: 'none',
+              boxSizing: 'border-box', // Garante que o padding não estoure os 100% de largura
+            }}
+          />
+
+          {/* Renderiza o botão X apenas se houver texto digitado */}
+          {termoBusca && (
+            <button
+              type="button"
+              onClick={() => setTermoBusca('')}
+              title="Limpar busca"
+              style={{
+                position: 'absolute',
+                right: '0.6rem',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                background: 'transparent',
+                border: 'none',
+                color: '#888',
+                cursor: 'pointer',
+                fontSize: '1rem',
+                padding: '0.2rem 0.4rem',
+                lineHeight: 1,
+              }}
+            >
+              ✕
+            </button>
+          )}
+        </div>
 
         {/* Menu Popover de Filtros */}
         <div ref={menuFiltrosRef} style={{ position: 'relative' }}>
@@ -697,7 +839,7 @@ function App() {
 
               return (
                 // Usamos um fragmento React (<> </>) para poder retornar a linha principal e a gaveta juntas!
-                <tr key={item.id} style={{ display: 'contents' }}>
+                <Fragment key={item.id}>
                   {/* LINHA PRINCIPAL DO ITEM */}
                   <tr
                     style={{
@@ -853,7 +995,7 @@ function App() {
                       </td>
                     </tr>
                   )}
-                </tr>
+                </Fragment>
               );
             })
           )}
